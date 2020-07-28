@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.b4e444f4.chunk.css",
-    "main.js": "/zaranska/static/js/main.bbbdaa9b.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.bbbdaa9b.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.7f47f6f6.chunk.css",
+    "main.js": "/zaranska/static/js/main.490dc9bc.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.490dc9bc.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
-    "static/js/2.99b0ee5e.chunk.js": "/zaranska/static/js/2.99b0ee5e.chunk.js",
-    "static/js/2.99b0ee5e.chunk.js.map": "/zaranska/static/js/2.99b0ee5e.chunk.js.map",
+    "static/js/2.4f75c8cb.chunk.js": "/zaranska/static/js/2.4f75c8cb.chunk.js",
+    "static/js/2.4f75c8cb.chunk.js.map": "/zaranska/static/js/2.4f75c8cb.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.2373f0b5d879c8e2d5f7ce6c8a96106d.js": "/zaranska/precache-manifest.2373f0b5d879c8e2d5f7ce6c8a96106d.js",
+    "precache-manifest.88b9e68f2387c32b56a8e3764d4f9409.js": "/zaranska/precache-manifest.88b9e68f2387c32b56a8e3764d4f9409.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.b4e444f4.chunk.css.map": "/zaranska/static/css/main.b4e444f4.chunk.css.map",
-    "static/js/2.99b0ee5e.chunk.js.LICENSE.txt": "/zaranska/static/js/2.99b0ee5e.chunk.js.LICENSE.txt",
-    "static/media/shape-right.png": "/zaranska/static/media/shape-right.456605e7.png"
+    "static/css/main.7f47f6f6.chunk.css.map": "/zaranska/static/css/main.7f47f6f6.chunk.css.map",
+    "static/js/2.4f75c8cb.chunk.js.LICENSE.txt": "/zaranska/static/js/2.4f75c8cb.chunk.js.LICENSE.txt",
+    "static/media/contact-shape.png": "/zaranska/static/media/contact-shape.fc78a00a.png",
+    "static/media/shape-right.png": "/zaranska/static/media/shape-right.456605e7.png",
+    "static/media/social-media-blog.png": "/zaranska/static/media/social-media-blog.5e99e5d7.png",
+    "static/media/social-media-fb.png": "/zaranska/static/media/social-media-fb.76a64c29.png"
   },
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
-    "static/js/2.99b0ee5e.chunk.js",
-    "static/css/main.b4e444f4.chunk.css",
-    "static/js/main.bbbdaa9b.chunk.js"
+    "static/js/2.4f75c8cb.chunk.js",
+    "static/css/main.7f47f6f6.chunk.css",
+    "static/js/main.490dc9bc.chunk.js"
   ]
 }
