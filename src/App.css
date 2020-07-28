@@ -1,9 +1,128 @@
+/* General styles */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.extender{
+
+a {
+  text-decoration: none;
+}
+
+:root{
+  --green: #8D9F8F;
+  --light-gray: #C8CECE;
+  --gray: #5C5E5D;
+  --bg: #EBF2F2;
+  --logo-136: 136px;
+  --nav-51: 51px;
+}
+
+/* Topbar and menu */
+.top-bar{
+  height: var(--logo-136);
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: var(--green);
+}
+
+.top-bar__logo{
+  font-family: 'Cormorant Infant', serif;
+  font-size: 90px;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+.top-bar__desktop-nav{
+  width: 100%;
+  height: var(--nav-51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  background: var(--light-gray);
+}
+
+.desktop-nav__item{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  border-right: 2px solid var(--gray);
+  padding-right: 20px;
+}
+
+.desktop-nav__item:last-of-type{
+  border-right: none;
+}
+
+.desktop-nav__item a{
+  color:var(--gray);
+  transition: color 0.5s;
+}
+
+.desktop-nav__item a:hover{
+  color: var(--green);
+}
+
+/* Hero */
+.hero{
+  width: 100%;
+  height: calc(100vh - var(--logo-136) - var(--nav-51)) ;
+  position: relative;
+  background: var(--bg);
+}
+.hero__shape-right{
+  position: absolute;
+  right: 0;
+  height: calc(100vh - var(--logo-136) - var(--nav-51)) ;
+}
+.hero__shape-left{
+  position: absolute;
+  left: 0;
+  height: 360px;
+}
+
+.hero__info{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro{
+  font-family: 'Cormorant Infant', serif;
+  line-height: 0.9;
+  margin-top: -200px;
+  position: relative;
+}
+.intro__name{
+  font-size: 90px;
+}
+.intro__name::after{
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  transform: translate(345px, -15px);
+  background: #919392;
+}
+.intro__surname{
+  font-size: 98px;
+}
+.intro__name,.intro__surname{
+  font-weight: 300;
+  font-style: italic;
+  color: #919392;
+}
+.intro__line{
+  width: 50px;
+  height: 4px;
+}
+.p-right,.p-left{
+  max-width: 300px;
 }
