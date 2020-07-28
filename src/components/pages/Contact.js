@@ -1,10 +1,13 @@
 import React from 'react'
+import TopBar from '../TopBar'
+import ContactContent from '../Contact/ContactContent'
 
 function Contact() {
     return (
-        <div>
-            Hello from Contact
-        </div>
+        <>
+            <TopBar />
+            <ContactContent />
+        </>
     )
 }
 

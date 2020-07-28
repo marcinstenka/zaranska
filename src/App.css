@@ -12,15 +12,17 @@ a {
 :root{
   --green: #8D9F8F;
   --light-gray: #C8CECE;
-  --gray: #5C5E5D;
+  --gray: #919392;
+  --dark-gray: #5C5E5D;
   --bg: #EBF2F2;
-  --logo-136: 136px;
-  --nav-51: 51px;
+  --logo: 136px;
+  --nav: 33px;
+  --font: 'Cormorant Infant', serif;
 }
 
 /* Topbar and menu */
 .top-bar{
-  height: var(--logo-136);
+  height: var(--logo);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -29,16 +31,16 @@ a {
 }
 
 .top-bar__logo{
-  font-family: 'Cormorant Infant', serif;
-  font-size: 90px;
+  font-family: var(--font);
+  font-size: 85px;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   font-weight: 300;
 }
 
 .top-bar__desktop-nav{
   width: 100%;
-  height: var(--nav-51);
+  height: var(--nav);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +50,8 @@ a {
 }
 
 .desktop-nav__item{
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  border-right: 2px solid var(--gray);
+  font-size: 21px;
+  border-right: 2px solid var(--dark-gray);
   padding-right: 20px;
 }
 
@@ -59,8 +60,8 @@ a {
 }
 
 .desktop-nav__item a{
-  color:var(--gray);
-  transition: color 0.5s;
+  color:var(--dark-gray);
+  transition: color 0.3s;
 }
 
 .desktop-nav__item a:hover{
@@ -70,14 +71,14 @@ a {
 /* Hero */
 .hero{
   width: 100%;
-  height: calc(100vh - var(--logo-136) - var(--nav-51)) ;
+  height: calc(100vh - var(--logo) - var(--nav)) ;
   position: relative;
   background: var(--bg);
 }
 .hero__shape-right{
   position: absolute;
   right: 0;
-  height: calc(100vh - var(--logo-136) - var(--nav-51)) ;
+  height: calc(100vh - var(--logo) - var(--nav)) ;
 }
 .hero__shape-left{
   position: absolute;
@@ -95,10 +96,10 @@ a {
 }
 
 .intro{
-  font-family: 'Cormorant Infant', serif;
-  line-height: 0.9;
-  margin-top: -200px;
   position: relative;
+  margin-top: -140px;
+  font-family: var(--font);
+  line-height: 0.9;
 }
 .intro__name{
   font-size: 90px;
@@ -109,20 +110,117 @@ a {
   width: 80px;
   height: 2px;
   transform: translate(345px, -15px);
-  background: #919392;
+  background: var(--gray);
 }
 .intro__surname{
   font-size: 98px;
 }
 .intro__name,.intro__surname{
+  color: var(--gray);
   font-weight: 300;
   font-style: italic;
-  color: #919392;
 }
 .intro__line{
   width: 50px;
   height: 4px;
 }
+
+.info__p{
+  display: flex;
+  font-size: 22px;
+}
+.p-left{
+  max-width: 438px;
+  position: relative;
+  margin: 20px 50px 0 0;
+  text-align: right;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.p-right{
+  max-width: 340px;
+  margin: 70px 0 0 0;
+  color: var(--gray);
+}
 .p-right,.p-left{
-  max-width: 300px;
+  line-height: 1.4;
+}
+
+/* Contact */
+.contact-container{
+  height: calc(100vh - var(--logo) - var(--nav));
+  background: var(--bg);
+
+}
+.contact-shape{
+  position: absolute;
+  bottom: 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: calc(90vh - var(--logo) - var(--nav));
+  color: var(--dark-gray);
+
+}
+.contact__map{
+  width: 430px;
+  height: 430px;
+  border: 25px solid #E2D6C6;
+}
+
+.contact__info{
+  margin: 0 0 201px 50px;
+}
+.contact__info-title{
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.contact__info-title::after{
+  content: '';
+  height: 2px;
+  width: 170px;
+  background: var(--dark-gray);
+  position: absolute;
+  bottom: 0;
+  left: 7px;
+}
+
+.contact__info-p{
+  font-size: 23px;
+  margin: 0 0 10px 0;
+}
+.contact__info-p:nth-of-type(5){
+  margin: 0;
+}
+.contact__info-shape{
+  width: 15px;
+  height: 15px;
+  margin: 0 0 10px 0;
+  border-radius: 50%;
+  background: var(--gray);
+}
+
+.contact__social{
+  display: flex;
+  margin: 284px 0 0 120px;
+}
+.contact__social a{
+  width: 120px;
+  border-radius: 50%;
+}
+.contact__social a img{
+  width: 100%;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.contact__social a img:hover{
+  transform: rotate(30deg);
 }
