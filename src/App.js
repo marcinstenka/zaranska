@@ -6,7 +6,7 @@ import Natalia from './components/pages/Natalia'
 import Contact from './components/pages/Contact'
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/zaranska/'>
       <Switch>
         <Route exact path='/' component={Natalia} />
         <Route exact path='/kontakt' component={Contact} />
