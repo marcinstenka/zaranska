@@ -9,7 +9,6 @@ function Hero() {
             <div className='hero__info'>
                 <div className='intro'>
                     <h2 className='intro__name'>NATALIA</h2>
-                    <div className='intro__line'></div>
                     <h2 className='intro__surname'>ZARAŃSKA</h2>
                 </div>
                 <div className="info__p">

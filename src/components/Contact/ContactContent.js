@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactShape from '../../assets/temp/contact-shape.png'
+import ContactShape from '../../assets/temp/contact-shape2.png'
 import SocialMediaBlog from '../../assets/temp/social-media-blog.png'
 import SocialMediaFb from '../../assets/temp/social-media-fb.png'
 function ContactContent() {
