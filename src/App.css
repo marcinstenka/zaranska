@@ -285,18 +285,18 @@ a {
     position: fixed;
     width: 20px;
     height: 20px;
+    margin: 0 40px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    margin: 0 30px 0 0;
   }
   .mobile__checkbox{
     position: fixed;
     width: 20px;
     height: 20px;
-    margin: 0 30px 0 0;
+    margin: 0 40px 0 0;
     opacity: 0;
     z-index: 101;
     cursor: pointer;
@@ -349,11 +349,10 @@ a {
   }
   .mobile-nav__item{
     margin: 0 0 20px 0;
-    font-family: var(--font);
   }
   .menu__mobile-nav a{
     color: #fff;
-    font-size: 25px;
+    font-size: 23px;
     transition: 0.3s color;
   }
   .menu__mobile-nav a:hover{
@@ -367,6 +366,7 @@ a {
   }
   .menu__logo{
     max-width: 197px;
+    margin: 20px 0 0 0;
     text-align: center;
     font-family: var(--font);
     font-weight: 300;
@@ -432,6 +432,9 @@ a {
     text-align: justify;
     margin: 0 20px ;
     max-width: none;
+  }
+  .p-right{
+    margin-bottom: 40px;
   }
   .p-shape{
     width: 50px;
