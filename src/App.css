@@ -278,6 +278,9 @@ a {
     height: var(--logoMobile);
     position: fixed;
   }
+  .hero__mobile-logo{
+    display: block;
+  }
   .mobile__hamburger{
     position: fixed;
     width: 20px;
