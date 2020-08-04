@@ -82,7 +82,6 @@ a {
   width: 100%;
   height: calc(100vh - var(--logo) - var(--nav)) ;
   position: relative;
-  background: var(--bg);
 }
 .hero__shape-right{
   position: absolute;
@@ -109,6 +108,7 @@ a {
   position: relative;
   font-family: var(--font);
   line-height: 0.9;
+  text-transform: uppercase;
 }
 .intro__name{
   font-size: 90px;
@@ -234,7 +234,7 @@ a {
   transform: rotate(30deg);
 }
 
-.top-bar__mobile{
+.top-bar__mobile, .hero__shape-mobile{
   display: none;
 }
 
@@ -245,6 +245,9 @@ a {
   .hero__shape-right, .hero__shape-left, .top-bar__desktop-nav, .top-bar__logo{
     display: none;
   }
+
+  /* TOPBAR AND MENU */
+
   .top-bar__mobile{
     width: 100%;
     height: 100%;
@@ -254,6 +257,7 @@ a {
   }
   .top-bar{
     height: var(--logoMobile);
+    position: fixed;
   }
   .mobile__hamburger{
     position: fixed;
@@ -347,7 +351,71 @@ a {
     font-size: 43px;
     color: #fff;
   }
+
+  /* NATALIA  */
+  .hero__shape-mobile{
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    padding: 50px 0 0 0;
+  }
+  .hero__info{
+    width: 100%;
+  }
   .intro{
-    display: none;
+    line-height: 1;
+    margin: 33% 50% 0 0;
+  }
+  .intro__name, .intro__surname{
+    color: white;
+    text-transform: initial;
+  }
+  .intro__name{
+    font-size: 30px;
+    top:0;
+    right: 0;
+  }
+  .intro__name::after{
+    width: 40px;
+    height: 1px;
+    background: white;
+    transform: translate(26px, 3px);
+  }
+  .intro__surname{
+    font-size: 35px;
+  }
+  .hero__mobile-logo{
+    margin: 0 0 0 14%;
+    padding: 70px 0 0 0;
+    position: relative;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .mobile-logo__first, .mobile-logo__second{
+    font-weight: 400;
+    font-family: var(--font);
+    font-size: 40px;
+    position: relative;
+    color: var(--dark-gray)
+  }
+  .mobile-logo__first{
+    right: 25px;
+  }
+  .info__p{
+    margin: 360px 0 0 0;
+    flex-direction: column;
+  }
+  .p-right, .p-left{
+    text-align: justify;
+    margin: 0 20px ;
+    max-width: none;
+  }
+  .p-shape{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--green);
+    margin: 20px auto;
   }
 }
