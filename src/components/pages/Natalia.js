@@ -1,5 +1,5 @@
 import React from 'react'
-import TopBar from '../TopBar'
+import TopBar from '../Nav/TopBar'
 import Hero from '../Natalia/Hero'
 function Natalia() {
     return (
