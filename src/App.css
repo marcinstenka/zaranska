@@ -234,14 +234,33 @@ a {
   transform: rotate(30deg);
 }
 
-.top-bar__mobile, .hero__shape-mobile{
+.top-bar__mobile, .hero__shape-mobile, .hero__mobile-logo{
   display: none;
 }
 
 
 
 /* RWD */
-@media (max-width:850px){
+
+@media (max-width:1549px){
+  .intro__name{
+    font-size: 60px;
+  }
+  .intro__surname{
+    font-size: 65px;
+  }
+  .intro__name::after{
+    width: 100px;
+    transform: translate(300px, -13px);
+  }
+  .hero__shape-right {
+    height: 70%;
+  }
+  .hero__shape-left {
+    height: 40%;
+  }
+}
+@media (max-width:767px){
   .hero__shape-right, .hero__shape-left, .top-bar__desktop-nav, .top-bar__logo{
     display: none;
   }
