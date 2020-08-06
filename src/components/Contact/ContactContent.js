@@ -15,6 +15,7 @@ function ContactContent() {
         height={'100%'} ></iframe></div>
                 <div className="contact__info">
                     <h2 className="contact__info-title">KONTAKT</h2>
+                    TEST SUPER MARGINESU
                     <p className="contact__info-p">601 069 863</p>
                     <p className="contact__info-shape"></p>
                     <p className="contact__info-p">podrozybiuro@wp.pl</p>
