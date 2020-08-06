@@ -294,7 +294,6 @@ a {
     cursor: pointer;
   }
   .mobile__checkbox{
-    position: fixed;
     width: 20px;
     height: 20px;
     margin: 0 40px 0 0;
