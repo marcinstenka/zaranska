@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.d9abe046.chunk.css",
+    "main.css": "/zaranska/static/css/main.35473963.chunk.css",
     "main.js": "/zaranska/static/js/main.dcd841c3.chunk.js",
     "main.js.map": "/zaranska/static/js/main.dcd841c3.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
@@ -8,9 +8,9 @@
     "static/js/2.46fe35c0.chunk.js": "/zaranska/static/js/2.46fe35c0.chunk.js",
     "static/js/2.46fe35c0.chunk.js.map": "/zaranska/static/js/2.46fe35c0.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.71a5b6a8c767f2d7e07d5b56bab193cf.js": "/zaranska/precache-manifest.71a5b6a8c767f2d7e07d5b56bab193cf.js",
+    "precache-manifest.567d2b60ef0487755afc35590df4720e.js": "/zaranska/precache-manifest.567d2b60ef0487755afc35590df4720e.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.d9abe046.chunk.css.map": "/zaranska/static/css/main.d9abe046.chunk.css.map",
+    "static/css/main.35473963.chunk.css.map": "/zaranska/static/css/main.35473963.chunk.css.map",
     "static/js/2.46fe35c0.chunk.js.LICENSE.txt": "/zaranska/static/js/2.46fe35c0.chunk.js.LICENSE.txt",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/mobile-shape.png": "/zaranska/static/media/mobile-shape.44336248.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/js/2.46fe35c0.chunk.js",
-    "static/css/main.d9abe046.chunk.css",
+    "static/css/main.35473963.chunk.css",
     "static/js/main.dcd841c3.chunk.js"
   ]
 }
