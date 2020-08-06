@@ -296,7 +296,7 @@ a {
   .mobile__checkbox{
     width: 20px;
     height: 20px;
-    margin: 0 40px 0 0;
+    margin: 0 -20px 0 0;
     opacity: 0;
     z-index: 101;
     cursor: pointer;
@@ -313,7 +313,7 @@ a {
   .mobile__hamburger.active .hamburger__line-mid{
     opacity: 0;
   }
-  .mobile__hamburger:hover .hamburger__line-bottom, .mobile__hamburger.active .hamburger__line-bottom {
+  .mobile__hamburger.active .hamburger__line-bottom {
     transform: translate(0, -9px) rotate(-45deg);
   }
   .mobile__menu{

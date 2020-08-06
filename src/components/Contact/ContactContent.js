@@ -23,7 +23,7 @@ function ContactContent() {
                 </div>
                 <div className="contact__social">
                     <a href='//podrozybiuro.blogspot.com/?fbclid=IwAR0zYG00ZnMp8Y4PCTQ9dVAdhpkuz0IwYzbzWQhfbs_o595ncUOD5ZohDG0'><img src={SocialMediaBlog} alt='Ikonka przekierowujące do bloga'/></a>
-                    <a href='//www.facebook.com/BiuroPodrozyNZ'><img src={SocialMediaFb} alt='Ikonka przekierowujące do Facebooka'/></a>
+                    <a href='//www.facebook.com/BiuroPodrozyNZ'><img src={SocialMediaFb} alt='Ikonka przekierowująca do Facebooka'/></a>
                 </div>
             </div>
         </div>
