@@ -160,6 +160,7 @@ a {
   position: relative;
   min-height: calc(100vh - var(--logo) - var(--nav));
   background: var(--bg);
+  overflow: hidden;
 
 }
 .contact-shape{
@@ -220,7 +221,7 @@ a {
 
 .contact__social{
   display: flex;
-  margin: 284px 0 0 120px;
+  margin: 284px 0 0 10%;
 }
 .contact__social a{
   width: 120px;
@@ -235,7 +236,7 @@ a {
   transform: rotate(30deg);
 }
 
-.top-bar__mobile, .hero__shape-mobile, .hero__mobile-logo{
+.top-bar__mobile, .hero__shape-mobile, .hero__mobile-logo, .mobile-contact-shape{
   display: none;
 }
 
@@ -450,7 +451,11 @@ a {
     display: none;
   }
   .mobile-contact-shape{
+    display: block;
+  }
+  .mobile-contact-shape{
     width: 100%;
+    min-height: 400px;
     max-height: 400px;
     position: absolute;
   }
@@ -484,8 +489,8 @@ a {
 }
 @media (max-width:420px){
   .contact__map{
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border: 10px solid var(--contact-border);
   }
   .contact__social a{
