@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef} from 'react'
 import ShapeRight from './../../assets/temp/shape-right.png'
 import ShapeLeft from './../../assets/temp/shape-left.png'
-import MobileShape from './../../assets/temp/test6.png'
+import MobileShape from './../../assets/temp/mobile-shape.png'
 function Hero() {
     useEffect(()=>{
         setMarginLength(ref.current.clientHeight/1.6)
