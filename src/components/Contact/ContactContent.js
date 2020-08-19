@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactShape from '../../assets/temp/contact-shape2.png'
-import MobileContactShape from '../../assets/temp/1.png'
+import MobileContactShape from '../../assets/temp/mobile-contact.png'
 import SocialMediaBlog from '../../assets/temp/social-media-blog.png'
 import SocialMediaFb from '../../assets/temp/social-media-fb.png'
 function ContactContent() {
@@ -14,12 +14,13 @@ function ContactContent() {
         height={'100%'} ></iframe></div>
                 <div className="contact__info">
                     <h2 className="contact__info-title">KONTAKT</h2>
+                    <p className="contact__info-p">Natalia Zarańska</p>
+                    <p className="contact__info-shape"></p>
+                    <p className="contact__info-p">zaranskanatalia@gmail.com</p>
                     <p className="contact__info-p">601 069 863</p>
                     <p className="contact__info-shape"></p>
-                    <p className="contact__info-p">podrozybiuro@wp.pl</p>
-                    <p className="contact__info-shape"></p>
-                    <p className="contact__info-p">Plac Pokoju 9/4</p>
-                    <p className="contact__info-p">84-300 Lębork</p>
+                    <p className="contact__info-p">ul. Długa 24A</p>
+                    <p className="contact__info-p">84-353 Lębork-Mosty</p>
                 </div>
                 <div className="contact__social">
                     <a href='//podrozybiuro.blogspot.com/?fbclid=IwAR0zYG00ZnMp8Y4PCTQ9dVAdhpkuz0IwYzbzWQhfbs_o595ncUOD5ZohDG0'><img src={SocialMediaBlog} alt='Ikonka przekierowujące do bloga'/></a>

@@ -139,7 +139,7 @@ a {
   font-size: 20px;
 }
 .p-left{
-  max-width: 316px;
+  max-width: 301px;
   position: relative;
   margin: 20px 40px 0 0;
   text-align: right;
@@ -147,7 +147,7 @@ a {
 }
 
 .p-right{
-  max-width: 345px;
+  max-width: 350px;
   margin: 70px 0 0 0;
 }
 .p-right,.p-left{
@@ -206,7 +206,7 @@ a {
 
 .contact__info-p{
   font-size: 19px;
-  margin: 0 0 10px 0;
+  margin: 0 0 3px 0;
 }
 .contact__info-p:nth-of-type(5){
   margin: 0;
@@ -260,6 +260,21 @@ a {
   }
   .hero__shape-left {
     height: 40%;
+  }
+}
+@media (max-width:1049px){
+  .info__p{
+    display: block;
+  }
+  .p-left{
+    margin: 40px 40px 0 0;
+  }
+  .p-right{
+    margin: 40px 0 0 0;
+  }
+  .contact__social {
+    position: absolute;
+    right:50px
   }
 }
 @media (max-width:767px){
@@ -378,34 +393,37 @@ a {
   .hero__shape-mobile{
     display: block;
     width: 100%;
+    background-position: top left;
+    min-height:800px;
+    background-repeat: no-repeat ;
     position: absolute;
     z-index: -1;
-    padding: 50px 0 0 0;
+    margin: 50px 0 0 0;
   }
   .hero__info{
     width: 100%;
   }
   .intro{
     line-height: 1;
-    margin: 33% 50% 0 0;
+    margin: 19% 54% 0 0;
+  }
+  .intro__name {
+    font-size: 40px;
+    top:0;
+    right: 0;
+  }
+  .intro__surname{
+    font-size: 45px;
   }
   .intro__name, .intro__surname{
     color: white;
     text-transform: initial;
   }
-  .intro__name{
-    font-size: 30px;
-    top:0;
-    right: 0;
-  }
   .intro__name::after{
-    width: 40px;
+    width: 70px;
     height: 1px;
     background: white;
     transform: translate(26px, 3px);
-  }
-  .intro__surname{
-    font-size: 35px;
   }
   .hero__mobile-logo{
     margin: 0 0 0 14%;
@@ -425,7 +443,7 @@ a {
     right: 25px;
   }
   .info__p{
-    margin: 360px 0 0 0;
+    margin:0;
     flex-direction: column;
   }
   .p-right, .p-left{
@@ -453,8 +471,8 @@ a {
   }
   .mobile-contact-shape{
     width: 100%;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 450px;
+    max-height: 450px;
     position: absolute;
   }
   .contact{
@@ -473,6 +491,7 @@ a {
   }
   .contact__social{
     order: 3;
+    position: unset;
     margin: 20px 0 40px 0;
   }
   .contact__social a{
@@ -493,5 +512,17 @@ a {
   }
   .contact__social a{
     width: 60px;
+  }
+  .intro{
+    margin: 33% 37% 0 0;
+  }
+  .intro__name {
+    font-size: 35px;
+  }
+  .intro__name::after{
+    width: 55px;
+  }
+  .intro__surname{
+    font-size: 40px;
   }
 }
