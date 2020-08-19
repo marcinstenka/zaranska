@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/zaranska/static/css/main.7bcded4a.chunk.css",
-    "main.js": "/zaranska/static/js/main.2f7c7322.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.2f7c7322.chunk.js.map",
+    "main.js": "/zaranska/static/js/main.0e3b1a8c.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.0e3b1a8c.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/js/2.9886b16e.chunk.js": "/zaranska/static/js/2.9886b16e.chunk.js",
     "static/js/2.9886b16e.chunk.js.map": "/zaranska/static/js/2.9886b16e.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.ced66ff217536141d41bf2c6dff15f29.js": "/zaranska/precache-manifest.ced66ff217536141d41bf2c6dff15f29.js",
+    "precache-manifest.15b754820cf8c205953104319c23c9c1.js": "/zaranska/precache-manifest.15b754820cf8c205953104319c23c9c1.js",
     "service-worker.js": "/zaranska/service-worker.js",
     "static/css/main.7bcded4a.chunk.css.map": "/zaranska/static/css/main.7bcded4a.chunk.css.map",
     "static/js/2.9886b16e.chunk.js.LICENSE.txt": "/zaranska/static/js/2.9886b16e.chunk.js.LICENSE.txt",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/mobile-contact.png": "/zaranska/static/media/mobile-contact.9a1309bd.png",
+    "static/media/mobile-shape.png": "/zaranska/static/media/mobile-shape.81589ffd.png",
     "static/media/shape-left.png": "/zaranska/static/media/shape-left.b5fd1eaf.png",
     "static/media/shape-right.png": "/zaranska/static/media/shape-right.85f5c896.png",
     "static/media/social-media-blog.png": "/zaranska/static/media/social-media-blog.5e99e5d7.png",
-    "static/media/social-media-fb.png": "/zaranska/static/media/social-media-fb.76a64c29.png",
-    "static/media/test6.png": "/zaranska/static/media/test6.81589ffd.png"
+    "static/media/social-media-fb.png": "/zaranska/static/media/social-media-fb.76a64c29.png"
   },
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/js/2.9886b16e.chunk.js",
     "static/css/main.7bcded4a.chunk.css",
-    "static/js/main.2f7c7322.chunk.js"
+    "static/js/main.0e3b1a8c.chunk.js"
   ]
 }
