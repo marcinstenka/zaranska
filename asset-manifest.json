@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.6863e8d7.chunk.css",
-    "main.js": "/zaranska/static/js/main.d6be374f.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.d6be374f.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.7930e123.chunk.css",
+    "main.js": "/zaranska/static/js/main.19a70e41.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.19a70e41.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/js/2.2dc39ab4.chunk.js": "/zaranska/static/js/2.2dc39ab4.chunk.js",
     "static/js/2.2dc39ab4.chunk.js.map": "/zaranska/static/js/2.2dc39ab4.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.1701fd7ac63e939ee000243fe6682c57.js": "/zaranska/precache-manifest.1701fd7ac63e939ee000243fe6682c57.js",
+    "precache-manifest.aab6e8ca80d99a8d8988ac5a0988474c.js": "/zaranska/precache-manifest.aab6e8ca80d99a8d8988ac5a0988474c.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.6863e8d7.chunk.css.map": "/zaranska/static/css/main.6863e8d7.chunk.css.map",
+    "static/css/main.7930e123.chunk.css.map": "/zaranska/static/css/main.7930e123.chunk.css.map",
     "static/js/2.2dc39ab4.chunk.js.LICENSE.txt": "/zaranska/static/js/2.2dc39ab4.chunk.js.LICENSE.txt",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/mobile-contact.png": "/zaranska/static/media/mobile-contact.9a1309bd.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/js/2.2dc39ab4.chunk.js",
-    "static/css/main.6863e8d7.chunk.css",
-    "static/js/main.d6be374f.chunk.js"
+    "static/css/main.7930e123.chunk.css",
+    "static/js/main.19a70e41.chunk.js"
   ]
 }
