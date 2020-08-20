@@ -16,8 +16,8 @@ function Hero() {
         const img = document.querySelector('.mobile-hero')
         p.style.margin = `${marginLength}px 0 0 0`
         const handleResize = () => {
-            setMarginLength(img.offsetHeight/1.2);
-            windowWidth < 767 ? p.style.margin = '30px 0 0 0' : p.style.margin = `${marginLength}px 0 0 0`
+            // setMarginLength(img.offsetHeight/1.2);
+            // windowWidth < 767 ? p.style.margin = '30px 0 0 0' : p.style.margin = `${marginLength}px 0 0 0`
         }
         window.addEventListener('resize', handleResize)
     }, [marginLength])
