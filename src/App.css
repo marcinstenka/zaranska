@@ -446,7 +446,7 @@ a {
   }
   .hero__mobile-logo{
     margin: 0 0 0 14%;
-    padding: 70px 0 0 0;
+    padding: 60px 0 0 0;
     position: relative;
     line-height: 1;
     letter-spacing: 2px;
@@ -524,13 +524,9 @@ a {
   }
 }
 @media (max-width:420px){
-  .contact__map{
-    width: 270px;
-    height: 270px;
-    border: 10px solid var(--contact-border);
-  }
-  .contact__social a{
-    width: 60px;
+  
+  .hero__mobile-logo {
+    padding: 56px 0 0 0;
   }
   .intro__name {
     font-size: 35px;
@@ -540,5 +536,13 @@ a {
   }
   .intro__surname{
     font-size: 40px;
+  }
+  .contact__map{
+    width: 270px;
+    height: 270px;
+    border: 10px solid var(--contact-border);
+  }
+  .contact__social a{
+    width: 60px;
   }
 }
