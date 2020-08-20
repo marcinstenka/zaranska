@@ -264,7 +264,7 @@ a {
   background: var(--dark-gray);
   position: absolute;
   bottom: 0;
-  left: 27px;
+  transform: translate(-157px, -1px);
 }
 .contact__map{
   order: 2;
@@ -369,7 +369,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    grid-gap: 20px;
     list-style: none;
     background: var(--light-gray);
   }
@@ -417,7 +417,6 @@ a {
     color: var(--gray);
     font-weight: 300;
     text-transform: uppercase;
-    font-style: italic;
   }
   .intro__name {
     font-size: 65px;
@@ -426,7 +425,7 @@ a {
     font-size: 70px;
   }
   .intro__name::after {
-    width: 68px;
+    width: 62px;
     height: 2px;
     transform: translate(9px, 44px);
     background: var(--gray);
@@ -477,7 +476,7 @@ a {
   /* CONTACT */
   .contact{
     flex-direction: row;
-    gap:50px;
+    grid-gap: 50px;
     padding-top: calc(var(--topbar-desktop) + 20px);
   }
   .contact__map {
@@ -485,7 +484,12 @@ a {
   }
   .contact__info{
     padding: 0 0 120px 0;
+    text-align: initial;
   }
+  .contact__info-shape {
+    margin: 10px 0;
+    background: var(--gray) !important;
+}
   .contact__social{
     margin: 225px 0 0 40px;
   }
@@ -518,9 +522,7 @@ a {
   .contact__social {
     margin: 348px 0 0 0;
   }
-  .contact__info-title::after {
-    left: 38px;
-  }
+  
 }
 @media (min-width:1550px){
   .hero__intro{
@@ -538,7 +540,7 @@ a {
     margin: 70px 0 0 15%
 }
   .intro__name::after {
-    width: 75px;
+    width: 69px;
     transform: translate(9px, 54px);
   }
   .info-left{
@@ -551,6 +553,7 @@ a {
     margin: 38px 0 0 20px;
     max-width: 350px;
   }
+  
 }
 
 @media (min-width:1650px){
@@ -564,7 +567,7 @@ a {
     font-size: 90px;
   }
   .intro__name::after {
-    width: 88px;
+    width: 73px;
     transform: translate(9px, 63px);
   }
 .info-right, .info-left{
