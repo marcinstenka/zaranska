@@ -8,7 +8,7 @@ function Hero() {
         windowWidth < 767 ? setMarginLength(ref.current.clientHeight/0.92) : setWindowWidth(window.innerWidth)
     }, [])
 
-    const [marginLength, setMarginLength] = useState('0')
+    const [marginLength, setMarginLength] = useState('250px')
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
     const ref = useRef(null)
     useEffect(() => {
@@ -21,7 +21,6 @@ function Hero() {
         }
         window.addEventListener('resize', handleResize)
     }, [marginLength])
-    
     return (
         <div className='hero' >
             <img className='hero__shape-right' src={ShapeRight} alt='Zdjęcie Natalii Zarańskiej' />
