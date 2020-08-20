@@ -1,32 +1,33 @@
 import React, { useEffect, useState, useRef} from 'react'
 import ShapeRight from './../../assets/temp/shape-right.png'
 import ShapeLeft from './../../assets/temp/shape-left.png'
-import MobileShape from './../../assets/temp/mobile-shape.png'
+import MobileShape1 from './../../assets/temp/mobile-shape1.png'
+import MobileShape2 from './../../assets/temp/mobile-shape2.png'
 function Hero() {
     useEffect(()=>{
-        setMarginLength(ref.current.clientHeight/1.6)
+        setMarginLength(ref.current.clientHeight/0.92)
     }, [])
 
     const [marginLength, setMarginLength] = useState('10')
     const ref = useRef(null)
     useEffect(() => {
         const p = document.querySelector('.info__p')
-        const img = document.querySelector('.hero__shape-mobile')
+        const img = document.querySelector('.test')
         p.style.margin = `${marginLength}px 0 0 0`
         const handleResize = () => {
-            setMarginLength(img.offsetHeight/1.6);
+            setMarginLength(img.offsetHeight/1.2);
             p.style.margin = `${marginLength}px 0 0 0`
         }
         window.addEventListener('resize', handleResize)
     }, [marginLength])
-    const mobileImgStyles = {
-        backgroundImage: 'url(' + MobileShape + ')'
-    };
     return (
         <div className='hero' >
             <img className='hero__shape-right' src={ShapeRight} alt='Zdjęcie Natalii Zarańskiej' />
             <img className='hero__shape-left' src={ShapeLeft} alt='Dekoracja na stronie' />
-            <div style={mobileImgStyles} className='hero__shape-mobile' ref={ref}></div>
+            <picture className="test" ref={ref}>
+                <source media="(max-width: 450px)" srcSet={MobileShape1} />
+                <img src={MobileShape2} />
+            </picture>
             <h1 className="hero__mobile-logo">
                 <div className="mobile-logo__first">BIURO</div>
                 <div className="mobile-logo__second">PODRÓŻY</div>

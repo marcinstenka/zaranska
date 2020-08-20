@@ -18,21 +18,3 @@
     <div id="root"></div>
   </body>
 </html>
-<!-- useEffect(()=>{
-  setMarginLength(ref.current.clientHeight/1.5)
-}, [])
-
-const [marginLength, setMarginLength] = useState('10')
-const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-const ref = useRef(null)
-useEffect(() => {
-  const p = document.querySelector('.info__p')
-  const img = document.querySelector('.hero__shape-mobile')
-  p.style.margin = `${marginLength}px 0 0 0`
-  const handleResize = () => {
-      setMarginLength(img.height/1.5);
-      setWindowWidth(window.innerWidth)
-      windowWidth  > 767 ? p.style.margin = '40px 0 0 0': p.style.margin = `${marginLength}px 0 0 0`
-  }
-  window.addEventListener('resize', handleResize)
-}, [marginLength]) -->

@@ -106,7 +106,9 @@ a {
 }
 
 .intro{
-  position: relative;
+  position: absolute;
+  left: 29px;
+    top: 100px;
   font-family: var(--font);
   line-height: 0.9;
   text-transform: uppercase;
@@ -405,7 +407,6 @@ a {
   }
   .intro{
     line-height: 1;
-    margin: 19% 54% 0 0;
   }
   .intro__name {
     font-size: 40px;
@@ -513,9 +514,6 @@ a {
   .contact__social a{
     width: 60px;
   }
-  .intro{
-    margin: 33% 37% 0 0;
-  }
   .intro__name {
     font-size: 35px;
   }
@@ -525,4 +523,16 @@ a {
   .intro__surname{
     font-size: 40px;
   }
+}
+
+.test img, .test source {
+  position: relative;
+    width: 100%;
+}
+.test{
+      position: absolute;
+    width: 100%;
+    min-height: 500px;
+    max-height: 800px;
+
 }
