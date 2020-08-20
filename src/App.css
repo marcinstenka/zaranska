@@ -106,7 +106,7 @@ a {
 }
 
 .intro{
-  position: absolute;
+  position: unset;
   left: 29px;
     top: 100px;
   font-family: var(--font);
@@ -238,7 +238,7 @@ a {
   transform: rotate(30deg);
 }
 
-.top-bar__mobile, .hero__shape-mobile, .hero__mobile-logo, .mobile-contact-shape{
+.top-bar__mobile, .hero__shape-mobile, .hero__mobile-logo, .mobile-contact-shape, .mobile-hero{
   display: none;
 }
 
@@ -247,6 +247,7 @@ a {
 /* RWD */
 
 @media (max-width:1549px){
+  
   .intro__name{
     font-size: 60px;
   }
@@ -280,6 +281,23 @@ a {
   }
 }
 @media (max-width:767px){
+  .intro{
+    position: absolute;
+    left: 29px;
+      top: 100px;
+    }
+    .mobile-hero img, .mobile-hero source {
+      position: relative;
+        width: 100%;
+    }
+    .mobile-hero{
+      display: block;
+          position: absolute;
+        width: 100%;
+        min-height: 500px;
+        max-height: 800px;
+  
+    }
   .hero__shape-right, .hero__shape-left, .top-bar__desktop-nav, .top-bar__logo{
     display: none;
   }
@@ -523,16 +541,4 @@ a {
   .intro__surname{
     font-size: 40px;
   }
-}
-
-.test img, .test source {
-  position: relative;
-    width: 100%;
-}
-.test{
-      position: absolute;
-    width: 100%;
-    min-height: 500px;
-    max-height: 800px;
-
 }
