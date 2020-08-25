@@ -11,8 +11,8 @@ function MobileMenu() {
             </div>
             <ul className='menu__mobile-nav'>
                 <li className='mobile-nav__item'><Link to='/'>STRONA GŁÓWNA</Link></li>
-                <li className='mobile-nav__item'><Link to='/'>O MNIE</Link></li>
-                <li className='mobile-nav__item'><Link to='/'>OFERTA</Link></li>
+                <li className='mobile-nav__item'><Link to='/o-mnie'>O MNIE</Link></li>
+                <li className='mobile-nav__item'><Link to='/oferta'>OFERTA</Link></li>
                 <li className='mobile-nav__item'><Link to='/'>BLOG</Link></li>
                 <li className='mobile-nav__item'><Link to='/kontakt'>KONTAKT</Link></li>
             </ul>

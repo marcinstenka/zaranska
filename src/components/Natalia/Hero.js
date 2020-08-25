@@ -10,7 +10,7 @@ function Hero() {
             <img className='hero__shape-left' src={ShapeLeft} alt='Dekoracja na stronie' />
             <picture className="mobile-hero" >
                 <source media="(max-width: 450px)" srcSet={MobileShape1} />
-                <img src={MobileShape2} />
+                <img src={MobileShape2} alt='Zdjęcie Natalii Zarańskiej'/>
             </picture>
             <h1 className="hero__mobile-logo">
                 <div className="mobile-logo__first">BIURO</div>
