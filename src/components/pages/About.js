@@ -35,7 +35,10 @@ function About() {
                     <p className="about-section-second__header">Ponadto współpracuję jeszcze z dwoma innymi międzynarodowymi firmami:</p>
                     <div className="about-section-second__buisnesses">
                         <div className="buisnesses__buisness">
-                            <img src={BrainyLogo} alt="Logo projektu Brainy" className="buisness__logo"/>
+                            <div className="buisness__logo">
+                                <img src={BrainyLogo} alt="Logo projektu Brainy" />
+
+                            </div>
                             <h2 className="buisness__header">BRAINY</h2>
                             <p className="buisness__text">Brainy jest symbolem edukacji przyszłości. Pionierem, który napędza wiara w siłę genialnego umysłu dziecka. Innowatorem w zakresie wykorzystania siły ludzkiego mózgu. Jestem właścicielką  Akademii Brainy - Akademii Mistrzów Świata, wierzę bowiem, że  Lepszy Uczeń to Lepszy Człowiek i Lepszy Świat.</p>
                             <div className="buisness__link">
@@ -45,7 +48,9 @@ function About() {
                         </div>
                         <img src={MobileAboutDecoration} alt='Kształt dekoracyjny' className="buisness__decoration" />
                         <div className="buisnesses__buisness">
-                            <img src={ForeverLogo} alt="Logo projektu Forever" className="buisness__logo"/>
+                            <div className="buisness__logo">
+                                <img src={ForeverLogo} alt="Logo projektu Forever" />
+                            </div>
                             <h2 className="buisness__header">FOREVER</h2>
                             <p className="buisness__text">Forever Living Products, która od 1978 roku angażuje się w wyszukiwanie najlepszych źródeł zdrowia i urody w naturze, by dzielić się nimi ze światem. Pasją firmy jest pomaganie innym by wyglądać i czuć się lepiej, Do Forever doprowadziły mnie moje wartości. Prowadząc swój zespół uczę jak być wolnym finansowo, żyć zdrowo i ekologicznie. </p>
                             <div className="buisness__link">
