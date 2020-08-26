@@ -1,31 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a7525722e95298420bbee2aa6ff2c39",
+    "revision": "ea799fcf37dc4f5e003b0b7124f1ae7c",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "a1aac6c3aa9efff049e5",
-    "url": "/zaranska/static/css/main.d7b410b6.chunk.css"
+    "revision": "e6f059cad82ff9cead7c",
+    "url": "/zaranska/static/css/main.c85c6c9b.chunk.css"
   },
   {
-    "revision": "138719d1cf2783b8ad6a",
-    "url": "/zaranska/static/js/2.1a49a6fd.chunk.js"
+    "revision": "2d192b3685906f6716a7",
+    "url": "/zaranska/static/js/2.0e8365e7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/zaranska/static/js/2.1a49a6fd.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.0e8365e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1aac6c3aa9efff049e5",
-    "url": "/zaranska/static/js/main.dd9c90ca.chunk.js"
+    "revision": "e6f059cad82ff9cead7c",
+    "url": "/zaranska/static/js/main.2b51a6a0.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
     "url": "/zaranska/static/js/runtime-main.95117ec8.js"
   },
   {
+    "revision": "d296e67467e31166f0876693d6de94e7",
+    "url": "/zaranska/static/media/arrow.d296e674.svg"
+  },
+  {
+    "revision": "6d3b2964fb66fb2221da2a49eb68e100",
+    "url": "/zaranska/static/media/brainy.6d3b2964.png"
+  },
+  {
     "revision": "daa106509088a92702d0149a66b28303",
     "url": "/zaranska/static/media/contact-shape2.daa10650.png"
+  },
+  {
+    "revision": "ae8459592cfbacb3314fd02bc5cda1fb",
+    "url": "/zaranska/static/media/forever.ae845959.png"
+  },
+  {
+    "revision": "ec14d2cdb3c2d4c6e30aed063b643d51",
+    "url": "/zaranska/static/media/mobile-about-down.ec14d2cd.png"
   },
   {
     "revision": "367a569527723b0a244e84ca116f172b",
