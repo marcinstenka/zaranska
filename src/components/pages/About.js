@@ -2,6 +2,11 @@ import React from 'react'
 import TopBar from '../Nav/TopBar'
 
 import MobileAboutUp from './../../assets/temp/mobile-about-up.png'
+import MobileAboutDown from './../../assets/temp/mobile-about-down.png'
+import MobileAboutDecoration from './../../assets/temp/mobile-about-decoration.png'
+import Arrow from './../../assets/temp/arrow.svg'
+import BrainyLogo from './../../assets/temp/brainy.png'
+import ForeverLogo from './../../assets/temp/forever.png'
 function About() {
     return (
         <>
@@ -24,36 +29,37 @@ function About() {
                 <div className="about__about-section-second">
                     <p className="about-section-second__mentor">Moimi mentorami są Paul Martinelli oraz Joe Dispenza. To od nich czerpię wiedzę, to oni nadają kierunek mojej pracy. Jestem trenerem, mówcą i coachem The John Maxwell Team, międzynarodowej firmy, wywodzącej się ze Stanów Zjednoczonych, obecnie największej organizacji szkolącej w zakresie przywództwa i komunikacji na świecie, posługującej się autorskimi programami opracowanymi przez dr Johna C. Maxwella. </p>
                     <div className="about-section-second__link">
-                        <a>Więcej o John Maxwell Team</a>
-                        <img src="" alt=""/>
+                        <a href='//wp.pl'>Więcej o John Maxwell Team</a>
+                        <img src={Arrow} alt="Ozdoba - strzałka"/>
                     </div>
                     <p className="about-section-second__header">Ponadto współpracuję jeszcze z dwoma innymi międzynarodowymi firmami:</p>
                     <div className="about-section-second__buisnesses">
                         <div className="buisnesses__buisness">
-                            <img src="" alt="" className="buisness__logo"/>
+                            <img src={BrainyLogo} alt="Logo projektu Brainy" className="buisness__logo"/>
                             <h2 className="buisness__header">BRAINY</h2>
                             <p className="buisness__text">Brainy jest symbolem edukacji przyszłości. Pionierem, który napędza wiara w siłę genialnego umysłu dziecka. Innowatorem w zakresie wykorzystania siły ludzkiego mózgu. Jestem właścicielką  Akademii Brainy - Akademii Mistrzów Świata, wierzę bowiem, że  Lepszy Uczeń to Lepszy Człowiek i Lepszy Świat.</p>
                             <div className="buisness__link">
                                 <a>więcej o Brainy</a>
-                                <img src="" alt=""/>
+                                <img src={Arrow} alt='Ozdoba - strzałka' />
                             </div>
                         </div>
+                        <img src={MobileAboutDecoration} alt='Kształt dekoracyjny' className="buisness__decoration" />
                         <div className="buisnesses__buisness">
-                            <img src="" alt="" className="buisness__logo"/>
-                            <h2 className="buisness__header">Forever</h2>
+                            <img src={ForeverLogo} alt="Logo projektu Forever" className="buisness__logo"/>
+                            <h2 className="buisness__header">FOREVER</h2>
                             <p className="buisness__text">Forever Living Products, która od 1978 roku angażuje się w wyszukiwanie najlepszych źródeł zdrowia i urody w naturze, by dzielić się nimi ze światem. Pasją firmy jest pomaganie innym by wyglądać i czuć się lepiej, Do Forever doprowadziły mnie moje wartości. Prowadząc swój zespół uczę jak być wolnym finansowo, żyć zdrowo i ekologicznie. </p>
                             <div className="buisness__link">
                                 <a>więcej o Forever</a>
-                                <img src="" alt=""/>
+                                <img src={Arrow} alt='Ozdoba - strzałka' />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="about__about-section-third">
-                    <img className='about-section-third__img' src="" alt=""/>
                     <p className="about-section-third__text-up">Widziałam i doświadczyłam niezwykłych przemian, widziałam jak dokonują się cuda. Jak niewiele potrzeba, aby człowiek odnalazł kierunek. Znalazł statek i odciął liny. Widziałam podróżników, którzy odważyli się marzyć i wyruszyli w rejs.</p>
                     <p className="about-section-third__text-down">Wszystko bowiem zaczyna się od wiary, znalezienia mapy, pierwszego kroku i obudzonej świadomości.</p>
                     <h2 className="about-section-third__header">JESTEŚ CIEKAWY/A?</h2>
+                    <img className='about-section-third__img' src={MobileAboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
                 </div>
             </div>
         </>
