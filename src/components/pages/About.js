@@ -21,7 +21,9 @@ function About() {
                         </div>
                         <div className="container-description">
                             <p className='description__text'>Ten przełomowy moment sprawił, że połączyłam całą dotychczasową wiedzę, aby uczyć się od najlepszych i stworzyć przestrzeń, w której także Ty będziesz budzić swoją świadomość. Zostałam także facylitatorem Job Craftingu, gdyż wiem, jak ważne jest poczucie sensu i zaangażowania w miejscu pracy.</p>
-                            <img className='description__img' src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
+                            <div className="description__img">
+                                <img src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
+                            </div>
                         </div>
                         <div className="container__dot"></div>
                     </div>

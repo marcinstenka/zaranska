@@ -277,12 +277,12 @@ a {
   padding: 20px 5px 0 20px;
 }
 .description__img{
-  width: 150px !important;
-    height: auto;
+  width: auto;
+  height: 368px;
   margin-top: -20px;
 }
 .container-description img{
-
+  height: 100%;
 }
 .container__dot{
   width: 40px;
