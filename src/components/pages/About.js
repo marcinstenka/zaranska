@@ -1,7 +1,7 @@
 import React from 'react'
 import TopBar from '../Nav/TopBar'
 
-import MobileAboutUp from './../../assets/temp/mobile-about-up.png'
+import AboutUp from './../../assets/temp/about-up.png'
 import MobileAboutDown from './../../assets/temp/mobile-about-down.png'
 import MobileAboutDecoration from './../../assets/temp/mobile-about-decoration.png'
 import Arrow from './../../assets/temp/arrow.svg'
@@ -21,7 +21,7 @@ function About() {
                         </div>
                         <div className="container-description">
                             <p className='description__text'>Ten przełomowy moment sprawił, że połączyłam całą dotychczasową wiedzę, aby uczyć się od najlepszych i stworzyć przestrzeń, w której także Ty będziesz budzić swoją świadomość. Zostałam także facylitatorem Job Craftingu, gdyż wiem, jak ważne jest poczucie sensu i zaangażowania w miejscu pracy.</p>
-                            <img className='description__img' src={MobileAboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
+                            <img className='description__img' src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
                         </div>
                         <div className="container__dot"></div>
                     </div>
