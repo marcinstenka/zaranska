@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.f48eb508.chunk.css",
-    "main.js": "/zaranska/static/js/main.d63519a6.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.d63519a6.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.85308b12.chunk.css",
+    "main.js": "/zaranska/static/js/main.d6fc2a2b.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.d6fc2a2b.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/js/2.cf4b0b23.chunk.js": "/zaranska/static/js/2.cf4b0b23.chunk.js",
     "static/js/2.cf4b0b23.chunk.js.map": "/zaranska/static/js/2.cf4b0b23.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.2c1af93eec65b800876aaed6d1cd142e.js": "/zaranska/precache-manifest.2c1af93eec65b800876aaed6d1cd142e.js",
+    "precache-manifest.e10bdf6d28d54eab2a35f6e9416d9012.js": "/zaranska/precache-manifest.e10bdf6d28d54eab2a35f6e9416d9012.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.f48eb508.chunk.css.map": "/zaranska/static/css/main.f48eb508.chunk.css.map",
+    "static/css/main.85308b12.chunk.css.map": "/zaranska/static/css/main.85308b12.chunk.css.map",
     "static/js/2.cf4b0b23.chunk.js.LICENSE.txt": "/zaranska/static/js/2.cf4b0b23.chunk.js.LICENSE.txt",
+    "static/media/about-up.png": "/zaranska/static/media/about-up.367a5695.png",
     "static/media/arrow.svg": "/zaranska/static/media/arrow.d296e674.svg",
     "static/media/brainy.png": "/zaranska/static/media/brainy.6d3b2964.png",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/forever.png": "/zaranska/static/media/forever.ae845959.png",
     "static/media/mobile-about-down.png": "/zaranska/static/media/mobile-about-down.ec14d2cd.png",
-    "static/media/mobile-about-up.png": "/zaranska/static/media/mobile-about-up.367a5695.png",
     "static/media/mobile-contact.png": "/zaranska/static/media/mobile-contact.9a1309bd.png",
     "static/media/mobile-shape1.png": "/zaranska/static/media/mobile-shape1.44336248.png",
     "static/media/mobile-shape2.png": "/zaranska/static/media/mobile-shape2.89090a52.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/js/2.cf4b0b23.chunk.js",
-    "static/css/main.f48eb508.chunk.css",
-    "static/js/main.d63519a6.chunk.js"
+    "static/css/main.85308b12.chunk.css",
+    "static/js/main.d6fc2a2b.chunk.js"
   ]
 }
