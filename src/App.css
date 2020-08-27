@@ -278,6 +278,8 @@ a {
 }
 .description__img{
   min-width: 150px;
+  max-width: 150px;
+  height: auto;
   margin-top: -20px;
 }
 .container-description img{
