@@ -277,9 +277,8 @@ a {
   padding: 20px 5px 0 20px;
 }
 .description__img{
-  min-width: 150px;
-  max-width: 150px;
-  height: auto;
+  width: 150px !important;
+    height: auto;
   margin-top: -20px;
 }
 .container-description img{
@@ -300,7 +299,6 @@ a {
 }
 .about-section-second__link a, .buisness__link a{
   color: #515251;
-
   font-style: italic;
   border-bottom: 1px solid #515251;
   padding-bottom: 5px;
