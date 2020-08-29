@@ -5,6 +5,7 @@ import AboutUp from './../../assets/temp/about-up.png'
 import MobileAboutUp from './../../assets/temp/mobile-about-up.png'
 import AboutShape from './../../assets/temp/about-shape.png'
 import MobileAboutDown from './../../assets/temp/mobile-about-down.png'
+import AboutDown from './../../assets/temp/about-down.png'
 import MobileAboutDecoration from './../../assets/temp/mobile-about-decoration.png'
 import Arrow from './../../assets/temp/arrow.svg'
 import BrainyLogo from './../../assets/temp/brainy.png'
@@ -44,7 +45,6 @@ function About() {
                                 <img src={Arrow} alt="Ozdoba - strzałka"/>
                             </div>
                     </div>
-                        
                     <p className="about-section-second__header">Ponadto współpracuję jeszcze z dwoma innymi międzynarodowymi firmami:</p>
                     <div className="about-section-second__buisnesses">
                         <div className="buisnesses__buisness">
@@ -77,7 +77,8 @@ function About() {
                     <p className="about-section-third__text-up">Widziałam i doświadczyłam niezwykłych przemian, widziałam jak dokonują się cuda. Jak niewiele potrzeba, aby człowiek odnalazł kierunek. Znalazł statek i odciął liny. Widziałam podróżników, którzy odważyli się marzyć i wyruszyli w rejs.</p>
                     <p className="about-section-third__text-down">Wszystko bowiem zaczyna się od wiary, znalezienia mapy, pierwszego kroku i obudzonej świadomości.</p>
                     <h2 className="about-section-third__header">JESTEŚ CIEKAWY/A?</h2>
-                    <img className='about-section-third__img' src={MobileAboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
+                    <img className='about-section-third__img--mobile' src={MobileAboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
+                    <img className='about-section-third__img' src={AboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
                 </div>
             </div>
         </>
