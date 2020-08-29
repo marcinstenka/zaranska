@@ -1,6 +1,7 @@
 import React from 'react'
 import TopBar from '../Nav/TopBar'
 
+import MobileAboutUp from './../../assets/temp/mobile-about-up.png'
 import AboutUp from './../../assets/temp/about-up.png'
 import MobileAboutDown from './../../assets/temp/mobile-about-down.png'
 import MobileAboutDecoration from './../../assets/temp/mobile-about-decoration.png'
@@ -15,14 +16,17 @@ function About() {
                 <div className="about__about-section-first">
                     <h1 className='about-section-first__title'>O MNIE</h1>
                     <div className="about-section-first__container">
+                        <div className="container__img">
+                            <img src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
+                        </div>
                         <div className="container__intro">
                             <h2 className='intro__header'>Cześć</h2>
                             <p className="intro__text"> Myślę, że zanim zaczniemy współpracę, chcesz się dowiedzieć kim jestem. W 2001r. zdobyłam tytuł mgr pedagogiki ze specjalizacją resocjalizacja i rozpoczęłam pracę jako przewodnik młodych ludzi w szkole. Był to czas niezwykły, kiedy mogłam rozwijać swoje pasje, współpracować, tworzyć projekty i zdobywać wykształcenie. Ukończyłam studia podyplomowe w zakresie doradztwa zawodowego, pomocy psychologicznej oraz psychologii pozytywnej. Mojej dzisiejszej drodze zawodowej kierunek wyznaczył coaching. Coachem zostałam w 2017r. </p>
                         </div>
-                        <div className="container-description">
+                        <div className="container__description">
                             <p className='description__text'>Ten przełomowy moment sprawił, że połączyłam całą dotychczasową wiedzę, aby uczyć się od najlepszych i stworzyć przestrzeń, w której także Ty będziesz budzić swoją świadomość. Zostałam także facylitatorem Job Craftingu, gdyż wiem, jak ważne jest poczucie sensu i zaangażowania w miejscu pracy.</p>
                             <div className="description__img">
-                                <img src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
+                                <img src={MobileAboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
                             </div>
                         </div>
                         <div className="container__dot"></div>
