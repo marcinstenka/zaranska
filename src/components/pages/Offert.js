@@ -5,7 +5,9 @@ function Offert() {
     return (
         <>
             <TopBar />
-            hello from offert
+            <div className="offer">
+                .offer__section--one
+            </div>
         </>
     )
 }
