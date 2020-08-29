@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.fd270d84.chunk.css",
-    "main.js": "/zaranska/static/js/main.4098bfdb.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.4098bfdb.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.85cbd429.chunk.css",
+    "main.js": "/zaranska/static/js/main.a8c5a3c2.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.a8c5a3c2.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
-    "static/js/2.cf4b0b23.chunk.js": "/zaranska/static/js/2.cf4b0b23.chunk.js",
-    "static/js/2.cf4b0b23.chunk.js.map": "/zaranska/static/js/2.cf4b0b23.chunk.js.map",
+    "static/js/2.3d7462c1.chunk.js": "/zaranska/static/js/2.3d7462c1.chunk.js",
+    "static/js/2.3d7462c1.chunk.js.map": "/zaranska/static/js/2.3d7462c1.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.83f6dc51f7c395d94c76fca1e32306d4.js": "/zaranska/precache-manifest.83f6dc51f7c395d94c76fca1e32306d4.js",
+    "precache-manifest.96ade7e04714ad54612de60795407bb0.js": "/zaranska/precache-manifest.96ade7e04714ad54612de60795407bb0.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.fd270d84.chunk.css.map": "/zaranska/static/css/main.fd270d84.chunk.css.map",
-    "static/js/2.cf4b0b23.chunk.js.LICENSE.txt": "/zaranska/static/js/2.cf4b0b23.chunk.js.LICENSE.txt",
-    "static/media/about-up.png": "/zaranska/static/media/about-up.367a5695.png",
+    "static/css/main.85cbd429.chunk.css.map": "/zaranska/static/css/main.85cbd429.chunk.css.map",
+    "static/js/2.3d7462c1.chunk.js.LICENSE.txt": "/zaranska/static/js/2.3d7462c1.chunk.js.LICENSE.txt",
+    "static/media/about-up.png": "/zaranska/static/media/about-up.00de52b0.png",
     "static/media/arrow.svg": "/zaranska/static/media/arrow.d296e674.svg",
     "static/media/brainy.png": "/zaranska/static/media/brainy.6d3b2964.png",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/forever.png": "/zaranska/static/media/forever.ae845959.png",
     "static/media/mobile-about-down.png": "/zaranska/static/media/mobile-about-down.ec14d2cd.png",
+    "static/media/mobile-about-up.png": "/zaranska/static/media/mobile-about-up.367a5695.png",
     "static/media/mobile-contact.png": "/zaranska/static/media/mobile-contact.9a1309bd.png",
     "static/media/mobile-shape1.png": "/zaranska/static/media/mobile-shape1.44336248.png",
     "static/media/mobile-shape2.png": "/zaranska/static/media/mobile-shape2.89090a52.png",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
-    "static/js/2.cf4b0b23.chunk.js",
-    "static/css/main.fd270d84.chunk.css",
-    "static/js/main.4098bfdb.chunk.js"
+    "static/js/2.3d7462c1.chunk.js",
+    "static/css/main.85cbd429.chunk.css",
+    "static/js/main.a8c5a3c2.chunk.js"
   ]
 }
