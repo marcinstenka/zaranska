@@ -11,7 +11,9 @@ body{
 a {
   text-decoration: none;
 }
-
+bold{
+  font-weight: bold;
+}
 :root{
   --green: #8D9F8F;
   --light-gray: #C8CECE;
@@ -300,27 +302,30 @@ a {
 .about-section-second__mentor{
   padding: 0 20px 10px 20px;
 }
-.about-section-second__link a, .buisness__link a{
+.mentor__link a, .buisness__link a{
   color: #515251;
   font-style: italic;
   border-bottom: 1px solid #515251;
   padding-bottom: 5px;
   margin: 0 0 0 20px;
   transition: 0.3s color, border ease-in-out;
+  cursor: pointer;
 }
-
-.about-section-second__link a:hover, .buisness__link a:hover{
+.mentor__link a{
+  margin: 0;
+}
+.mentor__link a:hover, .buisness__link a:hover{
   color: var(--green);
   border-bottom: 1px solid var(--green);
 }
-.about-section-second__link img, .buisness__link img{
+.mentor__link img, .buisness__link img{
   width: 22px;
   height: 22px;
   position: relative;
   top: 6px;
   transition: 0.3s transform ease-in-out;
 }
-.about-section-second__link a:hover ~ img, .buisness__link a:hover ~ img{
+.mentor__link a:hover ~ img, .buisness__link a:hover ~ img{
   transform: translateX(5px);
 }
 .about-section-second__header{
@@ -637,21 +642,21 @@ a {
     flex-direction: initial;
     background: #e2d6c6;
   }
-  .description__img{
+  .description__img, .container__dot{
     display: none;
   }
   .container__img{
     display: block;
     width: 200px;
     position: absolute;
-    z-index: 100;
     height: auto;
     top: -30px;
+    left: 0;
   }
   .container__shape--img{
     display: block;
     position: absolute;
-    top:0;
+    top:-61px;
     right: 0;
     width: 200px;
   }
@@ -661,19 +666,80 @@ a {
   .container__intro {
     z-index: 0;
     background: initial;
-    padding: 30px 15px 70px 200px;
+    padding: 30px 0 70px 225px;
     text-align: right;
 }
-.intro__header, .intro__text{
-  padding: 0;
+  .intro__header, .intro__text{
+    padding: 0;
+  }
+  .intro__header{
+    font-size: 40px;
+  }
+  .intro__text{
+    font-size: 18px;
+  }
+  .container__description{
+    padding: 130px 40px 35px 0;
+  }
+  .about-section-first__title{
+    justify-content:end;
+      margin: 0 10px -11px 171px;
+  }
+  .about-section-second__mentor{
+    padding: 100px 20px 0 20px;
+    margin: 0 auto;
+    max-width: 1022px;
+    text-align: justify;
+  }
+  .mentor__link{
+    margin: 10px 0 0 0;
+  }
+  .about-section-second__buisnesses {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .buisnesses__buisness {
+    margin: 0 auto;
+    grid-template-columns: 220px minmax(auto, 800px);
+    margin: 70px 0 0
+  }
+  .buisness__decoration{
+    display: none;
+  }
+  .buisness__logo {
+    width: 200px;
+    height: 200px;
+    grid-row: 1 / 4;
+  }
+  .buisness__link, .buisness__text{
+    grid-column: initial;
+    text-align: justify;
+  }
+  .buisness__header {
+    justify-content: initial;
+    font-size: 44px;
+    padding: 0 0 0 19px;
 }
-.intro__header{
-  font-size: 40px;
+.buisnesses__buisness:nth-of-type(2){
+  grid-template-columns: 1fr 220px;
+  grid-template-columns: minmax(auto, 800px) 220px ;
 }
-.intro__text{
-  font-size: 18px;
+.buisnesses__buisness:nth-of-type(2) .buisness__logo{
+  order: 2;
+  grid-column: 2;
+  margin: 0 20px 0 0;
 }
+.buisnesses__buisness:nth-of-type(2) .buisness__header{
+  justify-content: flex-end;
+  padding: 0 18px 0 0;
+}
+.buisnesses__buisness:nth-of-type(2) .buisness__text{
 
+}
+.buisnesses__buisness:nth-of-type(2) .buisness__link{
+
+}
 
 
    /* CONTACT */
@@ -755,6 +821,34 @@ a {
     margin: 348px 0 0 0;
   }
   
+
+  /* ABOUT */
+  .container__img, .container__shape--img{
+  width: 300px;
+  }
+  .about-section-first__title{
+    margin: 0 10px -12px 264px;
+    font-size: 50px;
+  }
+  .container__shape--img {
+    top: -66px;
+  }
+  .container__intro {
+    padding: 30px 0 70px 315px;
+  }
+  .container__description {
+    padding: 220px 70px 55px 0;
+  }
+  .intro__header {
+    font-size: 50px;
+  }
+  .intro__text {
+    font-size: 20px;
+  }
+  .description__text {
+    font-size: 18px;
+  }
+
 }
 @media (min-width:1550px){
   .hero__intro{

@@ -37,11 +37,14 @@ function About() {
                     </div>
                 </div>
                 <div className="about__about-section-second">
-                    <p className="about-section-second__mentor">Moimi mentorami są Paul Martinelli oraz Joe Dispenza. To od nich czerpię wiedzę, to oni nadają kierunek mojej pracy. Jestem trenerem, mówcą i coachem The John Maxwell Team, międzynarodowej firmy, wywodzącej się ze Stanów Zjednoczonych, obecnie największej organizacji szkolącej w zakresie przywództwa i komunikacji na świecie, posługującej się autorskimi programami opracowanymi przez dr Johna C. Maxwella. </p>
-                    <div className="about-section-second__link">
-                        <a href='//wp.pl'>Więcej o John Maxwell Team</a>
-                        <img src={Arrow} alt="Ozdoba - strzałka"/>
+                    <div className="about-section-second__mentor">
+                        <p className="mentor__text">Moimi mentorami są <bold> Paul Martinelli </bold> oraz <bold> Joe Dispenza </bold>. To od nich czerpię wiedzę, to oni nadają kierunek mojej pracy. Jestem trenerem, mówcą i coachem <bold> The John Maxwell Team </bold>, międzynarodowej firmy, wywodzącej się ze Stanów Zjednoczonych, obecnie największej organizacji szkolącej w zakresie przywództwa i komunikacji na świecie, posługującej się autorskimi programami opracowanymi przez dr Johna C. Maxwella. </p>
+                            <div className="mentor__link">
+                                <a href='//wp.pl'>Więcej o John Maxwell Team</a>
+                                <img src={Arrow} alt="Ozdoba - strzałka"/>
+                            </div>
                     </div>
+                        
                     <p className="about-section-second__header">Ponadto współpracuję jeszcze z dwoma innymi międzynarodowymi firmami:</p>
                     <div className="about-section-second__buisnesses">
                         <div className="buisnesses__buisness">
