@@ -4,7 +4,7 @@ import './App.css';
 
 import Natalia from './components/pages/Natalia'
 import About from './components/pages/About';
-import Offert from './components/pages/Offert';
+import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Natalia} />
         <Route exact path='/o-mnie' component={About} />
-        <Route exact path='/oferta' component={Offert} />
+        <Route exact path='/oferta' component={Offer} />
         <Route exact path='/kontakt' component={Contact} />
       </Switch>
     </BrowserRouter>
