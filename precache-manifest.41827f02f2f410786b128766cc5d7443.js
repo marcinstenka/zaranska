@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c48a67de33eda22c6296c4bf5e1a55f",
+    "revision": "3b73e350c261cf78c3ddd15194ed4c59",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "31f9d007b04b8126d15a",
-    "url": "/zaranska/static/css/main.3247339d.chunk.css"
+    "revision": "2aed4b41d839efa3b7c9",
+    "url": "/zaranska/static/css/main.d04338f6.chunk.css"
   },
   {
-    "revision": "60afc6bcd3648501d33f",
-    "url": "/zaranska/static/js/2.4cf5d41d.chunk.js"
+    "revision": "06ef12daa6fbe0113e6b",
+    "url": "/zaranska/static/js/2.4df524a6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/zaranska/static/js/2.4cf5d41d.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.4df524a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31f9d007b04b8126d15a",
-    "url": "/zaranska/static/js/main.0035b5dc.chunk.js"
+    "revision": "2aed4b41d839efa3b7c9",
+    "url": "/zaranska/static/js/main.1f1e2169.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
@@ -60,12 +60,64 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/media/mobile-contact.9a1309bd.png"
   },
   {
+    "revision": "67ec80655bf0640a228ec7ff29af2b0d",
+    "url": "/zaranska/static/media/mobile-offer-shape1-section1.67ec8065.png"
+  },
+  {
+    "revision": "1514b6fb840da749d11d150bb8cf7989",
+    "url": "/zaranska/static/media/mobile-offer-shape1-section3.1514b6fb.png"
+  },
+  {
+    "revision": "32262ece55e8d3fbcc7e15d45603467a",
+    "url": "/zaranska/static/media/mobile-offer-shape1-section5.32262ece.png"
+  },
+  {
+    "revision": "4cdb65c876ee2017d9973d4712801b76",
+    "url": "/zaranska/static/media/mobile-offer-shape2-section1.4cdb65c8.png"
+  },
+  {
+    "revision": "cfddeb78df1fd7982c2410eb513100b6",
+    "url": "/zaranska/static/media/mobile-offer-shape2-section3.cfddeb78.png"
+  },
+  {
     "revision": "44336248cb2618d7cb07b438820b9746",
     "url": "/zaranska/static/media/mobile-shape1.44336248.png"
   },
   {
     "revision": "89090a5234a872e1080a1929e6f1a03a",
     "url": "/zaranska/static/media/mobile-shape2.89090a52.png"
+  },
+  {
+    "revision": "5c9bd191dedc23579d412369c703eea6",
+    "url": "/zaranska/static/media/offer-logo1.5c9bd191.png"
+  },
+  {
+    "revision": "3adb89d6b03556eb4390b5f8c8162184",
+    "url": "/zaranska/static/media/offer-logo2.3adb89d6.png"
+  },
+  {
+    "revision": "517252a34148e7c21e9cf7157f2bfee8",
+    "url": "/zaranska/static/media/offer-logo3.517252a3.png"
+  },
+  {
+    "revision": "b211e1dc29c986adf6a3ccfeb0510a1e",
+    "url": "/zaranska/static/media/offer-logo4.b211e1dc.png"
+  },
+  {
+    "revision": "ff41d9c017ddf348bf24c08f9dc7f53c",
+    "url": "/zaranska/static/media/offer-logo5.ff41d9c0.png"
+  },
+  {
+    "revision": "9e9338aebfe7af8ec44a049ea20ea101",
+    "url": "/zaranska/static/media/offer-project-logo1.9e9338ae.png"
+  },
+  {
+    "revision": "b72e3e0e042ad084c4b00ba754a946f5",
+    "url": "/zaranska/static/media/offer-project-logo2.b72e3e0e.png"
+  },
+  {
+    "revision": "b4050955122d54260bf8f36f21df968e",
+    "url": "/zaranska/static/media/offer-project-logo4.b4050955.png"
   },
   {
     "revision": "b5fd1eaf346c49bd437b1211e76abd98",
