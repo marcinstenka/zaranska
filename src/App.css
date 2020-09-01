@@ -507,7 +507,7 @@ bold{
   background: var(--beige);
   margin: 20px 0;
 }
-.interval-one, .offer-section__one-img{
+.interval-one, .offer-section__one-img, .offer-section__two-img1, .offer-section__three-img1, .offer-section__three-img2, .offer-section__three-img2 {
   display: none;
 }
 .interval-two{
@@ -598,6 +598,9 @@ ul{
   height: 8px;
   border-radius: 50%;
   margin: 0 5px -1px 0;
+}
+.offer-section-three .offer-section__p-three{
+  font-weight: bold;
 }
 
 .offer-section__four-mobile-img1{
@@ -1073,10 +1076,14 @@ ul{
     justify-content: center;
     margin: 0 0 150px 0;
   }
-  .offer-section-one .offer-section__header{
+  .offer-section-one .offer-section__header, .offer-section-four .offer-section__header {
     top: -91px;
-
   }
+  .offer-section-five .offer-section__header {
+    font-size: 40px !important;
+    top:-83px
+  }
+  
   .offer-section__header {
     order: initial;
     grid-column: 1 / 6;
@@ -1085,7 +1092,8 @@ ul{
     transform: translateX(-50%);
     top: -111px;
     color: #c6bbac !important;
-    font-size: 50px
+    font-size: 50px !important;
+    width: 100%;
   }
   .offer-section__logo {
     order: initial;
@@ -1173,7 +1181,58 @@ ul{
     top: 140px;
     z-index: -1;
   }
+
+  /* TRZECIA SEKCJA DESKTOP  */
+  .offer-section-three .offer-section__logo{
+    order: 2;
+  }
+  .offer-section-three .offer-section__p-one{
+    order: 1;
+  }
+  .offer-section-three .p-one__text{
+    padding: 0 20px 0 0 !important;
+  }
+  .offer-section-three .p-one__header{
+    text-align: right !important;
+    padding: 10px 20px 56px 0 !important;
+  }
+  .offer-section-three .offer-section__p-two{
+    order: 3;
+    padding: 0px 0 0 90px !important;
+    margin: -40px 0 0 0;
+    display: flex;
+    max-width: 700px;
+    justify-self: end;
+  }
+  .offer-section-three .offer-section__list{
+    order: 4;
+    grid-column: 4;
+    margin: 34px 0 0 0;
+    padding: 0 0 0 30px;
+  }
+  .offer-section-three .offer-section__p-three{
+    order: 5;
+    grid-column: 2/5;
+    padding: 36px 0 0 0;
+    max-width: 761px;
+    text-align: left;
+  }
+  .offer-section__three-img1{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 300px;
+    z-index: -1;
+  }
+  .offer-section__three-img2{
+    position: absolute;
+    bottom: -6px;
+    left: 256px;
+    width: 90px;
+    z-index: -1;
+  }
   /* CONTACT */
+
   .contact{
     flex-direction: row;
     grid-gap: 50px;

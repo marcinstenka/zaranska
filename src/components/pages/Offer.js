@@ -63,7 +63,7 @@ function Offer() {
                         <p className="p-one__text">Wspiera przedsiębiorców/pracowników w pracy nad celami i wartościami firmy. Dzięki sprawdzonym narzędziom coachingowym, wdrażanym w organizacje jako podstawowe i kluczowe narzędzie do wspierania pracy nad celami i dążeniami firmy, uzyskujemy efekt świetnie zarządzanym czasem i zasobami przedsiębiorstwa przy ograniczonych nakładach finansowych.</p>
                     </div>
                     <div className="offer-section__dot"></div>
-                    <p className="offer-section__p-two">Jeśli chodzi o przykłady obszarów zastosowań coachingu biznesowego, staje się on skutecznym narzędziem w przypadku gdy mamy do czynienia z: brakiem wystarczających umiejętności przywódczych oraz interpersonalnych, niepowodzeniem w tworzeniu zespołu,  problemami z morale pracowników w organizacji, tak by odpowiadały one oczekiwaniom organizacji i utrzymaniu zaangażowania pracowników, wsparciem procesu wprowadzania zmian i zarządzania zmianami w organizacji, wyznaczaniem celów i osiąganiem sukcesów, wyborem i rozwijaniem kariery zawodowej, radzeniem sobie ze stresem i zapobieganie wypaleniu zawodowemu,  doskonaleniem umiejętności przywódczych, podejmowaniem nowych wyzwań (osobistych i zawodowych), uwalnianiem się od ograniczeń,  automotywowaniem i motywowaniem innych itd</p>
+                    <p className="offer-section__p-two">Jeśli chodzi o przykłady obszarów zastosowań coachingu biznesowego, staje się on skutecznym narzędziem w przypadku gdy mamy do czynienia z: brakiem wystarczających umiejętności przywódczych oraz interpersonalnych, niepowodzeniem w tworzeniu zespołu,  problemami z morale pracowników w organizacji, tak by odpowiadały one oczekiwaniom organizacji i utrzymaniu zaangażowania pracowników, wsparciem procesu wprowadzania zmian i zarządzania zmianami w organizacji, wyznaczaniem celów i osiąganiem sukcesów, wyborem i rozwijaniem kariery zawodowej, radzeniem sobie ze stresem i zapobieganie wypaleniu zawodowemu,  doskonaleniem umiejętności przywódczych, podejmowaniem nowych wyzwań (osobistych i zawodowych), uwalnianiem się od ograniczeń,  automotywowaniem i motywowaniem innych itd.</p>
                     <div className="offer-section__p-three">
                         <p className="p-three__header">W coachingu bizsnesowym to właściciele firm ustalają cel procesowy pracowników. </p>
                     </div>
@@ -72,6 +72,8 @@ function Offer() {
                 <div className="offer__offer-section offer-section-three">
                     <img className='offer-section__three-mobile-img1 mobile-img' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
                     <img className='offer-section__three-mobile-img2 mobile-img' src={MobileOfferShape2Section3} alt="Ozdobny kształt"/>
+                    <img className='offer-section__three-img1' src={OfferShape1Section3} alt="Ozdobny kształt"/>
+                    <img className='offer-section__three-img2' src={OfferShape2Section3} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY JOB CRAFTING</h1>
                     <div className="offer-section__logo">
                         <img src={Logo3} alt="Ozdobne logo"/>
@@ -92,6 +94,8 @@ function Offer() {
                             <li>wzrost efektywności</li>
                         </ul>
                     </div>
+                    <p className="offer-section__p-three">Warsztaty kierowane są do firm, instytucji, które kierują się odpowiedzialnością za swoich pracowników i dbając o zrównoważony rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie i satysfakcję a także była zgodna z jego systemem wartości.</p>
+
                 </div>
                 <div className="offer__interval interval-three"></div>
                 <div className="offer__offer-section offer-section-four">
