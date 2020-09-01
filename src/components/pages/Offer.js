@@ -5,6 +5,11 @@ import Logo2 from './../../assets/temp/offer-logo2.png'
 import Logo3 from './../../assets/temp/offer-logo3.png'
 import Logo4 from './../../assets/temp/offer-logo4.png'
 import Logo5 from './../../assets/temp/offer-logo5.png'
+import OfferShape1Section1 from './../../assets/temp/offer-shape1-section1.png'
+import OfferShape1Section2 from './../../assets/temp/offer-shape1-section2.png'
+import OfferShape1Section3 from './../../assets/temp/offer-shape1-section3.png'
+import OfferShape2Section3 from './../../assets/temp/offer-shape2-section3.png'
+
 import MobileOfferShape1Section1 from './../../assets/temp/mobile-offer-shape1-section1.png'
 import MobileOfferShape2Section1 from './../../assets/temp/mobile-offer-shape2-section1.png'
 import MobileOfferShape1Section2 from './../../assets/temp/mobile-offer-shape1-section2.png'
@@ -22,9 +27,12 @@ function Offer() {
         <>
             <TopBar />
             <div className="offer">
-                <div className="offer__offer-section">
-                    <img className='offer-section__one-mobile-img1' src={MobileOfferShape1Section1} alt="Ozdobny kształt"/>
-                    <img className='offer-section__one-mobile-img2' src={MobileOfferShape2Section1} alt="Ozdobny kształt"/>
+                <div className="offer__interval interval-one"></div>
+
+                <div className="offer__offer-section offer-section-one">
+                    <img className='offer-section__one-mobile-img1 mobile-img' src={MobileOfferShape1Section1} alt="Ozdobny kształt"/>
+                    <img className='offer-section__one-mobile-img2 mobile-img' src={MobileOfferShape2Section1} alt="Ozdobny kształt"/>
+                    <img className='offer-section__one-img' src={OfferShape1Section1} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">LIVE COACHING</h1>
                     <div className="offer-section__logo">
                         <img src={Logo1} alt="Ozdobne logo"/>
@@ -43,15 +51,16 @@ function Offer() {
                 </div>
                 <div className="offer__interval"></div>
                 <div className="offer__offer-section offer-section-two">
-                    <img className='offer-section__two-mobile-img1' src={MobileOfferShape1Section2} alt="Ozdobny kształt"/>
-                    <img className='offer-section__two-mobile-img2' src={MobileOfferShape2Section2} alt="Ozdobny kształt"/>
+                    <img className='offer-section__two-mobile-img1 mobile-img' src={MobileOfferShape1Section2} alt="Ozdobny kształt"/>
+                    <img className='offer-section__two-mobile-img2 mobile-img' src={MobileOfferShape2Section2} alt="Ozdobny kształt"/>
+                    <img className='offer-section__two-img1 ' src={OfferShape1Section2} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">COACHING BIZNESOWY</h1>
                     <div className="offer-section__logo">
                         <img src={Logo2} alt="Ozdobne logo"/>
                     </div>
                     <div className="offer-section__p-one">
                         <p className="p-one__header">To odmiana coachingu wspierająca organizacje w rozwoju.</p>
-                        <p className="p-one__text">Dzięki sprawdzonym narzędziom coachingowym, wdrażanym w organizacje jako podstawowe i kluczowe narzędzie do wspierania pracy nad celami i dążeniami firmy, uzyskujemy efekt świetnie zarządzanym czasem i zasobami przedsiębiorstwa przy ograniczonych nakładach finansowych.</p>
+                        <p className="p-one__text">Wspiera przedsiębiorców/pracowników w pracy nad celami i wartościami firmy. Dzięki sprawdzonym narzędziom coachingowym, wdrażanym w organizacje jako podstawowe i kluczowe narzędzie do wspierania pracy nad celami i dążeniami firmy, uzyskujemy efekt świetnie zarządzanym czasem i zasobami przedsiębiorstwa przy ograniczonych nakładach finansowych.</p>
                     </div>
                     <div className="offer-section__dot"></div>
                     <p className="offer-section__p-two">Jeśli chodzi o przykłady obszarów zastosowań coachingu biznesowego, staje się on skutecznym narzędziem w przypadku gdy mamy do czynienia z: brakiem wystarczających umiejętności przywódczych oraz interpersonalnych, niepowodzeniem w tworzeniu zespołu,  problemami z morale pracowników w organizacji, tak by odpowiadały one oczekiwaniom organizacji i utrzymaniu zaangażowania pracowników, wsparciem procesu wprowadzania zmian i zarządzania zmianami w organizacji, wyznaczaniem celów i osiąganiem sukcesów, wyborem i rozwijaniem kariery zawodowej, radzeniem sobie ze stresem i zapobieganie wypaleniu zawodowemu,  doskonaleniem umiejętności przywódczych, podejmowaniem nowych wyzwań (osobistych i zawodowych), uwalnianiem się od ograniczeń,  automotywowaniem i motywowaniem innych itd</p>
@@ -61,8 +70,8 @@ function Offer() {
                 </div>
                 <div className="offer__interval interval-two"></div>
                 <div className="offer__offer-section offer-section-three">
-                    <img className='offer-section__three-mobile-img1' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
-                    <img className='offer-section__three-mobile-img2' src={MobileOfferShape2Section3} alt="Ozdobny kształt"/>
+                    <img className='offer-section__three-mobile-img1 mobile-img' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
+                    <img className='offer-section__three-mobile-img2 mobile-img' src={MobileOfferShape2Section3} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY JOB CRAFTING</h1>
                     <div className="offer-section__logo">
                         <img src={Logo3} alt="Ozdobne logo"/>
@@ -86,7 +95,7 @@ function Offer() {
                 </div>
                 <div className="offer__interval interval-three"></div>
                 <div className="offer__offer-section offer-section-four">
-                    <img className='offer-section__four-mobile-img1' src={MobileOfferShape1Section4} alt="Ozdobny kształt"/>
+                    <img className='offer-section__four-mobile-img1 mobile-img' src={MobileOfferShape1Section4} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY "SZCZĘŚLIWE RODZICIELSTWO"</h1>
                     <div className="offer-section__logo">
                         <img src={Logo4} alt="Ozdobne logo"/>
@@ -116,7 +125,7 @@ function Offer() {
                 </div>
                 <div className="offer__interval interval-four"></div>
                 <div className="offer__offer-section offer-section-five">
-                    <img className='offer-section__five-mobile-img1' src={MobileOfferShape1Section5} alt="Ozdobny kształt"/>
+                    <img className='offer-section__five-mobile-img1 mobile-img' src={MobileOfferShape1Section5} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY "W POSZUKIWANIU PEWNOŚCI SIEBIE"</h1>
                     <div className="offer-section__logo">
                         <img src={Logo5} alt="Ozdobne logo"/>
