@@ -11,7 +11,7 @@ import ForeverLogo from './../../assets/temp/forever.png'
 function AboutContent() {
     return (
         <div className="about">
-                <div className="about__about__section-first">
+                <div className="about__about-section-first">
                     <h1 className='about__section-first__title'>O MNIE</h1>
                     <div className="about__section-first__container">
                         <div className="container__img">
@@ -33,7 +33,7 @@ function AboutContent() {
                         <div className="container__dot"></div>
                     </div>
                 </div>
-                <div className="about__about__section-second">
+                <div className="about__about-section-second">
                     <div className="about__section-second__mentor">
                         <p className="mentor__text">Moimi mentorami są <bold> Paul Martinelli </bold> oraz <bold> Joe Dispenza </bold>. To od nich czerpię wiedzę, to oni nadają kierunek mojej pracy. Jestem trenerem, mówcą i coachem <bold> The John Maxwell Team </bold>, międzynarodowej firmy, wywodzącej się ze Stanów Zjednoczonych, obecnie największej organizacji szkolącej w zakresie przywództwa i komunikacji na świecie, posługującej się autorskimi programami opracowanymi przez dr Johna C. Maxwella. </p>
                             <div className="mentor__link">
@@ -69,7 +69,7 @@ function AboutContent() {
                         </div>
                     </div>
                 </div>
-                <div className="about__about__section-third">
+                <div className="about__about-section-third">
                     <p className="about__section-third__text-up">Widziałam i doświadczyłam niezwykłych przemian, widziałam jak dokonują się cuda. Jak niewiele potrzeba, aby człowiek odnalazł kierunek. Znalazł statek i odciął liny. Widziałam podróżników, którzy odważyli się marzyć i wyruszyli w rejs.</p>
                     <p className="about__section-third__text-down">Wszystko bowiem zaczyna się od wiary, znalezienia mapy, pierwszego kroku i obudzonej świadomości.</p>
                     <h2 className="about__section-third__header">JESTEŚ CIEKAWY/A?</h2>
