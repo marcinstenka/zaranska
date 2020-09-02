@@ -500,6 +500,7 @@ bold{
   font-weight: bold;
   text-align: center;
   padding: 0 20px 20px 20px;
+  max-width: 400px;
 }
 .offer__interval{
   width: 100%;
@@ -1102,6 +1103,9 @@ ul{
     margin: 20px auto 0 auto;
     padding: 0 0 0 20px;
   }
+  .offer-section-one .offer-section__logo{
+    grid-column: 2;
+  }
   .offer-section__p-one, .offer-section__p-two, .offer-section__p-three, .offer-section__p-four, .offer-section__dot {
     grid-column: initial;
     order: initial;
@@ -1113,12 +1117,20 @@ ul{
   .offer-section-one{
     grid-column: 2 / 4;
   }
+  .offer-section-one .offer-section__p-one{
+    grid-column: 3 / 5;
+    padding: 20px 0 0 0;
+    max-width: 511px;
+  }
   .offer-section__p-one{
     grid-column: 2 / 4;
     padding: 0 0 0 40px;
   }
   .offer-section__p-two{
     padding: 50px 0 0 90px !important;
+  }
+  .offer-section-one .offer-section__p-two, .offer-section-one .offer-section__p-three{
+    grid-column: 2 / 4;
   }
   .offer-section__p-two, .offer-section__p-three {
       padding: 0 0 0 90px;
@@ -1146,14 +1158,17 @@ ul{
 
   .offer-section-two .offer-section__logo{
     order: 3;
+    margin: 20px -123px 0 auto;
   }
   .offer-section-two .offer-section__p-one{
     order: 1;
     grid-column: 1 / 3;
     margin: 30px -120px 0 50px;
+    justify-self: flex-end;
   }
-  .offer-section-two .offer-section__p-one .p-one__header, .offer-section-two .offer-section__p-one .p-one__text{
+  .offer-section-two .p-one__header, .offer-section-two .p-one__text{
     text-align: right !important;
+    max-width: 567px;
   }
   .offer-section-two .offer-section__p-two{
     text-align: left;
@@ -1173,11 +1188,13 @@ ul{
   }
   .offer-section-two .p-three__header {
     font-size: 26px;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     text-align: left;
+    max-width: 505px;
   }
   .offer-section__two-img1{
     position: absolute;
+    display: block;
     width: 250px;
     left: 0;
     top: 140px;
@@ -1191,13 +1208,15 @@ ul{
   }
   .offer-section-three .offer-section__p-one{
     order: 1;
+    align-items: flex-end;
   }
   .offer-section-three .p-one__text{
     padding: 0 20px 0 0 !important;
   }
   .offer-section-three .p-one__header{
     text-align: right !important;
-    padding: 10px 20px 56px 0 !important;
+    padding: 20px 32px 60px 0 !important;
+    max-width: 422px;
   }
   .offer-section-three .offer-section__p-two{
     order: 3;
