@@ -9,6 +9,9 @@ import OfferShape1Section1 from './../../assets/temp/offer-shape1-section1.png'
 import OfferShape1Section2 from './../../assets/temp/offer-shape1-section2.png'
 import OfferShape1Section3 from './../../assets/temp/offer-shape1-section3.png'
 import OfferShape2Section3 from './../../assets/temp/offer-shape2-section3.png'
+import OfferShape1Section4 from './../../assets/temp/offer-shape1-section4.png'
+import OfferShape2Section4 from './../../assets/temp/offer-shape2-section4.png'
+import OfferShape1Section5 from './../../assets/temp/offer-shape1-section5.png'
 
 import MobileOfferShape1Section1 from './../../assets/temp/mobile-offer-shape1-section1.png'
 import MobileOfferShape2Section1 from './../../assets/temp/mobile-offer-shape2-section1.png'
@@ -100,6 +103,8 @@ function Offer() {
                 <div className="offer__interval interval-three"></div>
                 <div className="offer__offer-section offer-section-four">
                     <img className='offer-section__four-mobile-img1 mobile-img' src={MobileOfferShape1Section4} alt="Ozdobny kształt"/>
+                    <img className='offer-section__four-img1' src={OfferShape1Section4} alt="Ozdobny kształt"/>
+                    <img className='offer-section__four-img2' src={OfferShape2Section4} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY "SZCZĘŚLIWE RODZICIELSTWO"</h1>
                     <div className="offer-section__logo">
                         <img src={Logo4} alt="Ozdobne logo"/>
@@ -130,6 +135,7 @@ function Offer() {
                 <div className="offer__interval interval-four"></div>
                 <div className="offer__offer-section offer-section-five">
                     <img className='offer-section__five-mobile-img1 mobile-img' src={MobileOfferShape1Section5} alt="Ozdobny kształt"/>
+                    <img className='offer-section__five-img1' src={OfferShape1Section5} alt="Ozdobny kształt"/>
                     <h1 className="offer-section__header">WARSZTATY "W POSZUKIWANIU PEWNOŚCI SIEBIE"</h1>
                     <div className="offer-section__logo">
                         <img src={Logo5} alt="Ozdobne logo"/>

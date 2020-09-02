@@ -489,7 +489,7 @@ bold{
   background: var(--orange);
 }
 .offer-section__p-two, .offer-section__p-three{
-  padding: 10px 20px;
+  padding: 20px;
 }
 .offer-section__p-four .p-four__header{
   color: var(--orange);
@@ -507,7 +507,7 @@ bold{
   background: var(--beige);
   margin: 20px 0;
 }
-.interval-one, .offer-section__one-img, .offer-section__two-img1, .offer-section__three-img1, .offer-section__three-img2, .offer-section__three-img2 {
+.interval-one, .offer-section__one-img, .offer-section__two-img1, .offer-section__three-img1, .offer-section__three-img2, .offer-section__four-img1, .offer-section__four-img2, .offer-section__five-img1 {
   display: none;
 }
 .interval-two{
@@ -612,6 +612,7 @@ ul{
 }
 .offer-section-four .offer-section__header{
   font-size: 24px;
+  padding: 0 0 0 10px;
 }
 .offer-section-four .p-one__header{
   font-size: 20px;
@@ -642,6 +643,7 @@ ul{
 .offer-section-five .offer-section__p-two{
   text-align: center;
   font-weight: bold;
+  padding: 20px;
 }
 .offer__projects{
   background: var(--beige);
@@ -1083,7 +1085,6 @@ ul{
     font-size: 40px !important;
     top:-83px
   }
-  
   .offer-section__header {
     order: initial;
     grid-column: 1 / 6;
@@ -1099,6 +1100,7 @@ ul{
     order: initial;
     max-width: 300px;
     margin: 20px auto 0 auto;
+    padding: 0 0 0 20px;
   }
   .offer-section__p-one, .offer-section__p-two, .offer-section__p-three, .offer-section__p-four, .offer-section__dot {
     grid-column: initial;
@@ -1140,7 +1142,7 @@ ul{
     margin: 120px 0 0 0;
   }
 
-    /* DRUGA SEKCJA DESKTOP  */
+    /* second section offer  */
 
   .offer-section-two .offer-section__logo{
     order: 3;
@@ -1182,7 +1184,8 @@ ul{
     z-index: -1;
   }
 
-  /* TRZECIA SEKCJA DESKTOP  */
+  /* third section offer  */
+
   .offer-section-three .offer-section__logo{
     order: 2;
   }
@@ -1219,6 +1222,7 @@ ul{
   }
   .offer-section__three-img1{
     position: absolute;
+    display: block;
     top: -20px;
     right: 0;
     width: 300px;
@@ -1226,10 +1230,101 @@ ul{
   }
   .offer-section__three-img2{
     position: absolute;
+    display: block;
     bottom: -6px;
     left: 256px;
     width: 90px;
     z-index: -1;
+  }
+
+  /* fourth section offer */
+
+  .offer-section-four{
+    padding: 40px 0 0 0;
+  }
+  .offer-section-four .offer-section__p-one{
+    order: 2;
+    grid-column: 3 / 5;
+    color: var(--green);
+  }
+  .offer-section-four .p-one__header{
+    font-size: 27px;
+  }
+  .offer-section-four .offer-section__list{
+    order: 3;
+    margin: -170px 0px 0 20px;
+    grid-column: 3 / 5;
+    padding: 30px 20px 0 20px;
+  }
+  .offer-section-four .offer-section__p-two{
+    order: 4;
+    grid-column: 2;
+    padding: 0 !important;
+    margin: -100px 0 0 0;
+}
+  .offer-section-four .offer-section__p-three{
+    order: 5;
+    grid-column: 2;
+    margin: -34px 0 0 0;
+    padding: 20px 0;
+  }
+  .offer-section__four-img1{
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top:0;
+    left: 0;
+    width: 260px;
+  }
+  .offer-section__four-img2{
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top:0;
+    right: 0;
+    width: 80px;
+  }
+  /* fifth section offer */
+  .offer-section-five .offer-section__logo{
+    order: 3;
+    margin: -20px auto 0 auto;
+  }
+  .offer-section-five .offer-section__p-one{
+    order: 1;
+    padding: 0 0 0 17px;
+    margin: 60px 0 0 0;
+}
+  .offer-section-five .p-one__header{
+    font-size: 26px;
+  }
+  .offer-section-five .offer-section__list{
+    order: 2;
+    grid-column: 2 /4;
+  }
+  .offer-section-five .offer-section__p-two{
+    order: 4;
+    grid-column: 4;
+    padding: 0px 0 0 0 !important;
+    font-weight: 300;
+    margin: -15px 0 70px 0;
+    font-size: 18px;
+  }
+  .offer-section__five-img1{
+    position: absolute;
+    display: block;
+    top:0;
+    right: 0;
+    width: 350px;
+    z-index: -1;
+  }
+  .offer__projects{
+    grid-template-columns: minmax(auto, 200px) minmax(auto, 200px) minmax(auto, 200px) minmax(auto, 200px);
+    justify-items: center;
+    padding: 70px 0;
+  }
+  .projects__project{
+    max-width: 200px;
+    width: initial;
   }
   /* CONTACT */
 
