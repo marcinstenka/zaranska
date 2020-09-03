@@ -812,10 +812,104 @@ ul{
     list-style: none;
     background: var(--light-gray);
   }
+  .desktop-nav__offer-menu{
+    display: none;
+    width: 100%;
+    height: 307px;
+    background: var(--light-gray);
+    position: absolute;
+    top:39px;
+    grid-template-columns: 410px 185px;
+    grid-template-rows: 261px;
+    justify-content: center;
+    border-top: 1px solid white;
+
+  }
+  .offer-menu__list::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 55px;
+    right: 30px;
+    height: 162px;
+    background: white;
+  }
+  .offer-menu__list {
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .offer-menu__list ul li{
+    margin: 15px 0 0 0;
+  }
+  .offer-menu__list ul li a, .offer-menu__link a{
+    position: relative;
+    color: var(--text-gray);
+    transition: 0.3s color ease-in-out;
+  }
+  .offer-menu__list ul li a::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -16px;
+    width: 10px;
+    height: 10px;
+    background: white;
+  }
+  .offer-menu__list ul li a:hover, .offer-menu__link a:hover{
+    color: var(--green)
+  }
+  .offer-menu__projects-links{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px;
+    grid-gap: 5px;
+    align-self: center;
+    margin: 0 0 0 20px;
+  }
+  .offer-menu__projects-links a{
+    width: 80px;
+  }
+  .offer-menu__projects-links a img{
+    width: 100%;
+  }
+  .desktop-nav__item:nth-of-type(3):hover ~ .desktop-nav__offer-menu, .desktop-nav__offer-menu:hover{
+    display: grid;
+  }
+  .offer-menu__link{
+    grid-column: 1 / 3;
+    margin: 0 auto;
+    font-size: 24px;
+    color: var(--text-gray);
+    font-weight: bold;
+  }
+  .offer-menu__link a::before, .offer-menu__link a::after{
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 12px;
+    height: 12px;
+    background: white;
+  }
+  .offer-menu__link a::before{
+    left: -20px
+  }
+  .offer-menu__link a::after{
+    right: -20px
+  }
   .desktop-nav__item{
     font-size: 21px;
     border-right: 1px solid var(--dark-gray);
     padding-right: 20px;
+  }
+  .desktop-nav__item:nth-of-type(3){
+    margin: 0 0px 0 -20px;
+    padding: 0;
+  }
+  .desktop-nav__item:nth-of-type(3) a{
+    padding: 8px 20px 8px 20px;
+
   }
   .desktop-nav__item:last-of-type{
     border-right: none;
@@ -1399,7 +1493,6 @@ ul{
   .contact__social {
     margin: 348px 0 0 0;
   }
-  
 
   /* ABOUT */
   .container__img, .container__shape--img{
