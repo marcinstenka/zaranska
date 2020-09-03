@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3aadc476d75a0768b7238edffeb67988",
+    "revision": "97caa0ab5ceb47a35dc4056ee20f2d19",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "bf1453458542ba6d2a48",
-    "url": "/zaranska/static/css/main.320e1b7d.chunk.css"
+    "revision": "6f839d53e7441e0f3ded",
+    "url": "/zaranska/static/css/main.08a76c46.chunk.css"
   },
   {
-    "revision": "98fe0d22f800e8d420db",
-    "url": "/zaranska/static/js/2.1a11277b.chunk.js"
+    "revision": "5844b449aa4ce7e89491",
+    "url": "/zaranska/static/js/2.1157b023.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/zaranska/static/js/2.1a11277b.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.1157b023.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf1453458542ba6d2a48",
-    "url": "/zaranska/static/js/main.20a01db3.chunk.js"
+    "revision": "6f839d53e7441e0f3ded",
+    "url": "/zaranska/static/js/main.a8d27bcb.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
