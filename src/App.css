@@ -251,6 +251,7 @@ bold{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .container__img, .container__shape--img, .about__section-third__img{
   display: none;
@@ -1173,7 +1174,6 @@ ul{
     justify-content: center;
     margin: 0 0 150px 0;
   }
-  
   .offer-section-one .offer-section__header, .offer-section-four .offer-section__header {
     top: -91px;
   }
@@ -1196,10 +1196,11 @@ ul{
     order: initial;
     max-width: 300px;
     margin: 20px auto 0 auto;
-    padding: 0 0 0 20px;
   }
   .offer-section-one .offer-section__logo{
     grid-column: 2;
+    padding: 0 20px 0 0;
+
   }
   .offer-section__p-one, .offer-section__p-two, .offer-section__p-three, .offer-section__p-four, .offer-section__dot {
     grid-column: initial;
@@ -1222,13 +1223,14 @@ ul{
     padding: 0 0 0 40px;
   }
   .offer-section__p-two{
-    padding: 50px 0 0 90px !important;
+    padding: 50px 0 0 15px !important;
   }
   .offer-section-one .offer-section__p-two, .offer-section-one .offer-section__p-three{
     grid-column: 2 / 4;
+    max-width: 700px;
   }
   .offer-section__p-two, .offer-section__p-three {
-      padding: 0 0 0 90px;
+      padding: 0 0 0 15px;
       grid-column: 1 / 4;
       text-align: end;
   }
@@ -1237,8 +1239,7 @@ ul{
   }
   .offer-section__p-four{
     grid-column: 4 / 6;
-    padding: 0 0 0 40px;
-    max-width: 488px;
+    max-width: 300px;
   }
   .p-one__header, .p-one__text, .p-four__text, .p-four__header{
     padding: 0 !important;
@@ -1246,7 +1247,7 @@ ul{
   }
   .interval-one{
     display: block;
-    margin: 120px 0 0 0;
+    margin: 100px 0 0 0;
   }
 
     /* second section offer  */
@@ -1417,6 +1418,7 @@ ul{
   .offer-section-five .offer-section__list{
     order: 2;
     grid-column: 2 /4;
+    margin: 30px auto 20px auto;
   }
   .offer-section-five .offer-section__p-two{
     order: 4;
@@ -1499,16 +1501,18 @@ ul{
   width: 300px;
   }
   .about__section-first__title{
-    margin: 0 10px -12px 264px;
+    margin: 0 10px -13px 264px;
     font-size: 50px;
   }
   .container__shape--img {
     top: -66px;
   }
   .container__intro {
+    max-width: 915px;
     padding: 30px 0 70px 315px;
   }
   .container__description {
+    max-width: 504px;
     padding: 220px 70px 55px 0;
   }
   .intro__header {
