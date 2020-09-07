@@ -1170,7 +1170,7 @@ ul{
   }
   .offer__offer-section {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    font-size: 22px;
+    font-size: 20px;
     justify-content: center;
     margin: 0 0 150px 0;
   }
@@ -1424,7 +1424,7 @@ ul{
     margin: 70px 0 0 auto;
     padding: 0 0 0 30px;
     grid-column: 1 /4;
-    min-width: 656px;
+    min-width: 594px;
 }
   .offer-section-five .p-one__header{
     font-size: 29px;
@@ -1517,7 +1517,7 @@ ul{
 @media (min-width: 1360px){
   .offer-section-five .offer-section__p-one {
     padding: 0 0 0 70px;
-    min-width: 708px;
+    min-width: 632px;
 }
 }
 @media (min-width:1400px){
