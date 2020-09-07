@@ -44,9 +44,9 @@ function Offer() {
                         <p className="p-one__header">Jest formą rozwoju osobistego.</p>
                         <p className="p-one__text">Podczas sesji rozwijasz te sfery życia, którymi chcesz się zająć, określasz cele i sposoby realizacji. Form cochingu może być wiele. To Ty ustalasz czym chcesz się zająć, a ja towarzyszę Tobie w tej podróży.</p>
                     </div>
-                    <p className="offer-section__p-two">Podczas sesji będziemy sami/same. Dostosuję się do Ciebie i będę uważnie dotrzymywać Tobie kroku. Wykorzystam zarówno znane i powszechnie stosowane metody coachingowe, jak i własne, wypracowane osobistym doświadczeniem. </p>
+                    <p className="offer-section__p-two">Podczas sesji będziemy sami/same. <br></br> Dostosuję się do Ciebie i będę uważnie dotrzymywać Tobie kroku. <br></br>  Wykorzystam zarówno znane i powszechnie stosowane metody <br></br> coachingowe, jak i własne, wypracowane osobistym doświadczeniem. </p>
                     <div className="offer-section__dot"></div>
-                    <p className="offer-section__p-three">Na pierwszym spotkaniu poznam Twoje potrzeby i możliwości. Sprawdzimy czy chcemy ze sobą współpracować. To spotkanie będzie niezobowiązujące. To Ty podejmiesz decyzję, czy chcesz ze mną współpracować. </p>
+                    <p className="offer-section__p-three">Na pierwszym spotkaniu poznam Twoje potrzeby i możliwości. <br></br> Sprawdzimy czy chcemy ze sobą współpracować. <br></br> To spotkanie będzie niezobowiązujące. <br></br> To Ty podejmiesz decyzję, czy chcesz ze mną współpracować. </p>
                     <div className="offer-section__p-four">
                         <p className="p-four__header">Dla kogo coaching? </p>
                         <p className="p-four__text">Dla wszystkich, którzy chcą świadomie wpływać na swoje życie, dla tych, którzy chcą się rozwijać i potrzebują zmiany, dla tych, którzy poszukują siebie.</p>
@@ -63,7 +63,7 @@ function Offer() {
                     </div>
                     <div className="offer-section__p-one">
                         <p className="p-one__header">To odmiana coachingu wspierająca organizacje w rozwoju.</p>
-                        <p className="p-one__text">Wspiera przedsiębiorców/pracowników w pracy nad celami i wartościami firmy. Dzięki sprawdzonym narzędziom coachingowym, wdrażanym w organizacje jako podstawowe i kluczowe narzędzie do wspierania pracy nad celami i dążeniami firmy, uzyskujemy efekt świetnie zarządzanym czasem i zasobami przedsiębiorstwa przy ograniczonych nakładach finansowych.</p>
+                        <p className="p-one__text">Wspiera przedsiębiorców/pracowników w pracy nad celami <br></br> i wartościami firmy. Dzięki sprawdzonym narzędziom <br></br> coachingowym, wdrażanym w organizacje jako podstawowe <br></br> i kluczowe narzędzie do wspierania pracy <br></br> nad celami i dążeniami firmy, uzyskujemy efekt świetnie <br></br> zarządzanym czasem i zasobami przedsiębiorstwa przy <br></br> ograniczonych nakładach finansowych.</p>
                     </div>
                     <div className="offer-section__dot"></div>
                     <p className="offer-section__p-two">Jeśli chodzi o przykłady obszarów zastosowań coachingu biznesowego, staje się on skutecznym narzędziem w przypadku gdy mamy do czynienia z: brakiem wystarczających umiejętności przywódczych oraz interpersonalnych, niepowodzeniem w tworzeniu zespołu,  problemami z morale pracowników w organizacji, tak by odpowiadały one oczekiwaniom organizacji i utrzymaniu zaangażowania pracowników, wsparciem procesu wprowadzania zmian i zarządzania zmianami w organizacji, wyznaczaniem celów i osiąganiem sukcesów, wyborem i rozwijaniem kariery zawodowej, radzeniem sobie ze stresem i zapobieganie wypaleniu zawodowemu,  doskonaleniem umiejętności przywódczych, podejmowaniem nowych wyzwań (osobistych i zawodowych), uwalnianiem się od ograniczeń,  automotywowaniem i motywowaniem innych itd.</p>
@@ -82,8 +82,8 @@ function Offer() {
                         <img src={Logo3} alt="Ozdobne logo"/>
                     </div>
                     <p className="offer-section__p-one">
-                        <p className="p-one__text">Wychodząc naprzeciw dynamicznej sytuacji na rynku pracy, trudnościom z tym związanych zapraszam na warsztaty Job Crafting czyli</p>
-                        <p className="p-one__header">nowe metody budowania zaangażowania i poczucia sensu pracy.</p>
+                        <p className="p-one__text">Wychodząc naprzeciw dynamicznej sytuacji na rynku pracy, <br></br> trudnościom z tym związanych zapraszam na warsztaty <br></br> Job Crafting czyli</p>
+                        <p className="p-one__header">nowe metody budowania <br></br> zaangażowania <br></br> i poczucia sensu pracy.</p>
                     </p>
                     <p className="offer-section__p-two">Job crafting jest strategią, wyłaniającą stan faktyczny - co jest i co mogłoby być, nie skupia się na tym co jest złe i procesem łączenia pracy z tożsamością osobową - to kim jesteś, faktycznie ma znaczenie, kiedy jesteś w pracy. Job crafting generuje zmiany w znaczeniu samej pracy, jak też jej tożsamości, a także odmienia znaczenie samego pojęcia "praca" poprzez przesunięcia w poszczególnych zadaniach lub powiązaniach, na drodze zmian, które pozwalają pracownikowi na przekierowanie celu pracy oraz zmienienie sposobu jej odbierania. Psychologiczny sens pracy wyłania się, kiedy ludzie czują, że jest ona warta ich wysiłku. Wykorzystywanie w pracy swoich mocnych stron i działanie zgodnie z wartościami, wzmacnia poczucie własnej skuteczności i pozwala widzieć sens w swoich działaniach.</p>
                     <div className="offer-section__list">
@@ -97,7 +97,7 @@ function Offer() {
                             <li>wzrost efektywności</li>
                         </ul>
                     </div>
-                    <p className="offer-section__p-three">Warsztaty kierowane są do firm, instytucji, które kierują się odpowiedzialnością za swoich pracowników i dbając o zrównoważony rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie i satysfakcję a także była zgodna z jego systemem wartości.</p>
+                    <p className="offer-section__p-three">Warsztaty kierowane są do firm, instytucji, które kierują się <br></br> odpowiedzialnością za swoich pracowników i dbając o zrównoważony <br></br> rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie <br></br> i satysfakcję a także była zgodna z jego systemem wartości.</p>
 
                 </div>
                 <div className="offer__interval interval-three"></div>
@@ -148,7 +148,7 @@ function Offer() {
                         <ul>
                             <li>kształtowanie poczucia własnej wartości,</li>
                             <li>pewności siebie, odpowiedzialności za własne decyzje,</li>
-                            <li>umiejętności odmawiania, radzenia sobie z trudnymi sytuacjami w szkole i grupie rówieśniczej,</li>
+                            <li>umiejętności odmawiania, radzenia sobie z trudnymi sytuacjami <br></br> w szkole i grupie rówieśniczej,</li>
                             <li>poprawa komunikacji w relacjach z najbliższymi,</li>
                             <li>kształtowanie postaw sprzyjających rozwijaniu własnego potencjału,</li>
                             <li>stworzenie konstruktywnego i stabilnego systemu wartości,</li>
