@@ -76,7 +76,7 @@ function Offer() {
                     <img className='offer-section__three-mobile-img1 mobile-img' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
                     <img className='offer-section__three-mobile-img2 mobile-img' src={MobileOfferShape2Section3} alt="Ozdobny kształt"/>
                     <img className='offer-section__three-img1' src={OfferShape1Section3} alt="Ozdobny kształt"/>
-                    <img className='offer-section__three-img2' src={OfferShape2Section3} alt="Ozdobny kształt"/>
+                    
                     <h1 className="offer-section__header">WARSZTATY JOB CRAFTING</h1>
                     <div className="offer-section__logo">
                         <img src={Logo3} alt="Ozdobne logo"/>
@@ -97,8 +97,10 @@ function Offer() {
                             <li>wzrost efektywności</li>
                         </ul>
                     </div>
-                    <p className="offer-section__p-three">Warsztaty kierowane są do firm, instytucji, które kierują się <br></br> odpowiedzialnością za swoich pracowników i dbając o zrównoważony <br></br> rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie <br></br> i satysfakcję a także była zgodna z jego systemem wartości.</p>
-
+                    <div className="offer-section__p-three">
+                        <img className='offer-section__three-img2' src={OfferShape2Section3} alt="Ozdobny kształt"/>
+                        <p>Warsztaty kierowane są do firm, instytucji, które kierują się <br></br> odpowiedzialnością za swoich pracowników i dbając o zrównoważony <br></br> rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie <br></br> i satysfakcję a także była zgodna z jego systemem wartości.</p>
+                    </div>
                 </div>
                 <div className="offer__interval interval-three"></div>
                 <div className="offer__offer-section offer-section-four">

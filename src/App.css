@@ -1338,6 +1338,7 @@ ul{
     max-width: 761px;
     text-align: left;
     margin: 0 auto;
+    position: relative;
   }
   .offer-section__three-img1{
     position: absolute;
@@ -1351,7 +1352,7 @@ ul{
     position: absolute;
     display: block;
     bottom: -20px;
-    left: 30%;
+    left: -68px;
     width: 150px;
     z-index: -1;
   }
