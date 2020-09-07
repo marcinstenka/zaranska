@@ -1240,6 +1240,7 @@ ul{
   .offer-section__p-four{
     grid-column: 4 / 6;
     max-width: 300px;
+    margin: 0 0 0 20px;
   }
   .p-one__header, .p-one__text, .p-four__text, .p-four__header{
     padding: 0 !important;
