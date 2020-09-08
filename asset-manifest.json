@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.21f1c040.chunk.css",
-    "main.js": "/zaranska/static/js/main.a5bcc97a.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.a5bcc97a.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.51800b0d.chunk.css",
+    "main.js": "/zaranska/static/js/main.714e0054.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.714e0054.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/js/2.1157b023.chunk.js": "/zaranska/static/js/2.1157b023.chunk.js",
     "static/js/2.1157b023.chunk.js.map": "/zaranska/static/js/2.1157b023.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.5a13f49207427d371e4d6ded23698cde.js": "/zaranska/precache-manifest.5a13f49207427d371e4d6ded23698cde.js",
+    "precache-manifest.07d98cca5d8ebb6ddfa1c1f222443405.js": "/zaranska/precache-manifest.07d98cca5d8ebb6ddfa1c1f222443405.js",
     "service-worker.js": "/zaranska/service-worker.js",
-    "static/css/main.21f1c040.chunk.css.map": "/zaranska/static/css/main.21f1c040.chunk.css.map",
+    "static/css/main.51800b0d.chunk.css.map": "/zaranska/static/css/main.51800b0d.chunk.css.map",
     "static/js/2.1157b023.chunk.js.LICENSE.txt": "/zaranska/static/js/2.1157b023.chunk.js.LICENSE.txt",
     "static/media/App.css": "/zaranska/static/media/AnticDidone-Regular.edd7ad91.otf",
     "static/media/about-down.png": "/zaranska/static/media/about-down.be0bbf3c.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/js/2.1157b023.chunk.js",
-    "static/css/main.21f1c040.chunk.css",
-    "static/js/main.a5bcc97a.chunk.js"
+    "static/css/main.51800b0d.chunk.css",
+    "static/js/main.714e0054.chunk.js"
   ]
 }
