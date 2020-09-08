@@ -462,7 +462,7 @@ bold{
   font-size: 35px;
   text-align: center;
   font-family: var(--font);
-  line-height: 0.8;
+  line-height: 1.1;
   color: var(--orange);
   margin: 15px 10px 0 0
 }
