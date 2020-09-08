@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fb97f79a51253675b2f2531dd9dfcf8",
+    "revision": "20afbb9a5384b1e818a180289c3b9b94",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "2f064e6535c67668bea3",
-    "url": "/zaranska/static/css/main.6cb10b7f.chunk.css"
+    "revision": "265cf6b24d3f714a0e83",
+    "url": "/zaranska/static/css/main.f83d4bcc.chunk.css"
   },
   {
     "revision": "5844b449aa4ce7e89491",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/js/2.1157b023.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f064e6535c67668bea3",
+    "revision": "265cf6b24d3f714a0e83",
     "url": "/zaranska/static/js/main.a5bcc97a.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
     "url": "/zaranska/static/js/runtime-main.95117ec8.js"
+  },
+  {
+    "revision": "edd7ad9162c91389e74c0ab5bd9f0670",
+    "url": "/zaranska/static/media/AnticDidone-Regular.edd7ad91.otf"
   },
   {
     "revision": "be0bbf3cc76f863afdfb68adbed4dd21",
