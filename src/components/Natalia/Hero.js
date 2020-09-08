@@ -25,6 +25,20 @@ function Hero() {
                 <div className="info-shape"></div>
                 <p className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą. Czego potrzebujesz, aby stać się tym, kim chcesz? Robić to co chcesz i myśleć jak chcesz?</p>
             </div>
+            <div className='hero__gallery'>
+                <h3 className="gallery__header">Galeria</h3>
+                <div className="gallery__gallery-container">
+                    <div className="gallery-container__photos">
+                        {/* <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/>
+                        <img src={MobileShape2} alt=""/> */}
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

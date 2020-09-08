@@ -1,7 +1,16 @@
 @font-face {
   font-family: 'Antic';
-  src: url('AnticDidone-Regular.otf');
+  src: url('fonts/AnticDidone-Regular.otf');
 }
+@font-face {
+  font-family: 'Intervogue Soft Regular';
+  src: url('fonts/Intervogue Soft Regular.otf');
+}
+@font-face {
+  font-family: 'Intervogue Soft Medium';
+  src: url('fonts/Intervogue Soft Medium.otf');
+}
+
 /* General styles */
 *{
   margin: 0;
@@ -11,12 +20,13 @@
 
 body{
   background: var(--bg);
+  font-family: var(--font);
 }
 a {
   text-decoration: none;
 }
 bold{
-  font-weight: bold;
+  font-family: var(--font-bold);
 }
 :root{
   --green: #8D9F8F;
@@ -27,7 +37,9 @@ bold{
   --bg: #EBF2F2;
   --beige: #E2D6C6;
   --orange: #D59567;
-  --font: 'Antic', serif;
+  --font-title: 'Antic', serif;
+  --font: 'Intervogue Soft Regular', serif;
+  --font-bold: 'Intervogue Soft Medium', serif;
   /* --font: 'Cormorant Infant', serif; */
   --topbar-mobile: 70px;
   --topbar-desktop: 160px
@@ -148,7 +160,7 @@ bold{
   max-width: 197px;
   margin: 20px 0 0 0;
   text-align: center;
-  font-family: var(--font);
+  font-family: var(--font-title);
   font-weight: 300;
   font-size: 43px;
   color: #fff;
@@ -179,7 +191,7 @@ bold{
 .mobile-logo__first, .mobile-logo__second{
   position: relative;
   font-weight: 300;
-  font-family: var(--font);
+  font-family: var(--font-title);
   font-size: 45px;
   color: var(--dark-gray)
 }
@@ -201,7 +213,7 @@ bold{
 .intro__name, .intro__surname{
   color: white;
   font-weight: 300;
-  font-family: var(--font);
+  font-family: var(--font-title);
   transform: scaleY(1.1);
   text-transform: initial;
 }
@@ -224,7 +236,7 @@ bold{
   color: var(--text-gray)
 }
 .info-left{
-  font-weight: bold;
+  font-family: var(--font-bold);
 }
 .info-right{
   margin-bottom: 70px;
@@ -272,7 +284,7 @@ bold{
   font-weight: 400;
   font-size: 35px;
   padding: 20px 0 0 20px;
-  font-family: var(--font);
+  font-family: var(--font-title);
 }
 .intro__text{
   padding: 0 20px 20px 20px;
@@ -286,7 +298,8 @@ bold{
   line-height: 1.3;
 }
 .description__text{
-  font-weight: bold;
+  /* font-family: var(--font-bold); */
+  font-family: var(--font-bold);
   padding: 20px 5px 0 20px;
 }
 .description__img{
@@ -382,7 +395,7 @@ bold{
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  font-family: var(--font);
+  font-family: var(--font-title);
   color: var(--green);
 }
 .buisness__text{
@@ -406,7 +419,7 @@ bold{
 }
 .about__section-third__text-down{
   padding: 15px 20px 15px 20px;
-  font-weight: bold;
+  font-family: var(--font-bold);
 }
 .about__section-third__header{
   display: flex;
@@ -415,7 +428,7 @@ bold{
   text-align: center;
   font-size: 32px;
   font-weight: 300;
-  font-family: var(--font);
+  font-family: var(--font-title);
   color: var(--orange);
 }
 .about__section-third__img--mobile{
@@ -463,7 +476,7 @@ overflow: hidden;
   align-items: center;
   font-size: 35px;
   text-align: center;
-  font-family: var(--font);
+  font-family: var(--font-title);
   line-height: 1.1;
   color: var(--orange);
   margin: 15px 10px 0 0
@@ -472,7 +485,7 @@ overflow: hidden;
   margin-top: 30px;
 }
 .p-one__header{
-  font-weight: bold;
+  font-family: var(--font-bold);
   padding: 0 20px;
   text-align: center;
 }
@@ -506,7 +519,7 @@ overflow: hidden;
     padding: 20px 20px 10px 20px;
 }
 .offer-section__p-four .p-four__text{
-  font-weight: bold;
+  font-family: var(--font-bold);
   text-align: center;
   padding: 0 20px 20px 20px;
   max-width: 400px;
@@ -565,7 +578,7 @@ overflow: hidden;
   font-size: 18px;
   padding: 10px 49px 30px 50px;
   text-align: center;
-  font-weight: bold;
+  font-family: var(--font-bold);
   color: var(--green);
 }
 
@@ -592,7 +605,7 @@ overflow: hidden;
   color: var(--text-gray);
 }
 .offer-section-three .p-one__header{
-  font-family: var(--font);
+  font-family: var(--font-title);
   font-size: 32px;
   line-height: 1;
   padding: 5px 20px 20px 20px;
@@ -610,7 +623,7 @@ ul{
   margin: 0 5px -1px 0;
 }
 .offer-section-three .offer-section__p-three{
-  font-weight: bold;
+  font-family: var(--font-bold);
 }
 
 .offer-section__four-mobile-img1{
@@ -633,7 +646,7 @@ ul{
   padding: 10px 20px 0 20px;
 }
 .offer-section-four .p-three__header{
-  font-weight: bold;
+  font-family: var(--font-bold);
   text-align: center;
 }
 .offer-section__five-mobile-img1{
@@ -652,7 +665,7 @@ ul{
 }
 .offer-section-five .offer-section__p-two{
   text-align: center;
-  font-weight: bold;
+  font-family: var(--font-bold);
   padding: 20px;
 }
 .offer__projects{
@@ -699,7 +712,7 @@ ul{
   z-index: -1;
 }
 .contact__info-title{
-  font-family: var(--font);
+  font-family: var(--font-title);
   font-weight: 400;
   font-size: 36px;
   position: relative;
@@ -801,9 +814,9 @@ ul{
   }
   .top-bar__logo{
     display: inline;
-    margin: 8px 0 0 0px;
-    font-family: var(--font);
-    font-size: 85px;
+    margin: 15px 0 0 0px;
+    font-family: var(--font-title);
+    font-size: 80px;
     color: white;
     letter-spacing: 5px;
     font-weight: 300;
@@ -893,7 +906,7 @@ ul{
     margin: 0 auto;
     font-size: 24px;
     color: var(--text-gray);
-    font-weight: bold;
+    font-family: var(--font-bold);
   }
   .offer-menu__link a::before, .offer-menu__link a::after{
     content: '';
@@ -1010,7 +1023,7 @@ ul{
     width: 200px;
     position: absolute;
     height: auto;
-    top: -30px;
+    top: -70px;
     left: 0;
   }
   .container__shape--img{
@@ -1091,7 +1104,7 @@ ul{
     padding: 0 18px 0 0;
   }
   .about__about-section-third {
-    margin: 120px 0 0 0;
+    margin: 200px 0 0 0;
     overflow: initial;
     position: relative;
   }
@@ -1161,7 +1174,7 @@ ul{
     font-size: 38px;
   }
   .about__about-section-third {
-    margin: 220px 0 0 0;
+    margin: 320px 0 0 0;
   }
 
   /* Offer */
@@ -1206,15 +1219,6 @@ ul{
     max-width: 300px;
     min-width: 300px;
     margin: 20px auto 0 auto;
-    animation: pulse 1s infinite alternate ease-in-out;
-  }
-  @keyframes pulse{
-    from{
-      transform: scale(1);
-    }
-    to{
-      transform: scale(1.05);
-    }
   }
   .offer-section-one .offer-section__logo{
     grid-column: 2;
@@ -1572,6 +1576,7 @@ ul{
   /* ABOUT */
   .container__img, .container__shape--img{
   width: 300px;
+  top:-100px
   }
   .about__section-first__title{
     margin: 0 10px -13px 264px;
@@ -1581,11 +1586,11 @@ ul{
     top: -66px;
   }
   .container__intro {
-    max-width: 915px;
+    max-width: 919px;
     padding: 30px 0 70px 315px;
   }
   .container__description {
-    max-width: 504px;
+    max-width: 512px;
     padding: 220px 70px 55px 0;
   }
   .intro__header {
@@ -1638,7 +1643,7 @@ ul{
   .info-right{
     text-align: left;
     margin: 38px 0 0 20px;
-    max-width: 350px;
+    max-width: 362px;
   }
 
   /* OFFER */
@@ -1667,7 +1672,7 @@ ul{
     font-size: 42px;
   }
   .about__about-section-third {
-    margin: 200px 0 0 0;
+    margin: 320px 0 0 0;
 }
 
 }
