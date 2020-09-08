@@ -211,7 +211,7 @@ bold{
   width: 50px;
   height: 1px;
   background: white;
-  transform: translate(-76px, 39px);
+  transform: translate(-76px, 35px);
 }
 .hero__info{
   margin: 20px 0 0 0;
@@ -774,7 +774,7 @@ ul{
   .intro__name::after {
     width: 77px;
     height: 2px;
-    transform: translate(-119px, 60px);
+    transform: translate(-119px, 54px);
   }
   .intro__surname {
     font-size: 57px;
