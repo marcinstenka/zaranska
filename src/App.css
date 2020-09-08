@@ -1213,7 +1213,7 @@ ul{
       transform: scale(1);
     }
     to{
-      transform: scale(1.5);
+      transform: scale(1.05);
     }
   }
   .offer-section-one .offer-section__logo{
