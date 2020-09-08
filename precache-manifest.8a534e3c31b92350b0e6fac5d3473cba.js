@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fc88d3343906738b4d348aaea210a6c",
+    "revision": "3ed2f5ffc420ecccc0a0c4fc5bc8e83d",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "6c64e426e4265125a148",
-    "url": "/zaranska/static/css/main.21a5eb24.chunk.css"
+    "revision": "334f475abfab3d90f25e",
+    "url": "/zaranska/static/css/main.94b22c65.chunk.css"
   },
   {
     "revision": "5844b449aa4ce7e89491",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/js/2.1157b023.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c64e426e4265125a148",
-    "url": "/zaranska/static/js/main.714e0054.chunk.js"
+    "revision": "334f475abfab3d90f25e",
+    "url": "/zaranska/static/js/main.04c748b9.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/media/AnticDidone-Regular.edd7ad91.otf"
   },
   {
-    "revision": "be0bbf3cc76f863afdfb68adbed4dd21",
-    "url": "/zaranska/static/media/about-down.be0bbf3c.png"
+    "revision": "e312574ae9c91b758941ff3141e40f96",
+    "url": "/zaranska/static/media/Intervogue Soft Medium.e312574a.otf"
   },
   {
-    "revision": "00de52b04a0bb85c9d6e7cd6d6448897",
-    "url": "/zaranska/static/media/about-up.00de52b0.png"
+    "revision": "8af99ff97d6e4ebcc821dc544b349763",
+    "url": "/zaranska/static/media/Intervogue Soft Regular.8af99ff9.otf"
+  },
+  {
+    "revision": "f0ff2f7ae30568dc2f6612b7b539a682",
+    "url": "/zaranska/static/media/about-down2.f0ff2f7a.png"
+  },
+  {
+    "revision": "d918aec5c72452e322d605e81d7a6cff",
+    "url": "/zaranska/static/media/about-up.d918aec5.png"
   },
   {
     "revision": "d296e67467e31166f0876693d6de94e7",
@@ -152,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/media/shape-left.b5fd1eaf.png"
   },
   {
-    "revision": "85f5c896867c6b162ffad03be0f66718",
-    "url": "/zaranska/static/media/shape-right.85f5c896.png"
+    "revision": "08c4cd19db4acabd266c9876350b81da",
+    "url": "/zaranska/static/media/shape-right.08c4cd19.png"
   },
   {
     "revision": "5e99e5d7d549cabced1d079701263652",
