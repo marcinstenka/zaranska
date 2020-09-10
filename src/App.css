@@ -251,6 +251,10 @@ bold{
   background: var(--green);
   margin: 20px auto;
 }
+.hero__gallery{
+  display: flex;
+  margin:126px 0 0 0
+}
 /* ABOUT */
 
 .about{
@@ -1580,6 +1584,9 @@ ul{
   .hero__shape-right{
     max-width: 650px;
   }
+  .hero__gallery{
+    margin: 245px 0 0 0;
+  }
 
   /* CONTACT */
 
@@ -1668,7 +1675,9 @@ ul{
     margin: 38px 0 0 20px;
     max-width: 362px;
   }
-
+  .hero__gallery{
+    margin: 320px 0 0 0;
+  }
   /* OFFER */
 
   .offer-section__one-img{
@@ -1693,6 +1702,9 @@ ul{
   .hero__shape-right{
     max-width: unset;
   }
+  .hero__gallery{
+    margin: 376px 0 0 0;
+  }
   .intro__name {
     font-size: 85px;
   }
@@ -1706,4 +1718,20 @@ ul{
   .info-right, .info-left{
     font-size: 20px;
   }
+}
+
+
+.gallery-container__photos{
+  width: 100%;
+}
+.gallery__gallery-container{
+  min-width: 0;
+}
+.swiper-container-horizontal > .swiper-scrollbar{
+  left: 0;
+}
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

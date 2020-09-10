@@ -3,6 +3,7 @@ import ShapeRight from './../../assets/temp/shape-right.png'
 import ShapeLeft from './../../assets/temp/shape-left.png'
 import MobileShape1 from './../../assets/temp/mobile-shape1.png'
 import MobileShape2 from './../../assets/temp/mobile-shape2.png'
+import TEST from './TEST'
 function Hero() {
     return (
         <div className='hero' >
@@ -29,13 +30,7 @@ function Hero() {
                 <h3 className="gallery__header">Galeria</h3>
                 <div className="gallery__gallery-container">
                     <div className="gallery-container__photos">
-                        {/* <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/>
-                        <img src={MobileShape2} alt=""/> */}
+                        <TEST />
                     </div>
                 </div>
             </div>
