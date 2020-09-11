@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7c9faa914709f4918c076e6dfa8a408",
+    "revision": "1df0beba31788be1ff43309a0627fdb0",
     "url": "/zaranska/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/css/2.f278118f.chunk.css"
   },
   {
-    "revision": "85e30f05f866db0b4a3a",
-    "url": "/zaranska/static/css/main.8e88af1c.chunk.css"
+    "revision": "600e4d4633dd9f26cc83",
+    "url": "/zaranska/static/css/main.ece0cabf.chunk.css"
   },
   {
     "revision": "31653a56c3d3553653b0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/js/2.34f25839.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85e30f05f866db0b4a3a",
-    "url": "/zaranska/static/js/main.1599cfe8.chunk.js"
+    "revision": "600e4d4633dd9f26cc83",
+    "url": "/zaranska/static/js/main.9acbdc9c.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
