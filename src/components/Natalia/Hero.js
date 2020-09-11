@@ -27,7 +27,9 @@ function Hero() {
                 <p className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą. Czego potrzebujesz, aby stać się tym, kim chcesz? Robić to co chcesz i myśleć jak chcesz?</p>
             </div>
             <div className='hero__gallery'>
-                <h3 className="gallery__header">Galeria</h3>
+                <div className='gallery__header'>
+                    <h3>Galeria</h3>
+                </div>
                 <div className="gallery__gallery-container">
                     <div className="gallery-container__photos">
                         <TEST />

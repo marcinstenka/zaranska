@@ -26,13 +26,12 @@ const TEST = () => {
                     610:{
                         slidesPerView:2
                     },
-                    880:{
+                    970:{
                         slidesPerView:3
                     },
                     1150:{
                         slidesPerView:4,
                         freeMode: true
-
                     },
                     1430:{
                         slidesPerView:5
