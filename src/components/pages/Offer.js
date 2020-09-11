@@ -129,7 +129,7 @@ function Offer() {
                         </ul>
                     </div>
                     <div className="offer-section__dot"></div>
-                    <p data-aos="fade-up" className="offer-section__p-two">Kurs zakłada 9 spotkań, każde trwające trzy godziny.</p>
+                    <p data-aos="fade-up" className="offer-section__p-two">Kurs zakłada 9 spotkań, <br></br> każde trwające trzy godziny.</p>
                     <div data-aos="fade-up" className="offer-section__p-three">
                         <p className="p-three__header">Spotkania będą prowadzone warsztatowo, aby każdy świadomy rodzic mógł w praktyce doświadczać pozyskiwaną wiedzę. </p>
                     </div>
