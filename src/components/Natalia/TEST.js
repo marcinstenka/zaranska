@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, {Scrollbar} from 'swiper'
 import Test from './../../assets/temp/test.jpg'
@@ -6,7 +6,23 @@ import 'swiper/swiper-bundle.css';
 SwiperCore.use([Scrollbar]);
 
 
+
 const TEST = () => {
+    useEffect(() => {
+        const images = document.querySelectorAll('.swiper-slide');
+        let i = 1000;
+        images.forEach(image => {
+            image.addEventListener('mouseover', () => {
+                image.style.zIndex = ++i;
+                // console.log(`wjechał i dał mu ${i}`)
+
+            })
+            image.addEventListener('mouseout', () => {
+                image.style.zIndex = i-1;
+                // console.log(`wyjechałi zostawił ${i}`)
+            })
+        })
+    })
     const slides = []
     for (let i=0; i<10; i++){
         slides.push(

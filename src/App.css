@@ -1725,7 +1725,6 @@ ul{
   width: 100%;
 }
 .gallery__gallery-container{
-  min-width: 0;
 }
 .gallery__header{
   transform: rotate(-90deg) translate(-33px, -33px);
@@ -1733,7 +1732,7 @@ ul{
   z-index: 101;
   display: flex;
   background: var(--light-gray);
-  padding: 10px 60px 0px 60px;
+  padding: 10px 88px 0px 88px;
   align-items: center;
   height: 292px;
 }
@@ -1743,6 +1742,8 @@ ul{
 }
 .gallery__gallery-container{
   padding: 60px 0;
+  margin: 0 0 0 -57px;
+  min-width: 0;
 }
 .swiper-container-horizontal > .swiper-scrollbar{
   left: 24px !important;
@@ -1764,15 +1765,22 @@ ul{
 }
 .swiper-slide img{
   border-radius: 10px;
+}
+.swiper-wrapper:hover > .swiper-slide{
   opacity: 0.5;
+  transform: scale(1);
 
   transition: opacity 0.3s ease-in-out ;
   transition: transform 0.3s ease-in-out ;
 }
-.swiper-slide img:hover{
+.swiper-slide {
+  transition: opacity 0.3s ease-in-out ;
+  transition: transform 0.3s ease-in-out ;
+}
+
+.swiper-wrapper:hover > .swiper-slide:hover{
   transform: scale(1.4);
   opacity: 1;
-  z-index: 100;
 }
 .swiper-container{
   overflow: initial !important;
