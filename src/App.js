@@ -2,11 +2,18 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import Natalia from './components/pages/Natalia'
 import About from './components/pages/About';
 import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
 function App() {
+  AOS.init({
+    offset: 160
+  });
   return (
     <BrowserRouter basename='/zaranska/'>
       <Switch>

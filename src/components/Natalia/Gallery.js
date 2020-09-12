@@ -7,7 +7,7 @@ SwiperCore.use([Scrollbar]);
 
 
 
-const TEST = () => {
+const Gallery = () => {
     useEffect(() => {
         const images = document.querySelectorAll('.swiper-slide');
         let i = 1000;
@@ -42,17 +42,23 @@ const TEST = () => {
                     610:{
                         slidesPerView:2
                     },
-                    970:{
+                    840:{
                         slidesPerView:3
                     },
-                    1150:{
+                    1050:{
+                        slidesPerView:2
+                    },
+                    1160:{
+                        slidesPerView:3
+                    },
+                    1415:{
                         slidesPerView:4,
                         freeMode: true
                     },
-                    1430:{
+                    1675:{
                         slidesPerView:5
                     },
-                    1670:{
+                    1950:{
                         slidesPerView:6
                     }
                 }}
@@ -63,4 +69,4 @@ const TEST = () => {
         </>
     )
 }
-export default TEST
+export default Gallery;
