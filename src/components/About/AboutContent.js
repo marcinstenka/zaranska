@@ -2,7 +2,7 @@ import React from 'react'
 import AboutUp from './../../assets/temp/about-up.png'
 import MobileAboutUp from './../../assets/temp/mobile-about-up.png'
 import AboutShape from './../../assets/temp/about-shape.png'
-import MobileAboutDown from './../../assets/temp/mobile-about-down.png'
+import MobileAboutDown from './../../assets/temp/mobile-about-down2.png'
 import AboutDown from './../../assets/temp/about-down2.png'
 import MobileAboutDecoration from './../../assets/temp/mobile-about-decoration.png'
 import Arrow from './../../assets/temp/arrow.svg'
@@ -24,9 +24,9 @@ function AboutContent() {
                             <h2 className='intro__header'>Cześć</h2>
                             <p className="intro__text"> Myślę, że zanim zaczniemy współpracę, chcesz się dowiedzieć kim jestem. W 2001r. zdobyłam tytuł mgr pedagogiki ze specjalizacją resocjalizacja i rozpoczęłam pracę jako przewodnik młodych ludzi w szkole. Był to czas niezwykły, kiedy mogłam rozwijać swoje pasje, współpracować, tworzyć projekty i zdobywać wykształcenie. Ukończyłam studia podyplomowe w zakresie doradztwa zawodowego, pomocy psychologicznej oraz psychologii pozytywnej. Mojej dzisiejszej drodze zawodowej kierunek wyznaczył coaching. Coachem zostałam w 2017r. </p>
                         </div>
-                        <div data-aos="fade-down" className="container__description">
-                            <p className='description__text'>Ten przełomowy moment sprawił, że połączyłam całą dotychczasową wiedzę, aby uczyć się od najlepszych i stworzyć przestrzeń, w której także Ty będziesz budzić swoją świadomość. Zostałam także facylitatorem Job Craftingu, gdyż wiem, jak ważne jest poczucie sensu i zaangażowania w miejscu pracy.</p>
-                            <div className="description__img">
+                        <div className="container__description">
+                            <p data-aos="fade-right" className='description__text'>Ten przełomowy moment sprawił, że połączyłam całą dotychczasową wiedzę, aby uczyć się od najlepszych i stworzyć przestrzeń, w której także Ty będziesz budzić swoją świadomość. Zostałam także facylitatorem Job Craftingu, gdyż wiem, jak ważne jest poczucie sensu i zaangażowania w miejscu pracy.</p>
+                            <div data-aos="fade-left" className="description__img">
                                 <img src={MobileAboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
                             </div>
                         </div>
@@ -74,9 +74,9 @@ function AboutContent() {
                         <p className="text__text-up">Widziałam i doświadczyłam niezwykłych przemian, widziałam jak dokonują się cuda. Jak niewiele potrzeba, aby człowiek odnalazł kierunek. Znalazł statek i odciął liny. Widziałam podróżników, którzy odważyli się marzyć i wyruszyli w rejs.</p>
                         <p className="text__text-down">Wszystko bowiem zaczyna się od wiary, znalezienia mapy, pierwszego kroku i obudzonej świadomości.</p>
                     </div>
-                    <h2 data-aos="fade-down" className="about__section-third__header">Jesteś ciekawy/a?</h2>
-                    <img className='about__section-third__img--mobile' src={MobileAboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
-                    <img className='about__section-third__img' src={AboutDown} alt="Zdjęcie Natalii Zarańskiej z książką"/>
+                    <h2 className="about__section-third__header">Jesteś ciekawy/a?</h2>
+                    <img className='about__section-third__img--mobile' src={MobileAboutDown} alt="Zdjęcie Natalii Zarańskiej"/>
+                    <img className='about__section-third__img' src={AboutDown} alt="Zdjęcie Natalii Zarańskiej"/>
                 </div>
             </div>
     )
