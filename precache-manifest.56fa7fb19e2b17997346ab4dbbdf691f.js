@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd2811a7ba1194b855e23cf5b3d154d1",
+    "revision": "b6c8f2d26f632f11ff2a4ff8fe86a991",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "31653a56c3d3553653b0",
-    "url": "/zaranska/static/css/2.f278118f.chunk.css"
+    "revision": "a3f730c9e16eadf81c21",
+    "url": "/zaranska/static/css/2.287966ed.chunk.css"
   },
   {
-    "revision": "570c45ae50835ec96582",
-    "url": "/zaranska/static/css/main.fcb33b1f.chunk.css"
+    "revision": "715f85e247eeb3122e28",
+    "url": "/zaranska/static/css/main.669f7dcc.chunk.css"
   },
   {
-    "revision": "31653a56c3d3553653b0",
-    "url": "/zaranska/static/js/2.34f25839.chunk.js"
+    "revision": "a3f730c9e16eadf81c21",
+    "url": "/zaranska/static/js/2.7c6fa792.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/zaranska/static/js/2.34f25839.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.7c6fa792.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "570c45ae50835ec96582",
-    "url": "/zaranska/static/js/main.68d30fe3.chunk.js"
+    "revision": "715f85e247eeb3122e28",
+    "url": "/zaranska/static/js/main.7ffb6526.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zaranska/static/media/forever.ae845959.png"
   },
   {
-    "revision": "ec14d2cdb3c2d4c6e30aed063b643d51",
-    "url": "/zaranska/static/media/mobile-about-down.ec14d2cd.png"
+    "revision": "a3b49d2ab9c60ce2e792af641e6426f1",
+    "url": "/zaranska/static/media/mobile-about-down2.a3b49d2a.png"
   },
   {
-    "revision": "367a569527723b0a244e84ca116f172b",
-    "url": "/zaranska/static/media/mobile-about-up.367a5695.png"
+    "revision": "c281c8d5d89c595903f928d4b5621293",
+    "url": "/zaranska/static/media/mobile-about-up.c281c8d5.png"
   },
   {
     "revision": "9a1309bdd2957f12a826a33b9b1b508d",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "89090a5234a872e1080a1929e6f1a03a",
     "url": "/zaranska/static/media/mobile-shape2.89090a52.png"
+  },
+  {
+    "revision": "23a33b13602486fc712b2309d1a1d376",
+    "url": "/zaranska/static/media/mobile-shape3.23a33b13.png"
   },
   {
     "revision": "5c9bd191dedc23579d412369c703eea6",
