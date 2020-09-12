@@ -14,12 +14,12 @@ const TEST = () => {
         images.forEach(image => {
             image.addEventListener('mouseover', () => {
                 image.style.zIndex = ++i;
-                // console.log(`wjechał i dał mu ${i}`)
+                console.log(`wjechał i dał mu ${i}`)
 
             })
             image.addEventListener('mouseout', () => {
                 image.style.zIndex = i-1;
-                // console.log(`wyjechałi zostawił ${i}`)
+                console.log(`wyjechałi zostawił ${i}`)
             })
         })
     })
