@@ -1,31 +1,87 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6c8f2d26f632f11ff2a4ff8fe86a991",
+    "revision": "4490210b6134d6e868e26d9f1c575ed4",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "a3f730c9e16eadf81c21",
+    "revision": "93fbdbc069309a0949dd",
     "url": "/zaranska/static/css/2.287966ed.chunk.css"
   },
   {
-    "revision": "715f85e247eeb3122e28",
-    "url": "/zaranska/static/css/main.669f7dcc.chunk.css"
+    "revision": "b2b5c75cfd54d0e65837",
+    "url": "/zaranska/static/css/main.412037cd.chunk.css"
   },
   {
-    "revision": "a3f730c9e16eadf81c21",
-    "url": "/zaranska/static/js/2.7c6fa792.chunk.js"
+    "revision": "93fbdbc069309a0949dd",
+    "url": "/zaranska/static/js/2.980b1774.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/zaranska/static/js/2.7c6fa792.chunk.js.LICENSE.txt"
+    "revision": "16021066fd5e2548dbeed610083370ad",
+    "url": "/zaranska/static/js/2.980b1774.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "715f85e247eeb3122e28",
-    "url": "/zaranska/static/js/main.7ffb6526.chunk.js"
+    "revision": "b2b5c75cfd54d0e65837",
+    "url": "/zaranska/static/js/main.ac28e9f2.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
     "url": "/zaranska/static/js/runtime-main.95117ec8.js"
+  },
+  {
+    "revision": "2c98ce57d24f9da4c7a8a31b9e176749",
+    "url": "/zaranska/static/media/1.2c98ce57.jpg"
+  },
+  {
+    "revision": "f1d54cfed2b0f44c7b0faf766f53c061",
+    "url": "/zaranska/static/media/1.f1d54cfe.jpg"
+  },
+  {
+    "revision": "0ec4def9abd936684ae0f75eb580a6f7",
+    "url": "/zaranska/static/media/2.0ec4def9.jpg"
+  },
+  {
+    "revision": "16709740d79cecbef668ba20355eba38",
+    "url": "/zaranska/static/media/2.16709740.jpg"
+  },
+  {
+    "revision": "6a2980931f22fb548a42d0e63554811c",
+    "url": "/zaranska/static/media/3.6a298093.jpg"
+  },
+  {
+    "revision": "6ce5241594ee8e967834cc8e34953257",
+    "url": "/zaranska/static/media/3.6ce52415.jpg"
+  },
+  {
+    "revision": "6350c3f6517c98b2bac8b72ef3a4228a",
+    "url": "/zaranska/static/media/4.6350c3f6.jpg"
+  },
+  {
+    "revision": "97eeca3107adbca904d0b112394051ce",
+    "url": "/zaranska/static/media/4.97eeca31.jpg"
+  },
+  {
+    "revision": "b5f27e9efc88aab813447211a7cc2e35",
+    "url": "/zaranska/static/media/5.b5f27e9e.jpg"
+  },
+  {
+    "revision": "e244c687427014afb5d9e133e6b4464a",
+    "url": "/zaranska/static/media/5.e244c687.jpg"
+  },
+  {
+    "revision": "cc22fe965e50d90835e5d597b9a6faee",
+    "url": "/zaranska/static/media/6.cc22fe96.jpg"
+  },
+  {
+    "revision": "eaf15d34f08e4ccdfcfb79702e078d0a",
+    "url": "/zaranska/static/media/6.eaf15d34.jpg"
+  },
+  {
+    "revision": "86a4d88516dd91d1742cae5040fc9793",
+    "url": "/zaranska/static/media/7.86a4d885.jpg"
+  },
+  {
+    "revision": "ae3dcf6f51b258267ff4a668074fc3be",
+    "url": "/zaranska/static/media/7.ae3dcf6f.jpg"
   },
   {
     "revision": "edd7ad9162c91389e74c0ab5bd9f0670",
@@ -178,9 +234,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76a64c290f569ca8de9ca15fcf02e1e8",
     "url": "/zaranska/static/media/social-media-fb.76a64c29.png"
-  },
-  {
-    "revision": "207c2b9b6ce2ee75db20b207446cf663",
-    "url": "/zaranska/static/media/test.207c2b9b.jpg"
   }
 ]);
