@@ -4,7 +4,7 @@ import './App.css';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 import Natalia from './components/pages/Natalia'
 import About from './components/pages/About';
@@ -15,6 +15,7 @@ function App() {
     offset: 160
   });
   return (
+    <SimpleReactLightbox>
     <BrowserRouter basename='/zaranska/'>
       <Switch>
         <Route exact path='/' component={Natalia} />
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/kontakt' component={Contact} />
       </Switch>
     </BrowserRouter>
+    </SimpleReactLightbox>
   )
 }
 
