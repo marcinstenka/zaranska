@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.7852ab1e.chunk.css",
-    "main.js": "/zaranska/static/js/main.3f5e1532.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.3f5e1532.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.5db9fa94.chunk.css",
+    "main.js": "/zaranska/static/js/main.601c8501.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.601c8501.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/css/2.287966ed.chunk.css": "/zaranska/static/css/2.287966ed.chunk.css",
-    "static/js/2.2be0dfef.chunk.js": "/zaranska/static/js/2.2be0dfef.chunk.js",
-    "static/js/2.2be0dfef.chunk.js.map": "/zaranska/static/js/2.2be0dfef.chunk.js.map",
+    "static/js/2.6db1e090.chunk.js": "/zaranska/static/js/2.6db1e090.chunk.js",
+    "static/js/2.6db1e090.chunk.js.map": "/zaranska/static/js/2.6db1e090.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.8504797bd77a295c4ab5de90feb9be96.js": "/zaranska/precache-manifest.8504797bd77a295c4ab5de90feb9be96.js",
+    "precache-manifest.383e792a74d9c6138ddd035467cb18b7.js": "/zaranska/precache-manifest.383e792a74d9c6138ddd035467cb18b7.js",
     "service-worker.js": "/zaranska/service-worker.js",
     "static/css/2.287966ed.chunk.css.map": "/zaranska/static/css/2.287966ed.chunk.css.map",
-    "static/css/main.7852ab1e.chunk.css.map": "/zaranska/static/css/main.7852ab1e.chunk.css.map",
-    "static/js/2.2be0dfef.chunk.js.LICENSE.txt": "/zaranska/static/js/2.2be0dfef.chunk.js.LICENSE.txt",
+    "static/css/main.5db9fa94.chunk.css.map": "/zaranska/static/css/main.5db9fa94.chunk.css.map",
+    "static/js/2.6db1e090.chunk.js.LICENSE.txt": "/zaranska/static/js/2.6db1e090.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/zaranska/static/media/1.f1d54cfe.jpg",
     "static/media/2.jpg": "/zaranska/static/media/2.16709740.jpg",
     "static/media/3.jpg": "/zaranska/static/media/3.6ce52415.jpg",
@@ -28,6 +28,7 @@
     "static/media/brainy.png": "/zaranska/static/media/brainy.6d3b2964.png",
     "static/media/contact-shape2.png": "/zaranska/static/media/contact-shape2.daa10650.png",
     "static/media/forever.png": "/zaranska/static/media/forever.ae845959.png",
+    "static/media/logo.png": "/zaranska/static/media/logo.3bf93737.png",
     "static/media/mobile-about-down2.png": "/zaranska/static/media/mobile-about-down2.a3b49d2a.png",
     "static/media/mobile-about-up.png": "/zaranska/static/media/mobile-about-up.c281c8d5.png",
     "static/media/mobile-contact.png": "/zaranska/static/media/mobile-contact.9a1309bd.png",
@@ -61,8 +62,8 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/css/2.287966ed.chunk.css",
-    "static/js/2.2be0dfef.chunk.js",
-    "static/css/main.7852ab1e.chunk.css",
-    "static/js/main.3f5e1532.chunk.js"
+    "static/js/2.6db1e090.chunk.js",
+    "static/css/main.5db9fa94.chunk.css",
+    "static/js/main.601c8501.chunk.js"
   ]
 }
