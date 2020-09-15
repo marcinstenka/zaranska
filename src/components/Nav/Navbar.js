@@ -9,10 +9,10 @@ import ProjectLogo4 from './../../assets/temp/offer-project-logo4.png'
 const scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
     window.scroll({
-      top: elementPosition,
-
-      behavior: "smooth"
-    });   }
+        top: elementPosition,
+        behavior: "smooth"
+    });
+}
 
 function Navbar() {
     return (
