@@ -46,7 +46,7 @@ function Hero() {
                 <div className='recomendations__header'>
                     <h3>Rekomendacje</h3>
                 </div>
-                <div className="gallery__recomendations-container">
+                <div className="recomendations__recomendations-container">
                     <div className="recomendations-container__recomendations">
                         <Recomendations />
                     </div>

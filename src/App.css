@@ -290,7 +290,7 @@ bold{
 .hero__gallery, .hero__recemendations{
   flex-direction: column;
 }
-.gallery__gallery-container, .gallery__recomendations-container{
+.gallery__gallery-container, .recomendations__recomendations-container{
   padding: 20px 0;
   margin: 0;
   min-width: 0;
@@ -321,19 +321,30 @@ bold{
   height: 250px;
   width: 300px;
   font-size: 18px;
-  padding: 0 15px 0 0;
+  padding: 8px 15px 8px 8px;
   text-align: justify;
 }
 .recomendation::-webkit-scrollbar {
   width: 10px;
 }
 .recomendation::-webkit-scrollbar-track {
-  border-radius: 10px;
   background: var(--gray);
+  border-radius: 10px;
 }
 .recomendation::-webkit-scrollbar-thumb {
   background: var(--orange);
   border-radius: 10px;
+}
+.hero__recemendations .swiper-slide{
+  background: var(--bg) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide h6{
+  margin: 10px auto 12px 10px;
+  font-size: 25px;
 }
 /* ABOUT */
 
@@ -1302,7 +1313,7 @@ ul{
   .gallery__header h3, .recomendations__header h3{
     transform: rotate(-90deg);
   }
-  .gallery__gallery-container, .gallery__recomendations-container{
+  .gallery__gallery-container, .recomendations__recomendations-container{
     padding: 60px 0;
     margin: 0 0 0 -57px;
   }
