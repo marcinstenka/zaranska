@@ -22,6 +22,7 @@ body{
   background: var(--bg);
   font-family: var(--font);
 }
+
 a {
   text-decoration: none;
 }
@@ -247,6 +248,64 @@ bold{
   display: flex;
   margin:40px 0 0 0;
   background: var(--light-gray);
+}
+.gallery-container__photos{
+  width: 100%;
+}
+
+.gallery__header h3{
+  font-weight: 300;
+  color: var(--gray);
+}
+
+.swiper-container-horizontal > .swiper-scrollbar{
+  left: 24px !important;
+
+}
+.swiper-scrollbar{
+  margin: 0 0 -30px 0 !important;
+  height: 10px !important;
+}
+.swiper-scrollbar-drag {
+  background: var(--orange) !important;
+  left:-18px !important;
+
+}
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  border-radius: 10px;
+}
+.swiper-container{
+  overflow: initial !important;
+}
+.hero__gallery{
+  flex-direction: column;
+}
+.gallery__gallery-container{
+  padding: 20px 0;
+  margin: 0;
+  min-width: 0;
+}
+.gallery__header{
+  transform: none ;
+  font-size: 24px ;
+  z-index: 101;
+  background: var(--light-gray);
+  padding: 8px ;
+  height: auto ;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid var(--gray);
+
+}
+
+.gallery__header::after{
+  content: none;
 }
 /* ABOUT */
 
@@ -965,8 +1024,9 @@ ul{
   .desktop-nav__item a:hover{
     color: var(--green);
   }
-
-  /* MAIN PAGE - NATALIA */
+  .desktop-nav__item:nth-of-type(5){
+    border: none;  
+  }  /* MAIN PAGE - NATALIA */
   .hero{
     padding-top: var(--topbar-desktop);
   }
@@ -1184,13 +1244,19 @@ ul{
     flex-direction: row !important;
   }
   .gallery__header{
-    transform: rotate(-90deg) translate(-33px, -33px) !important;
-    font-size: 47px !important;
-    background: var(--light-gray) !important;
-    padding: 10px 37px 0px 88px !important;
-    align-items: center !important;
-    height: 292px !important;
-    margin: -25px 0 0 0;
+    font-size: 47px;
+    background: var(--light-gray);
+    align-items: center;
+    position: relative;
+    width: 306px;
+    height: 331px;
+    margin: 0px 64px 0 0px;
+    padding: 0 ;
+    border-right: 2px solid var(--gray);
+
+  }
+  .gallery__header h3{
+    transform: rotate(-90deg);
   }
   .gallery__gallery-container{
     padding: 60px 0;
@@ -1221,10 +1287,10 @@ ul{
     z-index: -1;
   }
   .hero__info {
-    margin: 50px 0 0 20%;
+    margin: 50px 0 0 17%;
   }
   .hero__intro{
-    margin: 35px 0 0 20%;
+    margin: 35px 0 0 18%;
   }
   .hero__shape-right{
     max-width: 550px
@@ -1247,6 +1313,9 @@ ul{
 
 
   /* Offer */
+  #live-coaching, #coaching-biznesowy, #warsztaty-w-poszukiwaniu-pewnosci-siebie,#warsztaty-job-crafting, #warsztaty-szczesliwe-rodzicielstwo {
+    display: block;
+  }
   .offer{
     padding-top: var(--topbar-desktop)
   }
@@ -1269,14 +1338,14 @@ ul{
   }
   .offer-section-five .offer-section__header, .offer-section-four .offer-section__header {
     font-size: 40px !important;
-    top:-92px;
+    top:-90px;
   }
   .offer-section__header {
     order: initial;
     grid-column: 1 / 6;
     position: absolute;
     left: 50%;
-    top: -121px;
+    top: -119px;
     width: 100%;
     transform: translateX(-50%) scaleY(1.1);
     color: #c6bbac !important;
@@ -1776,67 +1845,4 @@ ul{
   .info-right, .info-left{
     font-size: 20px;
   }
-}
-
-
-.gallery-container__photos{
-  width: 100%;
-}
-.gallery__gallery-container{
-}
-
-.gallery__header h3{
-  font-weight: 300;
-  color: var(--gray);
-}
-
-.swiper-container-horizontal > .swiper-scrollbar{
-  left: 24px !important;
-  
-}
-.swiper-scrollbar{
-  margin: 0 0 -30px 0 !important;
-  height: 10px !important;
-}
-.swiper-scrollbar-drag {
-  background: var(--orange) !important;
-  left:-18px !important;
-
-}
-.swiper-slide{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.swiper-slide img{
-  border-radius: 10px;
-}
-.swiper-container{
-  overflow: initial !important;
-}
-
-
-.hero__gallery{
-  flex-direction: column;
-}
-.gallery__gallery-container{
-  padding: 20px 0;
-  margin: 0;
-  min-width: 0;
-
-
-}
-
-
-.gallery__header{
-  transform: none ;
-  font-size: 24px ;
-  z-index: 101;
-  background: var(--light-gray);
-  padding: 8px ;
-  height: auto ;
-  display: flex ;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 2px solid var(--gray);
 }

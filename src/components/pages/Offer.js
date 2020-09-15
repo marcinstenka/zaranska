@@ -31,8 +31,8 @@ function Offer() {
         <>
             <TopBar />
             <div className="offer">
-                <div className="offer__interval interval-one"></div>
-
+                <div id="live-coaching"></div>
+                <a className="offer__interval interval-one"></a>
                 <div className="offer__offer-section offer-section-one">
                     <img className='offer-section__one-mobile-img1 mobile-img' src={MobileOfferShape1Section1} alt="Ozdobny kształt"/>
                     <img className='offer-section__one-mobile-img2 mobile-img' src={MobileOfferShape2Section1} alt="Ozdobny kształt"/>
@@ -53,6 +53,7 @@ function Offer() {
                         <p className="p-four__text">Dla wszystkich, którzy chcą świadomie wpływać na swoje życie, dla tych, którzy chcą się rozwijać i potrzebują zmiany, dla tych, którzy poszukują siebie.</p>
                     </div>
                 </div>
+                <a id="coaching-biznesowy"></a>
                 <div className="offer__interval"></div>
                 <div className="offer__offer-section offer-section-two">
                     <img className='offer-section__two-mobile-img1 mobile-img' src={MobileOfferShape1Section2} alt="Ozdobny kształt"/>
@@ -73,6 +74,7 @@ function Offer() {
                         <p className="p-three__header">W coachingu bizsnesowym to właściciele firm ustalają cel procesowy pracowników. </p>
                     </div>
                 </div>
+                <a id="warsztaty-job-crafting"></a>
                 <div className="offer__interval interval-two"></div>
                 <div className="offer__offer-section offer-section-three">
                     <img className='offer-section__three-mobile-img1 mobile-img' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
@@ -103,6 +105,7 @@ function Offer() {
                         <p data-aos="fade-up">Warsztaty kierowane są do firm, instytucji, które kierują się <br></br> odpowiedzialnością za swoich pracowników i dbając o zrównoważony <br></br> rozwój, dbają o człowieka, aby jego praca przynosiła mu zadowolenie <br></br> i satysfakcję a także była zgodna z jego systemem wartości.</p>
                     </div>
                 </div>
+                <a id="warsztaty-szczesliwe-rodzicielstwo"></a>
                 <div className="offer__interval interval-three"></div>
                 <div className="offer__offer-section offer-section-four">
                     <img className='offer-section__four-mobile-img1 mobile-img' src={MobileOfferShape1Section4} alt="Ozdobny kształt"/>
@@ -135,6 +138,7 @@ function Offer() {
                         <p className="p-three__header">Spotkania będą prowadzone warsztatowo, aby każdy świadomy rodzic mógł w praktyce doświadczać pozyskiwaną wiedzę. </p>
                     </div>
                 </div>
+                <a id="warsztaty-w-poszukiwaniu-pewnosci-siebie"></a>
                 <div className="offer__interval interval-four"></div>
                 <div className="offer__offer-section offer-section-five">
                     <img className='offer-section__five-mobile-img1 mobile-img' src={MobileOfferShape1Section5} alt="Ozdobny kształt"/>
