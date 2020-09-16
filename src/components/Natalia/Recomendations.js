@@ -12,29 +12,29 @@ const Gallery = () => {
         <>
             <Swiper id='main'
                 slidesPerView={1}
+                spaceBetween={30}
                 scrollbar={true}
                 freeMode={false}
                 grabCursor={true}
                 breakpoints={{
-                    610:{
+                    710:{
                         slidesPerView:2
                     },
-                    840:{
+                    970:{
                         slidesPerView:3
                     },
                     1050:{
                         slidesPerView:2
                     },
-                    1160:{
+                    1180:{
                         slidesPerView:3
                     },
                     1415:{
-                        slidesPerView:4,
-                        freeMode: true
+                        slidesPerView:4
+                        // freeMode: true
                     },
                     1675:{
-                        slidesPerView:5,
-                        spaceBetween: 30
+                        slidesPerView:5
                     },
                     1950:{
                         slidesPerView:6

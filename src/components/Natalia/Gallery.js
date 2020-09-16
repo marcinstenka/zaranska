@@ -41,6 +41,7 @@ const Gallery = () => {
         <SRLWrapper >
             <Swiper id='main'
                 slidesPerView={1}
+                spaceBetween={30}
                 scrollbar={true}
                 freeMode={false}
                 grabCursor={true}
@@ -58,8 +59,8 @@ const Gallery = () => {
                         slidesPerView:3
                     },
                     1415:{
-                        slidesPerView:4,
-                        freeMode: true
+                        slidesPerView:4
+                        // freeMode: true
                     },
                     1675:{
                         slidesPerView:5
