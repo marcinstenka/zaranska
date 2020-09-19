@@ -2,9 +2,7 @@ import React from 'react'
 import Logo from './../../assets/temp/logo.png'
 import ShapeRight from './../../assets/temp/shape-right.png'
 import ShapeLeft from './../../assets/temp/shape-left.png'
-import MobileShape1 from './../../assets/temp/mobile-shape1.png'
-import MobileShape2 from './../../assets/temp/mobile-shape2.png'
-import MobileShape3 from './../../assets/temp/mobile-shape3.png'
+import MobileShape from './../../assets/temp/mobile-shape.png'
 import Gallery from './Gallery'
 import Recomendations from './Recomendations'
 function Hero() {
@@ -13,7 +11,7 @@ function Hero() {
             <img className='hero__shape-right' src={ShapeRight} alt='Zdjęcie Natalii Zarańskiej' />
             <img className='hero__shape-left' src={ShapeLeft} alt='Dekoracja na stronie' />
             <picture className="mobile-hero" >
-                <img src={MobileShape3} alt='Zdjęcie Natalii Zarańskiej'/>
+                <img src={MobileShape} alt='Zdjęcie Natalii Zarańskiej'/>
             </picture>
             <div className="hero__logo">
                 <img src={Logo} alt='Logo'/>

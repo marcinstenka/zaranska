@@ -1401,14 +1401,14 @@ ul{
   }
   .offer-section-five .offer-section__header, .offer-section-four .offer-section__header {
     font-size: 40px !important;
-    top:-90px;
+    top:-89px;
   }
   .offer-section__header {
     order: initial;
     grid-column: 1 / 6;
     position: absolute;
     left: 50%;
-    top: -119px;
+    top: -118px;
     width: 100%;
     transform: translateX(-50%) scaleY(1.1);
     color: #c6bbac !important;
@@ -1872,7 +1872,7 @@ ul{
   }
   .info-right{
     text-align: left;
-    margin: 38px 0 0 20px;
+    margin: 28px 0 0 10px;
     max-width: 350px;
   }
   .hero__gallery{
