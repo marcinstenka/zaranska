@@ -34,7 +34,7 @@ function Hero() {
             </div>
             <div className='hero__gallery'>
                 <div className='gallery__header'>
-                    <h3>Galeria</h3>
+                    <h3>GALERIA</h3>
                 </div>
                 <div className="gallery__gallery-container">
                     <div className="gallery-container__photos">
@@ -44,7 +44,7 @@ function Hero() {
             </div>
             <div className='hero__recemendations'>
                 <div className='recomendations__header'>
-                    <h3>Rekomendacje</h3>
+                    <h3>REKOMENDACJE</h3>
                 </div>
                 <div className="recomendations__recomendations-container">
                     <div className="recomendations-container__recomendations">
