@@ -38,7 +38,7 @@ function Navbar() {
                     <a href="" className="projects__project"><img src={ProjectLogo3} alt="Logo projektu Still Up"/></a>
                     <a href="" className="projects__project"><img src={ProjectLogo4} alt="Logo projektu Wild Women"/></a>
                 </div>
-                <div className="offer-menu__link"><Link to='/oferta'>WYŚWIETL CAŁĄ OFERTĘ</Link></div>
+                <div className="offer-menu__link"><HashLink scroll={el => scrollWithOffset(el, 200)} to='/oferta#live-coaching'>WYŚWIETL CAŁĄ OFERTĘ</HashLink></div>
             </div>
         </div>
     )

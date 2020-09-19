@@ -27,7 +27,7 @@ function Hero() {
                 <div className="info-shape">
                     <img src={Logo} alt="logo"/>
                 </div>
-                <p className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą. Czego potrzebujesz, aby stać się tym, kim chcesz? Robić to co chcesz i myśleć jak chcesz?</p>
+                <p className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą.</p>
             </div>
             <div className="hero__question">
                 <p className='question__text'>Czego potrzebujesz, aby stać się tym kim chcesz? <br></br> Robić to co chcesz i myśleć jak chcesz?</p>
