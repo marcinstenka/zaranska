@@ -265,8 +265,7 @@ bold{
 }
 
 .swiper-container-horizontal > .swiper-scrollbar{
-  bottom: 10px !important;
-
+  bottom: 33px !important;
 }
 .swiper-scrollbar{
   margin: 0 0 -40px 0 !important;
@@ -1316,7 +1315,6 @@ ul{
     padding: 60px 0 60px 0;
     width: 229px !important;
   }
-  
 
   .gallery__header h3, .recomendations__header h3{
     transform: rotate(-90deg);
@@ -1325,6 +1323,9 @@ ul{
     padding: 60px 0;
   }
 
+  .swiper-container-horizontal > .swiper-scrollbar{
+    bottom: 10px !important;
+  }
 .hero__gallery .swiper-wrapper:hover > .swiper-slide{
   opacity: 0.5;
   transform: scale(1);
@@ -1906,7 +1907,7 @@ ul{
     max-width: unset;
   }
   .hero__gallery {
-    margin: 212px 0 0 0;
+    margin: 298px 0 0 0;
   }
   .hero__recemendations{
     margin: 106px 0 0 0;

@@ -13,22 +13,22 @@ function Hero() {
             <picture className="mobile-hero" >
                 <img src={MobileShape} alt='Zdjęcie Natalii Zarańskiej'/>
             </picture>
-            <div className="hero__logo">
+            <div data-aos="zoom-in" className="hero__logo">
                 <img src={Logo} alt='Logo'/>
             </div>
-            <div className='hero__intro'>
+            <div data-aos="fade-up" className='hero__intro'>
                     <h2 className='intro__name'>Natalia</h2>
                     <h2 className='intro__surname'>Zarańska</h2>
             </div>
             <div className="hero__info">
-                <p className='info-left'>Jestem przekonana, że masz w sobie potencjał, unikatowy zestaw zasobów, który raz odkryty pozwoli Tobie realizować wszystko, czego tylko zapragniesz.</p>
+                <p data-aos="fade-up" className='info-left'>Jestem przekonana, że masz w sobie potencjał, unikatowy zestaw zasobów, który raz odkryty pozwoli Tobie realizować wszystko, czego tylko zapragniesz.</p>
                 <div className="info-shape">
                     <img src={Logo} alt="logo"/>
                 </div>
-                <p className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą.</p>
+                <p data-aos="fade-up" className='info-right'>Wiem, że Twoja budząca się świadomość doprowadzi Ciebie tam, gdzie podążasz. Spośród prawie 8 mld. ludzi na Ziemi jesteś niepowtarzalną istotą.</p>
             </div>
             <div className="hero__question">
-                <p className='question__text'>Czego potrzebujesz, aby stać się tym kim chcesz? <br></br> Robić to co chcesz i myśleć jak chcesz?</p>
+                <p data-aos="fade-up" className='question__text'>Czego potrzebujesz, aby stać się tym kim chcesz? <br></br> Robić to co chcesz i myśleć jak chcesz?</p>
             </div>
             <div className='hero__gallery'>
                 <div className='gallery__header'>

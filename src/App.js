@@ -12,7 +12,8 @@ import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
 function App() {
   AOS.init({
-    offset: 160
+    offset: 220,
+    duration: 600
   });
   return (
     <SimpleReactLightbox>
