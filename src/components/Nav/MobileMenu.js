@@ -17,7 +17,7 @@ function MobileMenu() {
                 <li className='mobile-nav__item'><Link to='/kontakt'>KONTAKT</Link></li>
             </ul>
             <div className="menu__shape"></div>
-            <h1 className="menu__logo">NATALIA <br></br> ZARAŃSKA</h1>
+            <h1 className="menu__logo">NATALIA<br></br>ZARAŃSKA</h1>
             <MobileMenuScript />
         </div>
     )

@@ -25,7 +25,6 @@ import ProjectLogo1 from './../../assets/temp/offer-project-logo1.png'
 import ProjectLogo2 from './../../assets/temp/offer-project-logo2.png'
 import ProjectLogo3 from './../../assets/temp/offer-project-logo3.png'
 import ProjectLogo4 from './../../assets/temp/offer-project-logo4.png'
-
 function Offer() {
     return (
         <>
@@ -46,7 +45,7 @@ function Offer() {
                         <p className="p-one__text">Podczas sesji rozwijasz te sfery życia, którymi chcesz się zająć, określasz cele i sposoby realizacji. Form cochingu może być wiele. To Ty ustalasz czym chcesz się zająć, a ja towarzyszę Tobie w tej podróży.</p>
                     </div>
                     <p data-aos="fade-up" className="offer-section__p-two">Podczas sesji będziemy sami/same. <br></br> Dostosuję się do Ciebie i będę uważnie dotrzymywać Tobie kroku. <br></br>  Wykorzystam zarówno znane i powszechnie stosowane metody <br></br> coachingowe, jak i własne, wypracowane osobistym doświadczeniem. </p>
-                    <div data-aos="fade-up" className="offer-section__dot"></div>
+                    <div data-aos="fade-up" data-aos-offset="100" className="offer-section__dot"></div>
                     <p data-aos="fade-up" className="offer-section__p-three">Na pierwszym spotkaniu poznam Twoje potrzeby i możliwości. <br></br> Sprawdzimy czy chcemy ze sobą współpracować. <br></br> To spotkanie będzie niezobowiązujące. <br></br> To Ty podejmiesz decyzję, czy chcesz ze mną współpracować. </p>
                     <div data-aos="fade-up" className="offer-section__p-four">
                         <p className="p-four__header">Dla kogo coaching? </p>
@@ -68,7 +67,7 @@ function Offer() {
                         <p className="p-one__text">Wspiera przedsiębiorców / pracowników w pracy nad celami <br></br> i wartościami firmy. Dzięki sprawdzonym narzędziom <br></br> coachingowym, wdrażanym w organizacje jako podstawowe <br></br> i kluczowe narzędzie do wspierania pracy <br></br> nad celami i dążeniami firmy, uzyskujemy efekt świetnie <br></br> zarządzanym czasem i zasobami przedsiębiorstwa przy <br></br> ograniczonych nakładach finansowych.</p>
                         <p className="p-one__text-mobile">Wspiera przedsiębiorców / pracowników w pracy nad celami i wartościami firmy. Dzięki sprawdzonym narzędziom coachingowym, wdrażanym w organizacje jako podstawowe i kluczowe narzędzie do wspierania pracy nad celami i dążeniami firmy, uzyskujemy efekt świetnie zarządzanym czasem i zasobami przedsiębiorstwa przy ograniczonych nakładach finansowych.</p>
                     </div>
-                    <div data-aos="fade-up" className="offer-section__dot"></div>
+                    <div data-aos="fade-up" data-aos-offset="100" className="offer-section__dot"></div>
                     <p data-aos="fade-up" className="offer-section__p-two">Jeśli chodzi o przykłady obszarów zastosowań coachingu biznesowego, staje się on skutecznym narzędziem w przypadku gdy mamy do czynienia z: brakiem wystarczających umiejętności przywódczych oraz interpersonalnych, niepowodzeniem w tworzeniu zespołu,  problemami z morale pracowników w organizacji, tak by odpowiadały one oczekiwaniom organizacji i utrzymaniu zaangażowania pracowników, wsparciem procesu wprowadzania zmian i zarządzania zmianami w organizacji, wyznaczaniem celów i osiąganiem sukcesów, wyborem i rozwijaniem kariery zawodowej, radzeniem sobie ze stresem i zapobieganie wypaleniu zawodowemu,  doskonaleniem umiejętności przywódczych, podejmowaniem nowych wyzwań (osobistych i zawodowych), uwalnianiem się od ograniczeń,  automotywowaniem i motywowaniem innych itd.</p>
                     <div data-aos="fade-up" className="offer-section__p-three">
                         <p className="p-three__header">W coachingu bizsnesowym to właściciele firm ustalają cel procesowy pracowników. </p>
@@ -132,7 +131,7 @@ function Offer() {
                             <li>stworzenie przestrzeni wymiany doświadczeń, wzajemnego wsparcia w oparciu o zaufanie.</li>
                         </ul>
                     </div>
-                    <div data-aos="fade-up" className="offer-section__dot"></div>
+                    <div data-aos="fade-up" data-aos-offset="100" className="offer-section__dot"></div>
                     <p data-aos="fade-up" className="offer-section__p-two">Kurs zakłada 9 spotkań, <br></br> każde trwające trzy godziny.</p>
                     <div data-aos="fade-up" className="offer-section__p-three">
                         <p className="p-three__header">Spotkania będą prowadzone warsztatowo, aby każdy świadomy rodzic mógł w praktyce doświadczać pozyskiwaną wiedzę. </p>

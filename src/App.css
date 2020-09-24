@@ -372,7 +372,7 @@ bold{
   font-family: var(--font-title);
   display: flex;
   justify-content:flex-end;
-  margin: 0 10px -11px 0;
+  margin: 0 10px -12px 0;
 }
 .about__section-first__container{
   display: flex;
@@ -1185,7 +1185,7 @@ ul{
   }
   .about__section-first__title{
     justify-content:end;
-      margin: 0 10px -11px 171px;
+      margin: 0 10px -12px 171px;
   }
   .about__section-second__mentor{
     padding: 100px 20px 0 20px;
@@ -1827,7 +1827,7 @@ ul{
   top:-100px
   }
   .about__section-first__title{
-    margin: 0 10px -11px 264px;
+    margin: 0 10px -12px 264px;
     font-size: 50px;
     font-family: var(--font-title);
     transform: scaleY(1.1);

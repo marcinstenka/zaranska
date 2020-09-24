@@ -13,7 +13,8 @@ import Contact from './components/pages/Contact'
 function App() {
   AOS.init({
     offset: 220,
-    duration: 600
+    duration: 600,
+    once: true
   });
   return (
     <SimpleReactLightbox>
