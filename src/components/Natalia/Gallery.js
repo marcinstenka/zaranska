@@ -43,7 +43,6 @@ const Gallery = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 scrollbar={true}
-                freeMode={false}
                 grabCursor={true}
                 breakpoints={{
                     610:{
@@ -60,7 +59,6 @@ const Gallery = () => {
                     },
                     1415:{
                         slidesPerView:4
-                        // freeMode: true
                     },
                     1675:{
                         slidesPerView:5

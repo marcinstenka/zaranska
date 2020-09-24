@@ -37,7 +37,7 @@ function Offer() {
                     <img className='offer-section__one-mobile-img1 mobile-img' src={MobileOfferShape1Section1} alt="Ozdobny kształt"/>
                     <img className='offer-section__one-mobile-img2 mobile-img' src={MobileOfferShape2Section1} alt="Ozdobny kształt"/>
                     <img className='offer-section__one-img' src={OfferShape1Section1} alt="Ozdobny kształt"/>
-                    <h1 className="offer-section__header"><div data-aos="fade-up">LIVE COACHING</div></h1>
+                    <h1 className="offer-section__header">LIVE COACHING</h1>
                     <div data-aos="zoom-in" className="offer-section__logo">
                         <img src={Logo1} alt="Ozdobne logo"/>
                     </div>
@@ -59,7 +59,7 @@ function Offer() {
                     <img className='offer-section__two-mobile-img1 mobile-img' src={MobileOfferShape1Section2} alt="Ozdobny kształt"/>
                     <img className='offer-section__two-mobile-img2 mobile-img' src={MobileOfferShape2Section2} alt="Ozdobny kształt"/>
                     <img className='offer-section__two-img1 ' src={OfferShape1Section2} alt="Ozdobny kształt"/>
-                    <h1 className="offer-section__header"><div data-aos="fade-up">COACHING BIZNESOWY</div></h1>
+                    <h1 className="offer-section__header">COACHING BIZNESOWY</h1>
                     <div data-aos="zoom-in" className="offer-section__logo">
                         <img src={Logo2} alt="Ozdobne logo"/>
                     </div>
@@ -80,7 +80,7 @@ function Offer() {
                     <img className='offer-section__three-mobile-img1 mobile-img' src={MobileOfferShape1Section3} alt="Ozdobny kształt"/>
                     <img className='offer-section__three-mobile-img2 mobile-img' src={MobileOfferShape2Section3} alt="Ozdobny kształt"/>
                     <img className='offer-section__three-img1' src={OfferShape1Section3} alt="Ozdobny kształt"/>
-                    <h1 className="offer-section__header"><div data-aos="fade-up">WARSZTATY JOB CRAFTING</div></h1>
+                    <h1 className="offer-section__header">WARSZTATY JOB CRAFTING</h1>
                     <div data-aos="zoom-in" className="offer-section__logo">
                         <img src={Logo3} alt="Ozdobne logo"/>
                     </div>
@@ -111,7 +111,7 @@ function Offer() {
                     <img className='offer-section__four-mobile-img1 mobile-img' src={MobileOfferShape1Section4} alt="Ozdobny kształt"/>
                     <img className='offer-section__four-img1' src={OfferShape1Section4} alt="Ozdobny kształt"/>
                     <img className='offer-section__four-img2' src={OfferShape2Section4} alt="Ozdobny kształt"/>
-                    <h1 className="offer-section__header"><div data-aos="fade-up">WARSZTATY "SZCZĘŚLIWE RODZICIELSTWO"</div></h1>
+                    <h1 className="offer-section__header">WARSZTATY "SZCZĘŚLIWE RODZICIELSTWO"</h1>
                     <div data-aos="zoom-in" className="offer-section__logo">
                         <img src={Logo4} alt="Ozdobne logo"/>
                     </div>
@@ -143,7 +143,7 @@ function Offer() {
                 <div className="offer__offer-section offer-section-five">
                     <img className='offer-section__five-mobile-img1 mobile-img' src={MobileOfferShape1Section5} alt="Ozdobny kształt"/>
                     <img className='offer-section__five-img1' src={OfferShape1Section5} alt="Ozdobny kształt"/>
-                    <h1 className="offer-section__header"><div data-aos="fade-up">WARSZTATY "W POSZUKIWANIU PEWNOŚCI SIEBIE"</div></h1>
+                    <h1 className="offer-section__header">WARSZTATY "W POSZUKIWANIU PEWNOŚCI SIEBIE"</h1>
                     <div data-aos="zoom-in" className="offer-section__logo">
                         <img src={Logo5} alt="Ozdobne logo"/>
                     </div>

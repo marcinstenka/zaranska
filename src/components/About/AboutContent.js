@@ -12,7 +12,7 @@ function AboutContent() {
     return (
         <div className="about">
                 <div className="about__about-section-first">
-                    <h1 className='about__section-first__title'><div data-aos="fade-up">O MNIE </div></h1>
+                    <h1 className='about__section-first__title'>O MNIE</h1>
                     <div className="about__section-first__container">
                         <div className="container__img">
                             <img src={AboutUp} alt="Zdjęcie Natalii Zarańskiej"/>
