@@ -39,7 +39,7 @@ const Gallery = () => {
     return(
         <>
         <SRLWrapper >
-            <Swiper id='main'
+            <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 scrollbar={true}

@@ -1,4 +1,4 @@
-import React, {useEffect}from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, {Scrollbar} from 'swiper'
 import 'swiper/swiper-bundle.css';
@@ -10,7 +10,7 @@ SwiperCore.use([Scrollbar]);
 const Gallery = () => {
     return(
         <>
-            <Swiper id='main'
+            <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 scrollbar={true}
