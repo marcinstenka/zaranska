@@ -286,6 +286,13 @@ bold{
   height: 100%;
   border-radius: 10px;
 }
+.swiper-slide a{
+  padding: 0 20px;
+}
+.hero__recemendations .recomendation__container{
+  background: var(--bg) !important;
+  margin: 0 20px;
+}
 .swiper-container{
   overflow: initial !important;
 }
@@ -323,8 +330,8 @@ bold{
   height: 250px;
   width: 90%;
   font-size: 18px;
-  padding: 0 15px 8px 8px;
-  margin: 10px 0 0 0;
+  padding: 0 11px 8px 8px;
+  margin: 10px 0 0 20px;
   text-align: justify;
 }
 .recomendation::-webkit-scrollbar {
@@ -339,7 +346,6 @@ bold{
   border-radius: 10px;
 }
 .hero__recemendations .swiper-slide{
-  background: var(--bg) !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1278,6 +1284,12 @@ ul{
 
 
 @media (min-width:1050px){
+  .swiper-slide a{
+    padding: 0;
+  }
+  .hero__recemendations .recomendation__container{
+    margin: 0;
+  }
   .hero__logo{
     display: block;
     width: 200px;
@@ -1730,6 +1742,11 @@ ul{
   .mobile-contact-shape{
     display: none;
   }
+}
+@media (min-width:1050px) and (max-width:1160px){
+  .gallery__header, .recomendations__header{
+    height: 461px !important;
+}
 }
 @media (min-width: 1200px){
   .hero__logo{
