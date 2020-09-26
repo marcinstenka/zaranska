@@ -333,7 +333,7 @@ bold{
   font-size: 18px;
   padding: 0 11px 8px 8px;
   margin: 10px 0 0 20px;
-  text-align: justify;
+  line-height: 1.3;
 }
 .recomendation::-webkit-scrollbar {
   width: 10px;
