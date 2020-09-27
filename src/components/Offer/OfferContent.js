@@ -128,7 +128,6 @@ const OfferContent = () => {
                         <li>stworzenie przestrzeni wymiany doświadczeń, wzajemnego wsparcia w oparciu o zaufanie.</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up" data-aos-offset="100" className="offer-section__dot"></div>
                 <p data-aos="fade-up" className="offer-section__p-two">Kurs zakłada 9 spotkań, <br></br> każde trwające trzy godziny.</p>
                 <div data-aos="fade-up" className="offer-section__p-three">
                     <p className="p-three__header">Spotkania będą prowadzone warsztatowo, aby każdy świadomy rodzic mógł w praktyce doświadczać pozyskiwaną wiedzę. </p>
