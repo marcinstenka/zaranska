@@ -41,9 +41,9 @@ bold{
   --bg: #EBF2F2;
   --beige: #E2D6C6;
   --orange: #D59567;
-  --font-title: 'Antic', serif;
-  --font: 'Intervogue Soft Regular', serif;
-  --font-bold: 'Intervogue Soft Medium', serif;
+  --font-title: Antic, serif;
+  --font: Intervogue Soft Regular, serif;
+  --font-bold: Intervogue Soft Medium, serif;
   --topbar-mobile: 70px;
   --topbar-desktop: 130px
 }
@@ -175,6 +175,9 @@ bold{
   transform: scaleY(1.1);
   letter-spacing: 2px;
   margin: 0 auto;
+}
+.desktop-nav__offer-menu{
+  display: none;
 }
 
 /* MAIN PAGE - NATALIA*/
