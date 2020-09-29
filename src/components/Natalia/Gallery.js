@@ -75,22 +75,22 @@ const Gallery = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href={Full2} data-attribute="SRL">
-                        <img src={Thumb2} alt="Musical Szepty serc" />
+                        <img src={Thumb2} alt='Musical "Szepty serc"' />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href={Full3} data-attribute="SRL">
-                        <img src={Thumb3} alt="Osada wiedzy" />
+                        <img src={Thumb3} alt="Osada Wiedzy" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href={Full4} data-attribute="SRL">
-                        <img src={Thumb4} alt="Szepty serc" />
+                        <img src={Thumb4} alt='Musical "Szepty serc"' />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href={Full5} data-attribute="SRL">
-                        <img src={Thumb5} alt="Warsztaty kobiet Dogonić Czas" />
+                        <img src={Thumb5} alt='Warsztaty dla kobiet "Dogonić czas"' />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>

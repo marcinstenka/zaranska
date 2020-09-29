@@ -54,7 +54,7 @@ bold{
 
 .top-bar{
   position: fixed;
-  z-index: 100;
+  z-index: 101;
   top: 0;
   left: 0;
   width: 100%;
@@ -971,7 +971,7 @@ ul{
     background: var(--light-gray);
   }
   .desktop-nav__offer-menu{
-    display: none;
+    display: grid;
     width: 100%;
     height: 307px;
     background: var(--light-gray);
@@ -981,7 +981,9 @@ ul{
     grid-template-rows: 261px;
     justify-content: center;
     border-top: 1px solid white;
-
+    transform: translateY(-216px);
+    transition: 0.5s transform ease-in-out;
+    z-index: 10;
   }
   .offer-menu__list::after{
     content: '';
@@ -1032,9 +1034,6 @@ ul{
   }
   .offer-menu__projects-links a img{
     width: 100%;
-  }
-  .desktop-nav__item:nth-of-type(3):hover ~ .desktop-nav__offer-menu, .desktop-nav__offer-menu:hover{
-    display: grid;
   }
   .offer-menu__link{
     grid-column: 1 / 3;

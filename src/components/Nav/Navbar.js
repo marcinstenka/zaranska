@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import ProjectLogo1 from './../../assets/temp/offer-project-logo1.png'
@@ -13,16 +14,25 @@ const scrollWithOffset = (el, offset) => {
         behavior: "smooth"
     });
 }
-
 function Navbar() {
+    function TranslateDown(){
+        const offerMenu = document.querySelector('.desktop-nav__offer-menu');
+        offerMenu.style.transform ='translateY(91px)'
+    }
+    function TranslateUp(){
+        const offerMenu = document.querySelector('.desktop-nav__offer-menu');
+        offerMenu.style.transform ='translateY(-216px)'
+    }
     return (
-        <div className='top-bar__desktop-nav'>
-            <div className='desktop-nav__item'><Link to='/'>STRONA GŁÓWNA</Link></div>
-            <div className='desktop-nav__item'><Link to='/o-mnie'>O MNIE</Link></div>
-            <div className='desktop-nav__item'><Link to='/oferta'>OFERTA</Link></div>
-            <div className='desktop-nav__item'><Link to='/'>BLOG</Link></div>
-            <div className='desktop-nav__item'><Link to='/kontakt'>KONTAKT</Link></div>
-            <div className="desktop-nav__offer-menu">
+        <>
+            <div className='top-bar__desktop-nav'>
+                <div className='desktop-nav__item'><Link to='/'>STRONA GŁÓWNA</Link></div>
+                <div className='desktop-nav__item'><Link to='/o-mnie'>O MNIE</Link></div>
+                <div onMouseOver={TranslateDown} onMouseOut={TranslateUp} className='desktop-nav__item'><Link to='/oferta'>OFERTA</Link></div>
+                <div className='desktop-nav__item'><Link to='/'>BLOG</Link></div>
+                <div className='desktop-nav__item'><Link to='/kontakt'>KONTAKT</Link></div>
+            </div>
+            <div onMouseOver={TranslateDown} onMouseOut={TranslateUp} className="desktop-nav__offer-menu">
                 <div className="offer-menu__list">
                     <ul>
                         <li><HashLink scroll={el => scrollWithOffset(el, 200)} to='/oferta#live-coaching'>live coaching</HashLink></li>
@@ -40,7 +50,7 @@ function Navbar() {
                 </div>
                 <div className="offer-menu__link"><HashLink scroll={el => scrollWithOffset(el, 200)} to='/oferta#live-coaching'>WYŚWIETL CAŁĄ OFERTĘ</HashLink></div>
             </div>
-        </div>
+        </>
     )
 }
 
