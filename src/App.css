@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Antic';
-  src: url('fonts/AnticDidone-Regular.otf');
+  src: url('fonts/AnticDidone-Regular.otf') format("opentype");
 }
 @font-face {
   font-family: 'Intervogue Soft Regular';
-  src: url('fonts/Intervogue Soft Regular.otf');
+  src: url('fonts/Intervogue Soft Regular.otf') format("opentype");
 }
 @font-face {
   font-family: 'Intervogue Soft Medium';
-  src: url('fonts/Intervogue Soft Medium.otf');
+  src: url('fonts/Intervogue Soft Medium.otf') format("opentype");
 }
 
 /* General styles */
@@ -413,7 +413,6 @@ bold{
   line-height: 1.3;
 }
 .description__text{
-  /* font-family: var(--font-bold); */
   font-family: var(--font-bold);
   padding: 20px 5px 0 20px;
 }
@@ -975,7 +974,7 @@ ul{
     width: 100%;
     height: 307px;
     background: var(--light-gray);
-    position: absolute;
+    position: fixed;
     top:39px;
     grid-template-columns: 410px 185px;
     grid-template-rows: 261px;
