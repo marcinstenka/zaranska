@@ -37,7 +37,7 @@ function AboutContent() {
                     <div className="about__section-second__mentor">
                         <p data-aos="fade-up" className="mentor__text">Moimi mentorami są <bold> Paul Martinelli </bold> oraz <bold> Joe Dispenza </bold>. To od nich czerpię wiedzę, to oni nadają kierunek mojej pracy. Jestem trenerem, mówcą i coachem <bold> The John Maxwell Team </bold>, międzynarodowej firmy, wywodzącej się ze Stanów Zjednoczonych, obecnie największej organizacji szkolącej w zakresie przywództwa i komunikacji na świecie, posługującej się autorskimi programami opracowanymi przez dr Johna C. Maxwella. </p>
                             <div data-aos="fade-up" className="mentor__link">
-                                <a href='//wp.pl'>Więcej o John Maxwell Team</a>
+                                <a href='//johnmaxwellteam.pl/'>Więcej o John Maxwell Team</a>
                                 <img src={Arrow} alt="Ozdoba - strzałka"/>
                             </div>
                     </div>
@@ -50,7 +50,7 @@ function AboutContent() {
                             <h2 data-aos="fade-up" className="buisness__header">BRAINY</h2>
                             <p data-aos="fade-up" className="buisness__text">Brainy jest symbolem edukacji przyszłości. Pionierem, który napędza wiara w siłę genialnego umysłu dziecka. Innowatorem w zakresie wykorzystania siły ludzkiego mózgu. Jestem właścicielką  Akademii Brainy - Akademii Mistrzów Świata, wierzę bowiem, że  Lepszy Uczeń to Lepszy Człowiek i Lepszy Świat.</p>
                             <div data-aos="fade-up" className="buisness__link">
-                                <a>więcej o Brainy</a>
+                                <a href='//brainylebork.pl/'>więcej o Brainy</a>
                                 <img src={Arrow} alt='Ozdoba - strzałka' />
                             </div>
                         </div>
@@ -62,7 +62,7 @@ function AboutContent() {
                             <h2 data-aos="fade-up" className="buisness__header">FOREVER</h2>
                             <p data-aos="fade-up" className="buisness__text">Forever Living Products, która od 1978 roku angażuje się w wyszukiwanie najlepszych źródeł zdrowia i urody w naturze, by dzielić się nimi ze światem. Pasją firmy jest pomaganie innym by wyglądać i czuć się lepiej. Do Forever doprowadziły mnie moje wartości. Prowadząc swój zespół uczę jak być wolnym finansowo, żyć zdrowo i ekologicznie. </p>
                             <div data-aos="fade-up" className="buisness__link">
-                                <a>więcej o Forever</a>
+                                <a href='//www.facebook.com/greenspaceforever'>więcej o Forever</a>
                                 <img src={Arrow} alt='Ozdoba - strzałka' />
                             </div>
                         </div>

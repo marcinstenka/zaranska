@@ -43,7 +43,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="offer-menu__projects-links">
-                    <a href="" className="projects__project"><img src={ProjectLogo1} alt="Logo projektu Brainy"/></a>
+                    <a href="//brainylebork.pl" className="projects__project"><img src={ProjectLogo1} alt="Logo projektu Brainy"/></a>
                     <a href="//osadawiedzy.pl" className="projects__project"><img src={ProjectLogo2} alt="Logo projektu Osada Wiedzy"/></a>
                     <a href="" className="projects__project"><img src={ProjectLogo3} alt="Logo projektu Still Up"/></a>
                     <a href="" className="projects__project"><img src={ProjectLogo4} alt="Logo projektu Wild Women"/></a>
