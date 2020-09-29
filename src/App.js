@@ -18,7 +18,7 @@ function App() {
   });
   return (
     <SimpleReactLightbox>
-    <BrowserRouter basename='/zaranska/'>
+    <BrowserRouter>
       <Switch>
         <Route exact path='/' component={Natalia} />
         <Route exact path='/o-mnie' component={About} />
