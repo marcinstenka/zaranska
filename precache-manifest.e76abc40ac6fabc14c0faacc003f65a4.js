@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce8ef76ef3fe30f3bec52b5020b59bd9",
+    "revision": "cd1ecbd7d11c973fdf3fda24f6e3a8ce",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "1ae8624377f76f2b5caf",
+    "revision": "6bdb70af88605adf75ba",
     "url": "/zaranska/static/css/2.287966ed.chunk.css"
   },
   {
-    "revision": "7aec955570bdb8475622",
-    "url": "/zaranska/static/css/main.90ffeae4.chunk.css"
+    "revision": "1057f41fa04b77447461",
+    "url": "/zaranska/static/css/main.89987f36.chunk.css"
   },
   {
-    "revision": "1ae8624377f76f2b5caf",
-    "url": "/zaranska/static/js/2.eab82baf.chunk.js"
+    "revision": "6bdb70af88605adf75ba",
+    "url": "/zaranska/static/js/2.86cd8f9e.chunk.js"
   },
   {
     "revision": "16021066fd5e2548dbeed610083370ad",
-    "url": "/zaranska/static/js/2.eab82baf.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.86cd8f9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7aec955570bdb8475622",
-    "url": "/zaranska/static/js/main.166769da.chunk.js"
+    "revision": "1057f41fa04b77447461",
+    "url": "/zaranska/static/js/main.54afc661.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
