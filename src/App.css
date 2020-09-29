@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Antic';
-  src: url('fonts/AnticDidone-Regular.otf');
+  src: local('Antic') url('./fonts/AnticDidone-Regular.otf') format("opentype");
 }
 @font-face {
   font-family: 'Intervogue Soft Regular';
-  src: url('fonts/Intervogue Soft Regular.otf');
+  src: local('Intervogue Soft Regular') url('./fonts/Intervogue Soft Regular.otf') format("opentype");
 }
 @font-face {
   font-family: 'Intervogue Soft Medium';
-  src: url('fonts/Intervogue Soft Medium.otf');
+  src: local('Intervogue Soft Medium') url('./fonts/Intervogue Soft Medium.otf') format("opentype");
 }
 
 /* General styles */
