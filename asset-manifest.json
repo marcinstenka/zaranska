@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.58cb53ed.chunk.css",
-    "main.js": "/zaranska/static/js/main.6335096e.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.6335096e.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.b7087fa9.chunk.css",
+    "main.js": "/zaranska/static/js/main.4d6e3f60.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.4d6e3f60.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/css/2.287966ed.chunk.css": "/zaranska/static/css/2.287966ed.chunk.css",
     "static/js/2.e8736be8.chunk.js": "/zaranska/static/js/2.e8736be8.chunk.js",
     "static/js/2.e8736be8.chunk.js.map": "/zaranska/static/js/2.e8736be8.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.a7bb0eb49c6e6fe987079ff58ac25eec.js": "/zaranska/precache-manifest.a7bb0eb49c6e6fe987079ff58ac25eec.js",
+    "precache-manifest.7285caf7498e8c7fd881c7923b279dde.js": "/zaranska/precache-manifest.7285caf7498e8c7fd881c7923b279dde.js",
     "service-worker.js": "/zaranska/service-worker.js",
     "static/css/2.287966ed.chunk.css.map": "/zaranska/static/css/2.287966ed.chunk.css.map",
-    "static/css/main.58cb53ed.chunk.css.map": "/zaranska/static/css/main.58cb53ed.chunk.css.map",
+    "static/css/main.b7087fa9.chunk.css.map": "/zaranska/static/css/main.b7087fa9.chunk.css.map",
     "static/js/2.e8736be8.chunk.js.LICENSE.txt": "/zaranska/static/js/2.e8736be8.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/zaranska/static/media/1.f1d54cfe.jpg",
     "static/media/2.jpg": "/zaranska/static/media/2.16709740.jpg",
@@ -61,7 +61,7 @@
     "static/js/runtime-main.95117ec8.js",
     "static/css/2.287966ed.chunk.css",
     "static/js/2.e8736be8.chunk.js",
-    "static/css/main.58cb53ed.chunk.css",
-    "static/js/main.6335096e.chunk.js"
+    "static/css/main.b7087fa9.chunk.css",
+    "static/js/main.4d6e3f60.chunk.js"
   ]
 }
