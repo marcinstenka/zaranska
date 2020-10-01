@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Antic';
   src: url('./fonts/AnticDidone-Regular.otf') format("opentype");
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Intervogue Soft Medium';
   src: url('./fonts/Intervogue Soft Medium.otf') format("opentype");
-}
+} */
 
 /* General styles */
 *{
@@ -42,8 +42,8 @@ bold{
   --beige: #E2D6C6;
   --orange: #D59567;
   --font-title: 'Antic', serif;
-  --font: 'Intervogue Soft Regular', serif;
-  --font-bold: 'Intervogue Soft Medium', serif;
+  --font: 'IntervogueSoftRegular', serif;
+  --font-bold: 'IntervogueSoftMedium', serif;
   --topbar-mobile: 70px;
   --topbar-desktop: 130px
 }

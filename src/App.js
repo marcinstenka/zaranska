@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SimpleReactLightbox from 'simple-react-lightbox'
@@ -10,6 +9,7 @@ import Natalia from './components/pages/Natalia'
 import About from './components/pages/About';
 import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
+import GlobalStyle from './globalStyles';
 function App() {
   AOS.init({
     offset: 220,
@@ -18,6 +18,7 @@ function App() {
   });
   return (
     <SimpleReactLightbox>
+      <GlobalStyle />
     <BrowserRouter>
       <Switch>
         <Route exact path='/' component={Natalia} />
