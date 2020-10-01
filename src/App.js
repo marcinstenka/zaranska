@@ -11,7 +11,6 @@ import About from './components/pages/About';
 import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
 
-import GlobalStyle from './globalStyles';
 function App() {
   AOS.init({
     offset: 220,
@@ -20,15 +19,14 @@ function App() {
   });
   return (
     <SimpleReactLightbox>
-      <GlobalStyle />
-    <BrowserRouter>
-      <Switch>
-        <Route exact path='/' component={Natalia} />
-        <Route exact path='/o-mnie' component={About} />
-        <Route exact path='/oferta' component={Offer} />
-        <Route exact path='/kontakt' component={Contact} />
-      </Switch>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Natalia} />
+          <Route exact path='/o-mnie' component={About} />
+          <Route exact path='/oferta' component={Offer} />
+          <Route exact path='/kontakt' component={Contact} />
+        </Switch>
+      </BrowserRouter>
     </SimpleReactLightbox>
   )
 }

@@ -7,10 +7,12 @@ import * as serviceWorker from './serviceWorker';
 import './fonts/AnticDidone-Regular.otf'
 import './fonts/Intervogue Soft Medium.otf'
 import './fonts/Intervogue Soft Regular.otf'
+import GlobalStyle from './globalStyles';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <GlobalStyle />
   </React.StrictMode>,
   document.getElementById('root')
 );
