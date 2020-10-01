@@ -1,16 +1,3 @@
-/* @font-face {
-  font-family: 'Antic';
-  src: url('./fonts/AnticDidone-Regular.otf') format("opentype");
-}
-@font-face {
-  font-family: 'Intervogue Soft Regular';
-  src: url('./fonts/Intervogue Soft Regular.otf') format("opentype");
-}
-@font-face {
-  font-family: 'Intervogue Soft Medium';
-  src: url('./fonts/Intervogue Soft Medium.otf') format("opentype");
-} */
-
 /* General styles */
 *{
   margin: 0;

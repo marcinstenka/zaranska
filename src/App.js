@@ -9,6 +9,7 @@ import Natalia from './components/pages/Natalia'
 import About from './components/pages/About';
 import Offer from './components/pages/Offer';
 import Contact from './components/pages/Contact'
+
 import GlobalStyle from './globalStyles';
 function App() {
   AOS.init({
@@ -19,7 +20,7 @@ function App() {
   return (
     <SimpleReactLightbox>
       <GlobalStyle />
-    <BrowserRouter>
+    <BrowserRouter basename='/zaranska/'>
       <Switch>
         <Route exact path='/' component={Natalia} />
         <Route exact path='/o-mnie' component={About} />
