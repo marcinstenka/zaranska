@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8da020184e1daa5b37145ca51566b5f9",
+    "revision": "235c56d7dcf680d5df4e778dd925f69d",
     "url": "/zaranska/index.html"
   },
   {
-    "revision": "6bdb70af88605adf75ba",
+    "revision": "ccd819894d253e87d67a",
     "url": "/zaranska/static/css/2.287966ed.chunk.css"
   },
   {
-    "revision": "970e782b05f2a30108b0",
-    "url": "/zaranska/static/css/main.188b9198.chunk.css"
+    "revision": "729c908cb206033ea2e6",
+    "url": "/zaranska/static/css/main.a4a18499.chunk.css"
   },
   {
-    "revision": "6bdb70af88605adf75ba",
-    "url": "/zaranska/static/js/2.86cd8f9e.chunk.js"
+    "revision": "ccd819894d253e87d67a",
+    "url": "/zaranska/static/js/2.86919f48.chunk.js"
   },
   {
     "revision": "16021066fd5e2548dbeed610083370ad",
-    "url": "/zaranska/static/js/2.86cd8f9e.chunk.js.LICENSE.txt"
+    "url": "/zaranska/static/js/2.86919f48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "970e782b05f2a30108b0",
-    "url": "/zaranska/static/js/main.54afc661.chunk.js"
+    "revision": "729c908cb206033ea2e6",
+    "url": "/zaranska/static/js/main.731467c2.chunk.js"
   },
   {
     "revision": "7d6252aaf7481747b232",
@@ -94,6 +94,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8af99ff97d6e4ebcc821dc544b349763",
     "url": "/zaranska/static/media/Intervogue Soft Regular.8af99ff9.otf"
+  },
+  {
+    "revision": "e312574ae9c91b758941ff3141e40f96",
+    "url": "/zaranska/static/media/IntervogueSoftMedium.e312574a.otf"
+  },
+  {
+    "revision": "8af99ff97d6e4ebcc821dc544b349763",
+    "url": "/zaranska/static/media/IntervogueSoftRegular.8af99ff9.otf"
   },
   {
     "revision": "f0ff2f7ae30568dc2f6612b7b539a682",

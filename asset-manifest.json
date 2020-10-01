@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zaranska/static/css/main.188b9198.chunk.css",
-    "main.js": "/zaranska/static/js/main.54afc661.chunk.js",
-    "main.js.map": "/zaranska/static/js/main.54afc661.chunk.js.map",
+    "main.css": "/zaranska/static/css/main.a4a18499.chunk.css",
+    "main.js": "/zaranska/static/js/main.731467c2.chunk.js",
+    "main.js.map": "/zaranska/static/js/main.731467c2.chunk.js.map",
     "runtime-main.js": "/zaranska/static/js/runtime-main.95117ec8.js",
     "runtime-main.js.map": "/zaranska/static/js/runtime-main.95117ec8.js.map",
     "static/css/2.287966ed.chunk.css": "/zaranska/static/css/2.287966ed.chunk.css",
-    "static/js/2.86cd8f9e.chunk.js": "/zaranska/static/js/2.86cd8f9e.chunk.js",
-    "static/js/2.86cd8f9e.chunk.js.map": "/zaranska/static/js/2.86cd8f9e.chunk.js.map",
+    "static/js/2.86919f48.chunk.js": "/zaranska/static/js/2.86919f48.chunk.js",
+    "static/js/2.86919f48.chunk.js.map": "/zaranska/static/js/2.86919f48.chunk.js.map",
     "index.html": "/zaranska/index.html",
-    "precache-manifest.337e4b64c853431be139d6096373473b.js": "/zaranska/precache-manifest.337e4b64c853431be139d6096373473b.js",
+    "precache-manifest.a5bb67dde2298ae01d5dbedf5dc814ea.js": "/zaranska/precache-manifest.a5bb67dde2298ae01d5dbedf5dc814ea.js",
     "service-worker.js": "/zaranska/service-worker.js",
     "static/css/2.287966ed.chunk.css.map": "/zaranska/static/css/2.287966ed.chunk.css.map",
-    "static/css/main.188b9198.chunk.css.map": "/zaranska/static/css/main.188b9198.chunk.css.map",
-    "static/js/2.86cd8f9e.chunk.js.LICENSE.txt": "/zaranska/static/js/2.86cd8f9e.chunk.js.LICENSE.txt",
+    "static/css/main.a4a18499.chunk.css.map": "/zaranska/static/css/main.a4a18499.chunk.css.map",
+    "static/js/2.86919f48.chunk.js.LICENSE.txt": "/zaranska/static/js/2.86919f48.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/zaranska/static/media/1.f1d54cfe.jpg",
     "static/media/2.jpg": "/zaranska/static/media/2.16709740.jpg",
     "static/media/3.jpg": "/zaranska/static/media/3.6ce52415.jpg",
@@ -24,6 +24,8 @@
     "static/media/AnticDidone-Regular.otf": "/zaranska/static/media/AnticDidone-Regular.edd7ad91.otf",
     "static/media/Intervogue Soft Medium.otf": "/zaranska/static/media/Intervogue Soft Medium.e312574a.otf",
     "static/media/Intervogue Soft Regular.otf": "/zaranska/static/media/Intervogue Soft Regular.8af99ff9.otf",
+    "static/media/IntervogueSoftMedium.otf": "/zaranska/static/media/IntervogueSoftMedium.e312574a.otf",
+    "static/media/IntervogueSoftRegular.otf": "/zaranska/static/media/IntervogueSoftRegular.8af99ff9.otf",
     "static/media/about-down.png": "/zaranska/static/media/about-down.f0ff2f7a.png",
     "static/media/about-up.png": "/zaranska/static/media/about-up.d918aec5.png",
     "static/media/arrow.svg": "/zaranska/static/media/arrow.d296e674.svg",
@@ -62,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.95117ec8.js",
     "static/css/2.287966ed.chunk.css",
-    "static/js/2.86cd8f9e.chunk.js",
-    "static/css/main.188b9198.chunk.css",
-    "static/js/main.54afc661.chunk.js"
+    "static/js/2.86919f48.chunk.js",
+    "static/css/main.a4a18499.chunk.css",
+    "static/js/main.731467c2.chunk.js"
   ]
 }
