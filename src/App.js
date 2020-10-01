@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SimpleReactLightbox from 'simple-react-lightbox'
@@ -20,7 +21,7 @@ function App() {
   return (
     <SimpleReactLightbox>
       <GlobalStyle />
-    <BrowserRouter basename='/zaranska/'>
+    <BrowserRouter>
       <Switch>
         <Route exact path='/' component={Natalia} />
         <Route exact path='/o-mnie' component={About} />
