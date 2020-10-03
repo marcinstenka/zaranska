@@ -878,10 +878,11 @@ ul{
   width: 330px;
   height: 330px;
   border: 15px solid var(--beige);
+  margin: 0 0 10px 0;
 }
 .contact__info{
   order: 1;
-  margin: 0 0 20px 0;
+  margin: 0 0 50px 0;
   text-align: center;
 }
 .contact__info-p{
@@ -900,7 +901,7 @@ ul{
 .contact__social{
   order: 3;
   position: unset;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 140px 0;
 }
 
 .contact__social a img{
@@ -1063,9 +1064,10 @@ ul{
     font-size: 21px;
     border-right: 1px solid var(--dark-gray);
     padding-right: 20px;
+    margin: 0 0 0 0;
   }
   .desktop-nav__item:nth-of-type(3){
-    margin: 0 0px 0 -20px;
+    margin: 0;
     padding: 0;
   }
   .desktop-nav__item:nth-of-type(3) a{
@@ -1723,14 +1725,15 @@ ul{
 
   .contact{
     flex-direction: row;
-    grid-gap: 50px;
     padding-top: calc(var(--topbar-desktop) + 20px);
   }
   .contact__map {
     order: 1;
+    margin: 0 50px 0 0;
   }
   .contact__info{
     padding: 0 0 120px 0;
+    margin: 0px 50px 0 0;
     text-align: initial;
   }
   .contact__info-shape {
@@ -1814,7 +1817,7 @@ ul{
   .contact__map {
     width: 400px;
     height: 400px;
-    margin: 58px 0 0 0;
+    margin: 58px 50px 0 0;
   }
   .contact__info-p{
     font-size: 20px;
