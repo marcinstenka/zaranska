@@ -29,7 +29,7 @@ function Navbar() {
                 <div className='desktop-nav__item'><Link to='/'>STRONA GŁÓWNA</Link></div>
                 <div className='desktop-nav__item'><Link to='/o-mnie'>O MNIE</Link></div>
                 <div onMouseOver={TranslateDown} onMouseOut={TranslateUp} className='desktop-nav__item'><Link to='/oferta'>OFERTA</Link></div>
-                <div className='desktop-nav__item'><Link to='/'>BLOG</Link></div>
+                <div className='desktop-nav__item'><a href='//nataliazaranska.blogspot.com/?m=1'>BLOG</a></div>
                 <div className='desktop-nav__item'><Link to='/kontakt'>KONTAKT</Link></div>
             </div>
             <div onMouseOver={TranslateDown} onMouseOut={TranslateUp} className="desktop-nav__offer-menu">
@@ -48,7 +48,7 @@ function Navbar() {
                     <a href="" className="projects__project"><img src={ProjectLogo3} alt="Logo projektu Still Up"/></a>
                     <a href="" className="projects__project"><img src={ProjectLogo4} alt="Logo projektu Wild Women"/></a>
                 </div>
-                <div className="offer-menu__link"><HashLink scroll={el => scrollWithOffset(el, 200)} to='/oferta#live-coaching'>WYŚWIETL CAŁĄ OFERTĘ</HashLink></div>
+                <div className="offer-menu__link"><Link to='/oferta'>WYŚWIETL CAŁĄ OFERTĘ</Link></div>
             </div>
         </>
     )

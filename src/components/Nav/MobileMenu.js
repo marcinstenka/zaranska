@@ -13,7 +13,7 @@ function MobileMenu() {
                 <li className='mobile-nav__item'><Link to='/'>STRONA GŁÓWNA</Link></li>
                 <li className='mobile-nav__item'><Link to='/o-mnie'>O MNIE</Link></li>
                 <li className='mobile-nav__item'><Link to='/oferta'>OFERTA</Link></li>
-                <li className='mobile-nav__item'><Link to='/'>BLOG</Link></li>
+                <li className='mobile-nav__item'><a href='//nataliazaranska.blogspot.com/?m=1'>BLOG</a></li>
                 <li className='mobile-nav__item'><Link to='/kontakt'>KONTAKT</Link></li>
             </ul>
             <div className="menu__shape"></div>
