@@ -45,7 +45,7 @@ const Gallery = () => {
                     <div className="recomendation__container">
                         <div className="recomendation"><p>"Pani Natalia Zarańska współpracuje z Ośrodkiem Doskonalenia Nauczycieli  w Słupsku od 2019 roku do dnia dzisiejszego. Przeprowadziła wiele warsztatów dotyczących coachingu. Uczestnicy i uczestniczki szkoleń pani Natalii Zarańskiej ocenili ich poziom jako bardzo wysoki, zwracając szczególną uwagę na jej wiedzę, umiejętności i kompetencje trenerskie. Uczestnicy i uczestniczki bardzo pozytywnie przyjęli również stworzone przez nią materiały dydaktyczne oraz bardzo docenili jej empatyczną i otwartą postawę. Pani Natalia Zarańska była prelegentem na konferencji Ośrodka Doskonalenia Nauczycieli w Słupsku pt. „Okiem praktyka. Doradztwo zawodowe dziś i jutro” . Wystąpienie pani Zarańskiej pt. „Jak odnaleźć poczucie sensu w pracy – o nowych metodach budowania zaangażowania” wzbudziło bardzo duże zainteresowanie uczestników spotkania. Jako placówka doskonaląca kadrę nauczycielską liczymy na dalszą współpracę i niesamowitą energie pani Natalii."</p></div>
                         <h6 className='recomendation__name'>Joanna Pawlak – Jęczewska</h6>
-                        <p className='recomendation__subtitle'>konsultant ds. Wspomagania nauczycieli przedmiotów zawodowych</p>
+                        <p className='recomendation__subtitle recomendation__subtitle-small'>konsultant ds. Wspomagania nauczycieli przedmiotów zawodowych</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>

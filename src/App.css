@@ -343,7 +343,9 @@ bold{
   font-size: 15px;
   min-height: 36px;
 }
-
+.recomendation__subtitle-small{
+  font-size: 14px;
+}
 .recomendation::-webkit-scrollbar {
   width: 10px;
 }
