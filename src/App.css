@@ -1073,7 +1073,7 @@ ul{
     padding: 0;
   }
   .desktop-nav__item:nth-of-type(3) a{
-    padding: 8px 20px 8px 20px;
+    padding: 8px 20px 8px 0;
 
   }
   .desktop-nav__item:last-of-type{

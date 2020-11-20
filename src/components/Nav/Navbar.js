@@ -45,7 +45,7 @@ function Navbar() {
                 <div className="offer-menu__projects-links">
                     <a href="//brainylebork.pl" className="projects__project"><img src={ProjectLogo1} alt="Logo projektu Brainy"/></a>
                     <a href="//osadawiedzy.pl" className="projects__project"><img src={ProjectLogo2} alt="Logo projektu Osada Wiedzy"/></a>
-                    <a href="" className="projects__project"><img src={ProjectLogo3} alt="Logo projektu Still Up"/></a>
+                    <a href="//akademialiderastillup.pl" className="projects__project"><img src={ProjectLogo3} alt="Logo projektu Still Up"/></a>
                     <a href="" className="projects__project"><img src={ProjectLogo4} alt="Logo projektu Wild Women"/></a>
                 </div>
                 <div className="offer-menu__link"><Link to='/oferta'>WYŚWIETL CAŁĄ OFERTĘ</Link></div>
